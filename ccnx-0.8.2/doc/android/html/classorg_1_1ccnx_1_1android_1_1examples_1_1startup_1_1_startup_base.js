@@ -1,0 +1,27 @@
+var classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base =
+[
+    [ "closeCcn", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a15ae07eb2f3b9d71da3bd6c93ecf2cb5", null ],
+    [ "doExit", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#aa8f82e931a91645f6e81468b62bd3a81", null ],
+    [ "doShutdown", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a253f45715e6a7244bd6fff13531a71af", null ],
+    [ "onCreate", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#ade979af70bb806614a28a07097003cdf", null ],
+    [ "onCreateOptionsMenu", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#af9b565ff0396aa93d3b6a81f29d2ed4b", null ],
+    [ "onDestroy", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a26710efe62fd1df66d98fca83c214fed", null ],
+    [ "onOptionsItemSelected", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#af0b81015b2073e39c00f4cabd3d4a398", null ],
+    [ "onPause", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a692881819ad5daea5da0a04e9a017732", null ],
+    [ "onResume", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#aa385e12cb7f8aa5af565caef4c2c9ccd", null ],
+    [ "onStart", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#ad2403a8b0651b05da0c801d580d8b40f", null ],
+    [ "openCcn", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a28d8a68a1567e7ba5731e4f52ec00bd0", null ],
+    [ "postToUI", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a62ef4748752dc464874d435c92df92a1", null ],
+    [ "ScreenOutput", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#af1a0f79b9cde706a43a63366a41fab95", null ],
+    [ "setupFace", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#ad2454de24c9d5c53543b122d89977fb5", null ],
+    [ "_dateformat", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#aa3a8765f2b62bd3ced293167ae92d7de", null ],
+    [ "_firstScreenOutput", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#ad193623981427c9b22301670b1e79912", null ],
+    [ "_handle", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a8941cb117bfcd66dbaedec22d90bdc2a", null ],
+    [ "_km", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#aad67e25df55bfe6f3ecec7d7ebe28320", null ],
+    [ "_lastScreenOutput", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a9676acbdfeadde65655270026ed52472", null ],
+    [ "_outputLock", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a2bde263f59f196adf714f11a4e4fe5f0", null ],
+    [ "LOG_LEVEL", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a972bfc53eebda527c0a1ea5dbbfe8963", null ],
+    [ "sv", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#ac94c617f3abcd4e78f136206d73a57b6", null ],
+    [ "TAG", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#a5a996c3a37f1ccc5452f0f06e456441f", null ],
+    [ "tv", "classorg_1_1ccnx_1_1android_1_1examples_1_1startup_1_1_startup_base.html#ac61f9723f17b9c2eb9565d15dbe903a2", null ]
+];

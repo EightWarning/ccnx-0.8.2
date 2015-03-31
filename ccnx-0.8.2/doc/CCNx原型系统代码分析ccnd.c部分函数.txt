@@ -1,0 +1,27 @@
+ccnd.c文档是提供路由转发，缓存机制和包安全处理流程的应用函数支持文档。
+
+CCN_SKIPLIST_MAX_DEPTH 30 这是定义跳表链接的深度，也就是规定了每一个被存储的数据包对象的最大链接数。
+
+static void clean_need (struct ccnd_handle *h )函数是负责对content store进行周期更新的函数，周期更新的具体作用是执行刷新过时操作，并且将其中部分长期得不到兴趣包响应的数据包对象从content store中剔除。其中更新的时间周期是5000毫秒，更新和剔除操作则通过调用clean_daemon函数完成。
+
+static int clean_daemon (struct ccn_schedule *sched, void *clienth, struct ccn_scheduled_event *ev, int flags )函数执行周期更新操作，其中定义了过时判断参数min_stale,max_stale，用于判断存储在content store中的数据包对象是否已经过时，如果已经过时，那么就会调用remove_content函数执行删除操作。并且将计时参数min_stale,max_stale清零。
+
+在执行周期更新的操作过程中，需要执行一步遍历寻址，以确定所需要进行更新的内容包的位置，由于原型系统采用的是哈希表的方式进行存储数据包的操作，因此就需要一个哈希函数进行分配地址的操作。同样，也就需要一个寻址的操作函数。为了实现这一项功能，在每一个到达的数据包自动保存进入content store之后，程序都会分配给他们各自的一个序列号。就相当于队列一样，每一个存入的数据包都有一个序列号accession, static struct content_entry *content_from_accession( struct ccnd_handle *h, ccn_accession_t accession )这个函数就是执行利用分配的序列号寻址找到数据包的确切位置。
+
+static void content_skiplist_insert ( struct ccnd_handle *h, struct content_entry *content )函数是将进入的数据包存储到跳表中，建立连接。
+
+static void content_skiplist_remove ( struct ccnd_handle *h, struct content_entry *content )函数是将已存入的数据包从跳表中删除链接。
+
+static ccn_accession_t content_skiplist_next ( struct ccnd_handle *h, struct content_entry *content )这是通过数据包之间的序列号建立起相邻的两个数据包之间的跳表链接。
+
+static void enroll_content ( struct ccnd_handle *h, struct content_entry *content )函数是给每一个存储进入content store的数据包对象增加一个序列值。
+
+static void process_incoming_interest ( struct ccnd_handle *h, struct face *face, unsigned char *msg, size_t size )该函数是处理进入content store的兴趣包，并且发送与之匹配的数据包，如果没有匹配，那么将兴趣包的信息记录到PIT，之后向其余节点发送情求。
+
+在该函数的流程中，content store 首先通过解析函数读取兴趣包的内容，如果无法解析，那么直接将该兴趣包丢弃，并且跳出。如果解析成功，那么进入下一步。下一步调用了nonce_ok函数比对兴趣包中的序列号nonce，如果发现已经存在该兴趣包的信息，那么将当前的兴趣包丢弃。如果没有，则进入下一步。即名字匹配的过程。
+
+用res = nameprefix_seek ( h, e, msg, comps, pi->predix_comps )提取兴趣包中的名字前缀，之后用find_first_match_candidate ( h, msg, pi )选定可能的匹配数据包，而后采用ccn_content_matches_interest ( ) 作进一步的匹配得出结果。如果没有则将该兴趣包的信息存下，继续向相邻路由节点发送请求。如果有，则将提取的内容包的地址传给last_match，调用match_interest ( h, content )函数，返回匹配的数据包。matched作为匹配标签，记录为1。
+
+static void process_incoming_content ( struct ccnd_handle *h, struct face *face, unsigned char *wire_msg, size_t wire_size )函数是为了处理进入到content store中的数据包，首先先对数据包进行解析，如果解析不成功或者数据包的名字过长，那么直接丢弃。在完成了数据包的解析之后，进入PIT层，将数据包的时间计时清零，并且记录下当前的数据包的接口来源，如果没有该信息，那么添加上去。设定时间参数是为了便于之后的路由器缓存中的周期更新。并且在执行自动存储之前，确认数据包进入缓存之后，执行一步clean_need操作。
+
+接下来进入content store 存储阶段，由于缓存是采用的哈希表结构，这就意味着系统默认缓存的容量大小是无限的，因此就按照队列的模式将文件进行存储。其中accession就是存入文件的存储序列号。将内容存储的同时，开辟序列号空间，和来源接口地址存储空间，用enroll_content ( h, content )分配给存储的数据包序列号。之后执行存储命令。content->comps[i]=comps->buf[i]执行的是存储数据包的名字，content->key_size=e->keysize, content->key=e->key,执行的是存储数据包的数据内容。最后执行一步content_skiplist_insert ( h, content )插入跳表链接。

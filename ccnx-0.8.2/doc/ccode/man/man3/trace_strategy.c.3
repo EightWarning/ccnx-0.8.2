@@ -1,0 +1,37 @@
+.TH "ccnd/trace_strategy.c" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ccnd/trace_strategy.c \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBformat_pfi\fP (struct \fBccnd_handle\fP *h, struct \fBpit_face_item\fP *p, struct \fBccn_charbuf\fP *c)"
+.br
+.RI "\fIAppend a human-readable rendition of the information in a pit face item\&. \fP"
+.ti -1c
+.RI "void \fBccnd_trace_strategy_impl\fP (struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, struct \fBccn_strategy\fP *strategy, enum \fBccn_strategy_op\fP op, unsigned faceid)"
+.br
+.RI "\fIA trace strategy for testing purposes\&. \fP"
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void \fBccnd_trace_strategy_impl\fP (struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, struct \fBccn_strategy\fP *strategy, enum \fBccn_strategy_op\fPop, unsignedfaceid)"
+.PP
+A trace strategy for testing purposes\&. Useful for debugging\&. 
+.PP
+Definition at line 65 of file trace_strategy\&.c\&.
+.SS "static void \fBformat_pfi\fP (struct \fBccnd_handle\fP *h, struct \fBpit_face_item\fP *p, struct \fBccn_charbuf\fP *c)\fC [static]\fP"
+.PP
+Append a human-readable rendition of the information in a pit face item\&. 
+.PP
+Definition at line 31 of file trace_strategy\&.c\&.
+.PP
+Referenced by ccnd_trace_strategy_impl()\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

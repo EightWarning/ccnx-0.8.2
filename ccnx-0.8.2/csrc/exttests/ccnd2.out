@@ -1,0 +1,56 @@
+1426470576.972759 ccnd[3855]: CCND_DEBUG=1 CCND_CAP=2147483647
+1426470576.972933 ccnd[3855]: listening on /tmp/.ccnd.sock.63002
+1426470576.972983 ccnd[3855]: accepting ipv4 datagrams on fd 4 rcvbuf 212992
+1426470576.973010 ccnd[3855]: accepting ipv4 connections on fd 5
+1426470576.973036 ccnd[3855]: accepting ipv6 datagrams on fd 6 rcvbuf 212992
+1426470576.973059 ccnd[3855]: accepting ipv6 connections on fd 7
+1426470577.972986 ccnd[3855]: accepted client fd=8 id=6
+1426470577.973101 ccnd[3855]: shutdown client fd=8 id=6
+1426470577.973120 ccnd[3855]: recycling face id 6 (slot 6)
+1426470578.002451 ccnd[3855]: accepted client fd=8 id=6
+1426470578.024965 ccnd[3855]: accepted datagram client id=7 (flags=0x41012) 127.0.0.1 port 63001
+1426470578.031036 ccnd[3855]: shutdown client fd=8 id=6
+1426470578.031072 ccnd[3855]: releasing face id 6 (slot 6)
+1426470578.033510 ccnd[3855]: accepted client fd=8 id=8
+1426470578.046167 ccnd[3855]: shutdown client fd=8 id=8
+1426470578.046213 ccnd[3855]: releasing face id 8 (slot 8)
+1426470579.619078 ccnd[3855]: accepted client fd=8 id=9
+1426470579.685672 ccnd[3855]: accepted client fd=9 id=10
+1426470579.706743 ccnd[3855]: shutdown client fd=8 id=9
+1426470579.706765 ccnd[3855]: releasing face id 9 (slot 9)
+1426470579.711384 ccnd[3855]: accepted client fd=8 id=11
+1426470579.765577 ccnd[3855]: shutdown client fd=8 id=11
+1426470579.765618 ccnd[3855]: releasing face id 11 (slot 11)
+1426470580.773504 ccnd[3855]: accepted client fd=8 id=12
+1426470580.775597 ccnd[3855]: shutdown client fd=8 id=12
+1426470580.775635 ccnd[3855]: releasing face id 12 (slot 12)
+1426470581.781975 ccnd[3855]: accepted client fd=8 id=13
+1426470581.782888 ccnd[3855]: shutdown client fd=8 id=13
+1426470581.782902 ccnd[3855]: releasing face id 13 (slot 13)
+1426470581.793183 ccnd[3855]: accepted client fd=8 id=14
+1426470582.021939 ccnd[3855]: shutdown client fd=8 id=14
+1426470582.021983 ccnd[3855]: releasing face id 14 (slot 14)
+1426470582.023813 ccnd[3855]: accepted client fd=8 id=15
+1426470585.481160 ccnd[3855]: shutdown client fd=8 id=15
+1426470585.481207 ccnd[3855]: releasing face id 15 (slot 15)
+1426470585.483217 ccnd[3855]: accepted client fd=8 id=16
+1426470585.485561 ccnd[3855]: accepted client fd=10 id=17
+1426470585.485628 ccnd[3855]: stopping (/tmp/.ccnd.sock.63002 gone)
+1426470585.485640 ccnd[3855]: exiting.
+1426470585.485667 ccnd[3855]: closing fd 3 while finalizing face 1
+1426470585.485679 ccnd[3855]: releasing face id 1 (slot 1)
+1426470585.485704 ccnd[3855]: closing fd 5 while finalizing face 3
+1426470585.485715 ccnd[3855]: releasing face id 3 (slot 3)
+1426470585.485736 ccnd[3855]: closing fd 7 while finalizing face 5
+1426470585.485746 ccnd[3855]: releasing face id 5 (slot 5)
+1426470585.485768 ccnd[3855]: closing fd 4 while finalizing face 2
+1426470585.485778 ccnd[3855]: releasing face id 2 (slot 2)
+1426470585.485798 ccnd[3855]: closing fd 6 while finalizing face 4
+1426470585.485808 ccnd[3855]: releasing face id 4 (slot 4)
+1426470585.486084 ccnd[3855]: releasing face id 7 (slot 7)
+1426470585.486115 ccnd[3855]: closing fd 8 while finalizing face 16
+1426470585.486131 ccnd[3855]: releasing face id 16 (slot 16)
+1426470585.486185 ccnd[3855]: closing fd 10 while finalizing face 17
+1426470585.486204 ccnd[3855]: recycling face id 17 (slot 17)
+1426470585.486272 ccnd[3855]: closing fd 9 while finalizing face 10
+1426470585.486293 ccnd[3855]: releasing face id 10 (slot 10)

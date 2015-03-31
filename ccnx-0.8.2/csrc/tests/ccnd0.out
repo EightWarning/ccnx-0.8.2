@@ -1,0 +1,301 @@
+1426470530.121784 ccnd[2887]: CCND_DEBUG=1 CCND_CAP=2147483647
+1426470530.121940 ccnd[2887]: listening on /tmp/.ccnd.sock.63000
+1426470530.121983 ccnd[2887]: accepting ipv4 datagrams on fd 4 rcvbuf 212992
+1426470530.122006 ccnd[2887]: accepting ipv4 connections on fd 5
+1426470530.122028 ccnd[2887]: accepting ipv6 datagrams on fd 6 rcvbuf 212992
+1426470530.122048 ccnd[2887]: accepting ipv6 connections on fd 7
+1426470530.223468 ccnd[2887]: accepted client fd=8 id=6
+1426470530.223600 ccnd[2887]: shutdown client fd=8 id=6
+1426470530.223623 ccnd[2887]: recycling face id 6 (slot 6)
+1426470532.331733 ccnd[2887]: accepted client fd=8 id=6
+1426470532.331779 ccnd[2887]: accepted client fd=9 id=7
+1426470532.331798 ccnd[2887]: accepted client fd=10 id=8
+1426470532.332162 ccnd[2887]: accepted client fd=11 id=9
+1426470532.336614 ccnd[2887]: accepted client fd=12 id=10
+1426470532.832576 ccnd[2887]: shutdown client fd=10 id=8
+1426470532.832603 ccnd[2887]: releasing face id 8 (slot 8)
+1426470532.834022 ccnd[2887]: accepted client fd=10 id=11
+1426470532.838516 ccnd[2887]: shutdown client fd=8 id=6
+1426470532.838550 ccnd[2887]: releasing face id 6 (slot 6)
+1426470532.838860 ccnd[2887]: shutdown client fd=10 id=11
+1426470532.838874 ccnd[2887]: releasing face id 11 (slot 11)
+1426470532.840537 ccnd[2887]: accepted client fd=8 id=12
+1426470532.891119 ccnd[2887]: shutdown client fd=12 id=10
+1426470532.891153 ccnd[2887]: releasing face id 10 (slot 10)
+1426470532.891634 ccnd[2887]: shutdown client fd=8 id=12
+1426470532.891673 ccnd[2887]: releasing face id 12 (slot 12)
+1426470532.894851 ccnd[2887]: accepted client fd=8 id=13
+1426470532.945687 ccnd[2887]: shutdown client fd=9 id=7
+1426470532.945771 ccnd[2887]: releasing face id 7 (slot 7)
+1426470532.946331 ccnd[2887]: shutdown client fd=8 id=13
+1426470532.946371 ccnd[2887]: releasing face id 13 (slot 13)
+1426470532.948279 ccnd[2887]: accepted client fd=8 id=14
+1426470533.449231 ccnd[2887]: shutdown client fd=8 id=14
+1426470533.449275 ccnd[2887]: recycling face id 14 (slot 14)
+1426470533.449870 ccnd[2887]: shutdown client fd=11 id=9
+1426470533.449909 ccnd[2887]: releasing face id 9 (slot 9)
+1426470533.478013 ccnd[2887]: accepted client fd=8 id=14
+1426470533.615008 ccnd[2887]: shutdown client fd=8 id=14
+1426470533.615108 ccnd[2887]: releasing face id 14 (slot 14)
+1426470533.618927 ccnd[2887]: accepted client fd=8 id=15
+1426470533.620041 ccnd[2887]: shutdown client fd=8 id=15
+1426470533.620079 ccnd[2887]: releasing face id 15 (slot 15)
+1426470533.628328 ccnd[2887]: accepted client fd=8 id=16
+1426470533.628375 ccnd[2887]: shutdown client fd=8 id=16
+1426470533.628384 ccnd[2887]: recycling face id 16 (slot 16)
+1426470533.630312 ccnd[2887]: accepted client fd=8 id=16
+1426470533.630741 ccnd[2887]: shutdown client fd=8 id=16
+1426470533.630760 ccnd[2887]: releasing face id 16 (slot 16)
+1426470533.648039 ccnd[2887]: accepted client fd=8 id=17
+1426470533.653971 ccnd[2887]: shutdown client fd=8 id=17
+1426470533.653997 ccnd[2887]: releasing face id 17 (slot 17)
+1426470533.655387 ccnd[2887]: accepted client fd=8 id=18
+1426470533.655655 ccnd[2887]: shutdown client fd=8 id=18
+1426470533.655669 ccnd[2887]: releasing face id 18 (slot 18)
+1426470533.660506 ccnd[2887]: accepted client fd=8 id=19
+1426470533.664827 ccnd[2887]: accepted datagram client id=20 (flags=0x40012) 10.211.55.8 port 9695
+1426470533.665605 ccnd[2887]: shutdown client fd=8 id=19
+1426470533.665623 ccnd[2887]: releasing face id 19 (slot 19)
+1426470533.676765 ccnd[2887]: accepted client fd=8 id=21
+1426470533.677342 ccnd[2887]: accepted client fd=9 id=22
+1426470533.944135 ccnd[2887]: shutdown client fd=9 id=22
+1426470533.944177 ccnd[2887]: recycling face id 22 (slot 22)
+1426470533.946727 ccnd[2887]: accepted client fd=9 id=22
+1426470533.966595 ccnd[2887]: shutdown client fd=9 id=22
+1426470533.966627 ccnd[2887]: releasing face id 22 (slot 22)
+1426470533.966952 ccnd[2887]: shutdown client fd=8 id=21
+1426470533.966968 ccnd[2887]: releasing face id 21 (slot 21)
+1426470533.972860 ccnd[2887]: accepted client fd=8 id=23
+1426470533.978282 ccnd[2887]: accepted client fd=9 id=24
+1426470534.987201 ccnd[2887]: accepted client fd=10 id=25
+1426470534.991050 ccnd[2887]: connecting to client fd=11 id=26
+1426470534.998152 ccnd[2887]: shutdown client fd=10 id=25
+1426470534.998203 ccnd[2887]: releasing face id 25 (slot 25)
+1426470535.360929 ccnd[2887]: shutdown client fd=9 id=24
+1426470535.360989 ccnd[2887]: releasing face id 24 (slot 24)
+1426470535.435491 ccnd[2887]: shutdown client fd=11 id=26
+1426470535.435521 ccnd[2887]: releasing face id 26 (slot 26)
+1426470536.467873 ccnd[2887]: accepted client fd=9 id=27
+1426470536.660999 ccnd[2887]: accepted client fd=10 id=28
+1426470536.661361 ccnd[2887]: shutdown client fd=10 id=28
+1426470536.661385 ccnd[2887]: recycling face id 28 (slot 28)
+1426470540.683208 ccnd[2887]: accepted client fd=10 id=28
+1426470540.683507 ccnd[2887]: shutdown client fd=10 id=28
+1426470540.683526 ccnd[2887]: recycling face id 28 (slot 28)
+1426470540.691316 ccnd[2887]: shutdown client fd=9 id=27
+1426470540.691347 ccnd[2887]: releasing face id 27 (slot 27)
+1426470540.694366 ccnd[2887]: accepted client fd=9 id=28
+1426470540.702039 ccnd[2887]: shutdown client fd=9 id=28
+1426470540.702075 ccnd[2887]: releasing face id 28 (slot 28)
+1426470540.704209 ccnd[2887]: accepted client fd=9 id=29
+1426470540.704703 ccnd[2887]: shutdown client fd=9 id=29
+1426470540.704728 ccnd[2887]: releasing face id 29 (slot 29)
+1426470540.721410 ccnd[2887]: accepted client fd=9 id=30
+1426470540.721445 ccnd[2887]: accepted client fd=10 id=31
+1426470540.731713 ccnd[2887]: shutdown client fd=9 id=30
+1426470540.731747 ccnd[2887]: releasing face id 30 (slot 30)
+1426470540.794627 ccnd[2887]: shutdown client fd=10 id=31
+1426470540.794653 ccnd[2887]: releasing face id 31 (slot 31)
+1426470540.823814 ccnd[2887]: accepted client fd=9 id=32
+1426470540.827367 ccnd[2887]: shutdown client fd=9 id=32
+1426470540.827582 ccnd[2887]: releasing face id 32 (slot 32)
+1426470540.845740 ccnd[2887]: accepted client fd=9 id=33
+1426470540.851473 ccnd[2887]: shutdown client fd=9 id=33
+1426470540.851495 ccnd[2887]: releasing face id 33 (slot 33)
+1426470540.853295 ccnd[2887]: accepted client fd=9 id=34
+1426470540.859986 ccnd[2887]: shutdown client fd=9 id=34
+1426470540.860024 ccnd[2887]: releasing face id 34 (slot 34)
+1426470540.862139 ccnd[2887]: accepted client fd=9 id=35
+1426470540.868577 ccnd[2887]: shutdown client fd=9 id=35
+1426470540.868599 ccnd[2887]: releasing face id 35 (slot 35)
+1426470540.870533 ccnd[2887]: accepted client fd=9 id=36
+1426470540.877084 ccnd[2887]: shutdown client fd=9 id=36
+1426470540.877106 ccnd[2887]: releasing face id 36 (slot 36)
+1426470540.879027 ccnd[2887]: accepted client fd=9 id=37
+1426470540.886055 ccnd[2887]: shutdown client fd=9 id=37
+1426470540.886083 ccnd[2887]: releasing face id 37 (slot 37)
+1426470540.888103 ccnd[2887]: accepted client fd=9 id=38
+1426470540.895001 ccnd[2887]: shutdown client fd=9 id=38
+1426470540.895025 ccnd[2887]: releasing face id 38 (slot 38)
+1426470540.896976 ccnd[2887]: accepted client fd=9 id=39
+1426470540.901987 ccnd[2887]: shutdown client fd=9 id=39
+1426470540.902000 ccnd[2887]: releasing face id 39 (slot 39)
+1426470540.903156 ccnd[2887]: accepted client fd=9 id=40
+1426470540.906530 ccnd[2887]: shutdown client fd=9 id=40
+1426470540.906542 ccnd[2887]: releasing face id 40 (slot 40)
+1426470540.907531 ccnd[2887]: accepted client fd=9 id=41
+1426470540.910806 ccnd[2887]: shutdown client fd=9 id=41
+1426470540.910817 ccnd[2887]: releasing face id 41 (slot 41)
+1426470540.911832 ccnd[2887]: accepted client fd=9 id=42
+1426470540.915156 ccnd[2887]: shutdown client fd=9 id=42
+1426470540.915168 ccnd[2887]: releasing face id 42 (slot 42)
+1426470540.916202 ccnd[2887]: accepted client fd=9 id=43
+1426470540.919509 ccnd[2887]: shutdown client fd=9 id=43
+1426470540.919522 ccnd[2887]: releasing face id 43 (slot 43)
+1426470540.920675 ccnd[2887]: accepted client fd=9 id=44
+1426470540.923961 ccnd[2887]: shutdown client fd=9 id=44
+1426470540.923973 ccnd[2887]: releasing face id 44 (slot 44)
+1426470540.925045 ccnd[2887]: accepted client fd=9 id=45
+1426470540.928381 ccnd[2887]: shutdown client fd=9 id=45
+1426470540.928401 ccnd[2887]: releasing face id 45 (slot 45)
+1426470540.929584 ccnd[2887]: accepted client fd=9 id=46
+1426470540.932903 ccnd[2887]: shutdown client fd=9 id=46
+1426470540.932915 ccnd[2887]: releasing face id 46 (slot 46)
+1426470540.934013 ccnd[2887]: accepted client fd=9 id=47
+1426470540.937269 ccnd[2887]: shutdown client fd=9 id=47
+1426470540.937282 ccnd[2887]: releasing face id 47 (slot 47)
+1426470540.938385 ccnd[2887]: accepted client fd=9 id=48
+1426470540.941711 ccnd[2887]: shutdown client fd=9 id=48
+1426470540.941723 ccnd[2887]: releasing face id 48 (slot 48)
+1426470540.942709 ccnd[2887]: accepted client fd=9 id=49
+1426470540.945974 ccnd[2887]: shutdown client fd=9 id=49
+1426470540.945987 ccnd[2887]: releasing face id 49 (slot 49)
+1426470540.946952 ccnd[2887]: accepted client fd=9 id=50
+1426470540.950247 ccnd[2887]: shutdown client fd=9 id=50
+1426470540.950259 ccnd[2887]: releasing face id 50 (slot 50)
+1426470540.951354 ccnd[2887]: accepted client fd=9 id=51
+1426470540.954582 ccnd[2887]: shutdown client fd=9 id=51
+1426470540.954594 ccnd[2887]: releasing face id 51 (slot 51)
+1426470540.955616 ccnd[2887]: accepted client fd=9 id=52
+1426470540.958847 ccnd[2887]: shutdown client fd=9 id=52
+1426470540.958861 ccnd[2887]: releasing face id 52 (slot 52)
+1426470540.960708 ccnd[2887]: accepted client fd=9 id=53
+1426470540.960988 ccnd[2887]: shutdown client fd=9 id=53
+1426470540.961005 ccnd[2887]: releasing face id 53 (slot 53)
+1426470540.966570 ccnd[2887]: accepted client fd=9 id=54
+1426470540.972773 ccnd[2887]: shutdown client fd=9 id=54
+1426470540.972801 ccnd[2887]: releasing face id 54 (slot 54)
+1426470540.974722 ccnd[2887]: accepted client fd=9 id=55
+1426470541.976637 ccnd[2887]: shutdown client fd=9 id=55
+1426470541.976714 ccnd[2887]: releasing face id 55 (slot 55)
+1426470541.980112 ccnd[2887]: accepted client fd=9 id=56
+1426470542.982215 ccnd[2887]: shutdown client fd=9 id=56
+1426470542.982290 ccnd[2887]: releasing face id 56 (slot 56)
+1426470542.985876 ccnd[2887]: accepted client fd=9 id=57
+1426470542.996105 ccnd[2887]: shutdown client fd=9 id=57
+1426470542.996128 ccnd[2887]: releasing face id 57 (slot 57)
+1426470542.997520 ccnd[2887]: accepted client fd=9 id=58
+1426470543.999464 ccnd[2887]: shutdown client fd=9 id=58
+1426470543.999572 ccnd[2887]: releasing face id 58 (slot 58)
+1426470544.004100 ccnd[2887]: accepted client fd=9 id=59
+1426470544.004602 ccnd[2887]: shutdown client fd=9 id=59
+1426470544.004628 ccnd[2887]: releasing face id 59 (slot 59)
+1426470544.029347 ccnd[2887]: accepted client fd=9 id=60
+1426470544.197095 ccnd[2887]: error on face 23: Connection reset by peer (104)
+1426470544.197123 ccnd[2887]: shutdown client fd=8 id=23
+1426470544.197129 ccnd[2887]: releasing face id 23 (slot 23)
+1426470544.197447 ccnd[2887]: shutdown client fd=9 id=60
+1426470544.197464 ccnd[2887]: releasing face id 60 (slot 60)
+1426470544.199444 ccnd[2887]: accepted client fd=8 id=61
+1426470544.199484 ccnd[2887]: shutdown client fd=8 id=61
+1426470544.199490 ccnd[2887]: recycling face id 61 (slot 61)
+1426470544.205076 ccnd[2887]: accepted client fd=8 id=61
+1426470544.210685 ccnd[2887]: shutdown client fd=8 id=61
+1426470544.210719 ccnd[2887]: releasing face id 61 (slot 61)
+1426470544.213650 ccnd[2887]: accepted client fd=8 id=62
+1426470544.214325 ccnd[2887]: shutdown client fd=8 id=62
+1426470544.214356 ccnd[2887]: releasing face id 62 (slot 62)
+1426470544.223536 ccnd[2887]: accepted client fd=8 id=63
+1426470544.224109 ccnd[2887]: shutdown client fd=8 id=63
+1426470544.224123 ccnd[2887]: recycling face id 63 (slot 63)
+1426470544.226929 ccnd[2887]: accepted datagram client id=63 (flags=0x1016) 127.0.0.1 port 43670
+1426470544.231130 ccnd[2887]: accepted client fd=8 id=64
+1426470544.231661 ccnd[2887]: shutdown client fd=8 id=64
+1426470544.231685 ccnd[2887]: recycling face id 64 (slot 64)
+1426470544.234233 ccnd[2887]: accepted client fd=8 id=64
+1426470544.234261 ccnd[2887]: shutdown client fd=8 id=64
+1426470544.234267 ccnd[2887]: recycling face id 64 (slot 64)
+1426470544.240921 ccnd[2887]: accepted client fd=8 id=64
+1426470544.244454 ccnd[2887]: shutdown client fd=8 id=64
+1426470544.244467 ccnd[2887]: releasing face id 64 (slot 64)
+1426470544.245686 ccnd[2887]: accepted client fd=8 id=65
+1426470544.245972 ccnd[2887]: shutdown client fd=8 id=65
+1426470544.245985 ccnd[2887]: releasing face id 65 (slot 65)
+1426470544.250948 ccnd[2887]: accepted client fd=8 id=66
+1426470544.251405 ccnd[2887]: shutdown client fd=8 id=66
+1426470544.251430 ccnd[2887]: recycling face id 66 (slot 66)
+1426470544.251970 ccnd[2887]: accepted client fd=8 id=66
+1426470544.252580 ccnd[2887]: shutdown client fd=8 id=66
+1426470544.252592 ccnd[2887]: releasing face id 66 (slot 66)
+1426470544.258900 ccnd[2887]: accepted client fd=8 id=67
+1426470544.259502 ccnd[2887]: shutdown client fd=8 id=67
+1426470544.259517 ccnd[2887]: recycling face id 67 (slot 67)
+1426470544.266783 ccnd[2887]: accepted client fd=8 id=67
+1426470544.305868 ccnd[2887]: shutdown client fd=8 id=67
+1426470544.305889 ccnd[2887]: releasing face id 67 (slot 67)
+1426470544.307918 ccnd[2887]: accepted client fd=8 id=68
+1426470544.308025 ccnd[2887]: shutdown client fd=8 id=68
+1426470544.308031 ccnd[2887]: recycling face id 68 (slot 68)
+1426470544.315384 ccnd[2887]: accepted client fd=8 id=68
+1426470544.319362 ccnd[2887]: shutdown client fd=8 id=68
+1426470544.319380 ccnd[2887]: releasing face id 68 (slot 68)
+1426470544.322493 ccnd[2887]: accepted client fd=8 id=69
+1426470544.323027 ccnd[2887]: shutdown client fd=8 id=69
+1426470544.323052 ccnd[2887]: releasing face id 69 (slot 69)
+1426470544.331069 ccnd[2887]: accepted client fd=8 id=70
+1426470544.331852 ccnd[2887]: shutdown client fd=8 id=70
+1426470544.331890 ccnd[2887]: recycling face id 70 (slot 70)
+1426470544.332782 ccnd[2887]: accepted client fd=8 id=70
+1426470544.338050 ccnd[2887]: shutdown client fd=8 id=70
+1426470544.338077 ccnd[2887]: releasing face id 70 (slot 70)
+1426470544.344220 ccnd[2887]: accepted client fd=8 id=71
+1426470544.344941 ccnd[2887]: shutdown client fd=8 id=71
+1426470544.344963 ccnd[2887]: recycling face id 71 (slot 71)
+1426470544.352983 ccnd[2887]: accepted client fd=8 id=71
+1426470544.353142 ccnd[2887]: shutdown client fd=8 id=71
+1426470544.353154 ccnd[2887]: recycling face id 71 (slot 71)
+1426470544.390709 ccnd[2887]: accepted client fd=8 id=71
+1426470544.400176 ccnd[2887]: accepted datagram client id=72 (flags=0x41012) 127.0.0.1 port 63001
+1426470544.401982 ccnd[2887]: shutdown client fd=8 id=71
+1426470544.401999 ccnd[2887]: releasing face id 71 (slot 71)
+1426470544.478720 ccnd[2887]: accepted client fd=8 id=73
+1426470544.480134 ccnd[2887]: shutdown client fd=8 id=73
+1426470544.480180 ccnd[2887]: recycling face id 73 (slot 73)
+1426470545.596861 ccnd[2887]: accepted client fd=8 id=73
+1426470545.596919 ccnd[2887]: shutdown client fd=8 id=73
+1426470545.596926 ccnd[2887]: recycling face id 73 (slot 73)
+1426470545.597965 ccnd[2887]: accepted client fd=8 id=73
+1426470545.598243 ccnd[2887]: shutdown client fd=8 id=73
+1426470545.598257 ccnd[2887]: releasing face id 73 (slot 73)
+1426470545.607627 ccnd[2887]: accepted client fd=8 id=74
+1426470545.612900 ccnd[2887]: shutdown client fd=8 id=74
+1426470545.612913 ccnd[2887]: releasing face id 74 (slot 74)
+1426470545.628055 ccnd[2887]: accepted client fd=8 id=75
+1426470547.630930 ccnd[2887]: shutdown client fd=8 id=75
+1426470547.630991 ccnd[2887]: releasing face id 75 (slot 75)
+1426470547.635226 ccnd[2887]: accepted client fd=8 id=76
+1426470547.636228 ccnd[2887]: shutdown client fd=8 id=76
+1426470547.636273 ccnd[2887]: releasing face id 76 (slot 76)
+1426470547.644041 ccnd[2887]: accepted client fd=8 id=77
+1426470547.644561 ccnd[2887]: shutdown client fd=8 id=77
+1426470547.644574 ccnd[2887]: recycling face id 77 (slot 77)
+1426470547.645249 ccnd[2887]: accepted client fd=8 id=77
+1426470547.649596 ccnd[2887]: releasing face id 20 (slot 20)
+1426470547.650416 ccnd[2887]: shutdown client fd=8 id=77
+1426470547.650433 ccnd[2887]: releasing face id 77 (slot 77)
+1426470547.651887 ccnd[2887]: accepted client fd=8 id=78
+1426470547.652664 ccnd[2887]: shutdown client fd=8 id=78
+1426470547.652684 ccnd[2887]: recycling face id 78 (slot 78)
+1426470548.199335 ccnd[2887]: accepted client fd=8 id=78
+1426470548.533127 ccnd[2887]: shutdown client fd=8 id=78
+1426470548.533187 ccnd[2887]: recycling face id 78 (slot 78)
+1426470550.577698 ccnd[2887]: accepted client fd=8 id=78
+1426470550.579595 ccnd[2887]: accepted client fd=9 id=79
+1426470550.579625 ccnd[2887]: stopping (/tmp/.ccnd.sock.63000 gone)
+1426470550.579632 ccnd[2887]: exiting.
+1426470550.579647 ccnd[2887]: closing fd 3 while finalizing face 1
+1426470550.579653 ccnd[2887]: releasing face id 1 (slot 1)
+1426470550.579666 ccnd[2887]: closing fd 5 while finalizing face 3
+1426470550.579672 ccnd[2887]: releasing face id 3 (slot 3)
+1426470550.579683 ccnd[2887]: closing fd 7 while finalizing face 5
+1426470550.579688 ccnd[2887]: releasing face id 5 (slot 5)
+1426470550.579699 ccnd[2887]: closing fd 4 while finalizing face 2
+1426470550.579704 ccnd[2887]: releasing face id 2 (slot 2)
+1426470550.579715 ccnd[2887]: closing fd 6 while finalizing face 4
+1426470550.579720 ccnd[2887]: releasing face id 4 (slot 4)
+1426470550.579970 ccnd[2887]: releasing face id 72 (slot 72)
+1426470550.579978 ccnd[2887]: releasing face id 63 (slot 63)
+1426470550.580008 ccnd[2887]: closing fd 8 while finalizing face 78
+1426470550.580019 ccnd[2887]: releasing face id 78 (slot 78)
+1426470550.580047 ccnd[2887]: closing fd 9 while finalizing face 79
+1426470550.580057 ccnd[2887]: recycling face id 79 (slot 79)

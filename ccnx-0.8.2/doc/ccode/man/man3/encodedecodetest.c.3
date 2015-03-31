@@ -1,0 +1,139 @@
+.TH "lib/encodedecodetest.c" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+lib/encodedecodetest.c \- 
+.PP
+Unit tests for CCNx C library\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBencode_sample_test\fP (const struct ccn_pkey *signing_key, const struct ccn_pkey *verification_key, const char *algorithm, char *paths[], char *contents[], struct \fBccn_charbuf\fP *signed_info, char *outname)"
+.br
+.ti -1c
+.RI "struct path * \fBpath_create\fP (char *strpath)"
+.br
+.ti -1c
+.RI "void \fBpath_destroy\fP (struct path **path)"
+.br
+.ti -1c
+.RI "int \fBencode_message\fP (struct \fBccn_charbuf\fP *message, struct path *name_path, char *data, size_t len, struct \fBccn_charbuf\fP *signed_info, const void *pkey, const char *digest_algorithm)"
+.br
+.ti -1c
+.RI "int \fBdecode_message\fP (struct \fBccn_charbuf\fP *message, struct path *name_path, char *data, size_t len, const void *verkey)"
+.br
+.ti -1c
+.RI "int \fBunit_tests_for_signing\fP (struct ccn *h, int *ip, int symmetric)"
+.br
+.ti -1c
+.RI "int \fBexpected_res\fP (int res, char code)"
+.br
+.ti -1c
+.RI "static void \fBinit_all_chars_percent_encoded\fP (void)"
+.br
+.ti -1c
+.RI "static void \fBinit_all_chars_mixed_encoded\fP (void)"
+.br
+.ti -1c
+.RI "int \fBmain\fP (int argc, char *argv[])"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "static char \fBall_chars_percent_encoded\fP [256 *3+1]"
+.br
+.ti -1c
+.RI "static char \fBall_chars_mixed_encoded\fP [256 *2+2]"
+.br
+.ti -1c
+.RI "static const char * \fBall_chars_percent_encoded_canon\fP = '%F0%F1%F2%F3%F4%F5%F6%F7%F8%F9%FA%FB%FC%FD%FE%\fBFF\fP'"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Unit tests for CCNx C library\&. 
+
+A CCNx program\&.
+.PP
+Copyright (C) 2009-2013 Palo Alto Research Center, Inc\&.
+.PP
+This work is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation\&. This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE\&. See the GNU General Public License for more details\&. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc\&., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\&. 
+.PP
+Definition in file \fBencodedecodetest\&.c\fP\&.
+.SH "Function Documentation"
+.PP 
+.SS "int \fBdecode_message\fP (struct \fBccn_charbuf\fP *message, struct path *name_path, char *data, size_tlen, const void *verkey)"
+.PP
+Definition at line 99 of file encodedecodetest\&.c\&.
+.PP
+Referenced by encode_sample_test(), and main()\&.
+.SS "int \fBencode_message\fP (struct \fBccn_charbuf\fP *message, struct path *name_path, char *data, size_tlen, struct \fBccn_charbuf\fP *signed_info, const void *pkey, const char *digest_algorithm)"
+.PP
+Definition at line 72 of file encodedecodetest\&.c\&.
+.PP
+Referenced by encode_sample_test(), and main()\&.
+.SS "int \fBencode_sample_test\fP (const struct ccn_pkey *signing_key, const struct ccn_pkey *verification_key, const char *algorithm, char *paths[], char *contents[], struct \fBccn_charbuf\fP *signed_info, char *outname)"
+.PP
+Definition at line 819 of file encodedecodetest\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "int \fBexpected_res\fP (intres, charcode)"
+.PP
+Definition at line 220 of file encodedecodetest\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "static void \fBinit_all_chars_mixed_encoded\fP (void)\fC [static]\fP"
+.PP
+Definition at line 250 of file encodedecodetest\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "static void \fBinit_all_chars_percent_encoded\fP (void)\fC [static]\fP"
+.PP
+Definition at line 237 of file encodedecodetest\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "int \fBmain\fP (intargc, char *argv[])"
+.PP
+Definition at line 282 of file encodedecodetest\&.c\&.
+.SS "struct path* \fBpath_create\fP (char *strpath)\fC [read]\fP"
+.PP
+Definition at line 45 of file encodedecodetest\&.c\&.
+.PP
+Referenced by encode_sample_test(), and main()\&.
+.SS "void \fBpath_destroy\fP (struct path **path)"
+.PP
+Definition at line 66 of file encodedecodetest\&.c\&.
+.PP
+Referenced by encode_sample_test(), and main()\&.
+.SS "int \fBunit_tests_for_signing\fP (struct ccn *h, int *ip, intsymmetric)"
+.PP
+Definition at line 151 of file encodedecodetest\&.c\&.
+.PP
+Referenced by main()\&.
+.SH "Variable Documentation"
+.PP 
+.SS "char \fBall_chars_mixed_encoded\fP[256 *2+2]\fC [static]\fP"
+.PP
+Definition at line 235 of file encodedecodetest\&.c\&.
+.PP
+Referenced by init_all_chars_mixed_encoded()\&.
+.SS "char \fBall_chars_percent_encoded\fP[256 *3+1]\fC [static]\fP"
+.PP
+Definition at line 234 of file encodedecodetest\&.c\&.
+.PP
+Referenced by init_all_chars_percent_encoded(), and main()\&.
+.SS "const char* \fBall_chars_percent_encoded_canon\fP = '%F0%F1%F2%F3%F4%F5%F6%F7%F8%F9%FA%FB%FC%FD%FE%\fBFF\fP'\fC [static]\fP"
+.PP
+Definition at line 264 of file encodedecodetest\&.c\&.
+.PP
+Referenced by main()\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

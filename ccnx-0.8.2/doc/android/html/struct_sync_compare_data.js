@@ -1,0 +1,27 @@
+var struct_sync_compare_data =
+[
+    [ "cbL", "struct_sync_compare_data.html#a712928ed25cba97e4152f27fd3681122", null ],
+    [ "cbR", "struct_sync_compare_data.html#a0f65f07b465fa6f04c04631739dfb0ae", null ],
+    [ "contentFetchBusy", "struct_sync_compare_data.html#afe864195301b051ab126f98fea60d8f0", null ],
+    [ "contentFetchFailed", "struct_sync_compare_data.html#a038ad8b3e4fe71aca7a4062eb06ae141", null ],
+    [ "contentPos", "struct_sync_compare_data.html#a457c1a1a2797ef32e7eb71672635e2e7", null ],
+    [ "errList", "struct_sync_compare_data.html#a42ae312c8fa12ab0a72fe1bda751c2af", null ],
+    [ "errsQueued", "struct_sync_compare_data.html#aa118e7efe5c364c8512ce461f85f0789", null ],
+    [ "ev", "struct_sync_compare_data.html#a20a54f3e731b3bd1db0d0c7fefbeb2af", null ],
+    [ "hashL", "struct_sync_compare_data.html#a3a764bb02d772b8ce4e1547ac8ee881e", null ],
+    [ "hashR", "struct_sync_compare_data.html#ad1d12e9668bb495a206f3cde97381e4c", null ],
+    [ "lagL", "struct_sync_compare_data.html#a7e2c8a67acef67bb83cc2fa2b77e34cb", null ],
+    [ "lagMatch", "struct_sync_compare_data.html#a3ddcffb9eb411c2099ee9d72e84a6de8", null ],
+    [ "lastEnter", "struct_sync_compare_data.html#a971752ed44f5f8a80d9f8e1e4ebc8c19", null ],
+    [ "lastFetchOK", "struct_sync_compare_data.html#a4dc81359fbbfad61d7aec769c49207cb", null ],
+    [ "lastMark", "struct_sync_compare_data.html#ade716db1f22de78594ee750f6d40d543", null ],
+    [ "maxHold", "struct_sync_compare_data.html#ac04d95f49ea90d0b738e3367b0989b52", null ],
+    [ "namesAdded", "struct_sync_compare_data.html#aa0198c3bf551d5c40243a6740c1ce304", null ],
+    [ "nodeFetchBusy", "struct_sync_compare_data.html#a7a17ed937c46f92fcdeba2458628e95e", null ],
+    [ "nodeFetchFailed", "struct_sync_compare_data.html#a155987c799b1e6655dc6fa94ee553ff6", null ],
+    [ "root", "struct_sync_compare_data.html#abe0111ee5d1ff73c5e2871bad62426ec", null ],
+    [ "startTime", "struct_sync_compare_data.html#a6cfc30d9bb51871df5841f01aa61ba1e", null ],
+    [ "state", "struct_sync_compare_data.html#a306142c1a13ac90038a8fae21a5bf06d", null ],
+    [ "twL", "struct_sync_compare_data.html#a21e1535b8bdd17746c77f07af64b88af", null ],
+    [ "twR", "struct_sync_compare_data.html#a069015f2794cbe46120669a6b0bb210f", null ]
+];

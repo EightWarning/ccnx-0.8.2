@@ -1,0 +1,28 @@
+var classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store =
+[
+    [ "bulkImport", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a849c732921fb6c2172aded62ffae3480", null ],
+    [ "createIndex", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a024050ab48937a809001710b7d84141d", null ],
+    [ "diagnostic", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a4389adac31c1e202d4960e6f592c6f6d", null ],
+    [ "dumpNames", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a533a8fcb2df3d92286422554c6c277ec", null ],
+    [ "get", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#ac04fa7239a128812a62f19020fc55bcf", null ],
+    [ "getContent", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a03ddc2785f8d3b12441224be1baf6e17", null ],
+    [ "getNamesWithPrefix", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a43dafe552032d17511f461cbe3e1991f", null ],
+    [ "getPolicy", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#ae105945d0a5bafac9a2810eb7a397351", null ],
+    [ "getStatus", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a17e72e774ffad55ff26e97769389eb23", null ],
+    [ "getVersion", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a87467f5647127e2bd473ea2d07fcd885", null ],
+    [ "hasContent", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a5a5f5b5fb066a101d78da71e1904386d", null ],
+    [ "initialize", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#ae73abf0871eb32d2050fa911fe24ecc7", null ],
+    [ "policyUpdate", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a3a11439161025008e9b666586bc00fea", null ],
+    [ "saveContent", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#aa94d920b2ae6391af951aa33748e576e", null ],
+    [ "shutDown", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#ad44097baee74dcdf1afee664429013fb", null ],
+    [ "_activeWriteFile", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a53d8e07aadd5cfa54392b7855e3ec3ba", null ],
+    [ "_bulkImportInProgress", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a8bf6f90621df82b36a48f62fc97f95f7", null ],
+    [ "_currentFileIndex", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#aafc4294f9226029ed8802c2a608fc916", null ],
+    [ "_files", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a235c2be29afca39dee6b9c5356c4c200", null ],
+    [ "_index", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a6826bb170fe63d04d08220703c436d5b", null ],
+    [ "_repositoryFile", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a000d181cd074db8c2f29580a5f16269a", null ],
+    [ "_repositoryMeta", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a08174b6bd0e8e396b1c8df597d1e6670", null ],
+    [ "_repositoryRoot", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a572d8ac867f5e258f6dc48f85b24df93", null ],
+    [ "_useStoredPolicy", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#abbefe8ae494685e1ddfecaee1854bf72", null ],
+    [ "CURRENT_VERSION", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_log_struct_repo_store.html#a85a4d39d327762eed2c1370b45633be8", null ]
+];

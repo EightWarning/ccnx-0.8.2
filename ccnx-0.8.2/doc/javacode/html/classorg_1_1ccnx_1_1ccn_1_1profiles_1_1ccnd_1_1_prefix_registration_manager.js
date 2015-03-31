@@ -1,0 +1,27 @@
+var classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager =
+[
+    [ "PrefixRegistrationManager", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a5f495a1513078ba46b55250d84912d57", null ],
+    [ "PrefixRegistrationManager", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#ac741ec6426bb5f43f8dd16faac2331a2", null ],
+    [ "PrefixRegistrationManager", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#af6f4b4b620210b763c4eca993e09f8e9", null ],
+    [ "registerPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a2228d9917e171cf1853415c28ce4d0ff", null ],
+    [ "registerPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a9b9a0308d93aa980f27494d698e7066f", null ],
+    [ "registerPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#aa9fcb9a18bdcc0d418939c46215bc8ea", null ],
+    [ "registerPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#afebf922e1776ecdc0e4e2ce7af1b211d", null ],
+    [ "selfRegisterPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#acf47ea5f75768c7035194201af9117f1", null ],
+    [ "selfRegisterPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a544b6801aec9045bc6801c32a8bd7c46", null ],
+    [ "selfRegisterPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a0c2d77358ffe8c0bb55ba1be4d2f2845", null ],
+    [ "selfRegisterPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#ac8dab31c4956cd8386848a913ecea09c", null ],
+    [ "selfRegisterPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a7774c5ebed591289526a80442be3e8d7", null ],
+    [ "unRegisterPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#afa0476262a0e7764c7eb75279dc18762", null ],
+    [ "unRegisterPrefix", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a2f0d00a60d3e3454f75190b80536187a", null ],
+    [ "CCN_FORW_ACTIVE", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#ae44afe22d9b6aa21a42e08a280772b24", null ],
+    [ "CCN_FORW_ADVERTISE", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a4bffa354b1f9857b13ca428789b5d3ea", null ],
+    [ "CCN_FORW_CAPTURE", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a9bbb8a55d4a3010993721ee7f8a2bb86", null ],
+    [ "CCN_FORW_CAPTURE_OK", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a16934ad163d603f918ce7c93fd494769", null ],
+    [ "CCN_FORW_CHILD_INHERIT", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a8eed2ed1d7cba0622e2f07023f243979", null ],
+    [ "CCN_FORW_LAST", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#ac0b92ab3223e47b037aacb3bfe58fc32", null ],
+    [ "CCN_FORW_LOCAL", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#afa17ae0cfd185c51a81e3a6401d2e68a", null ],
+    [ "CCN_FORW_PUBMASK", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#aae7f91c54aa3c01a44d04b49414baf8f", null ],
+    [ "CCN_FORW_TAP", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#a854d9524d7304775f969d642967b69e5", null ],
+    [ "DEFAULT_SELF_REG_FLAGS", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_prefix_registration_manager.html#ad411f016a30c7c6ec7fef1bf402cf4d1", null ]
+];

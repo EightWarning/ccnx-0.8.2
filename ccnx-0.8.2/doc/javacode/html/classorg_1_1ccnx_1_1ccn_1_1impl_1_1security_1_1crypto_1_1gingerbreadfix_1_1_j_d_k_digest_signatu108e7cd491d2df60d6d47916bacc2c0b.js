@@ -1,0 +1,4 @@
+var classorg_1_1ccnx_1_1ccn_1_1impl_1_1security_1_1crypto_1_1gingerbreadfix_1_1_j_d_k_digest_signatu108e7cd491d2df60d6d47916bacc2c0b =
+[
+    [ "SHA1WithRSAEncryption", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1security_1_1crypto_1_1gingerbreadfix_1_1_j_d_k_digest_signatu108e7cd491d2df60d6d47916bacc2c0b.html#a60529e9fdd39e38cd246e9bb20f80ff4", null ]
+];

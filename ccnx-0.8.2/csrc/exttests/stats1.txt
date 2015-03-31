@@ -1,0 +1,1 @@
+1426470579.610483: stats for root#1, currentHash 7c8dc7329998c1986c7e281949d93de2d8187ed7d6b06fcd4a9fa00ce9976cac14, lastHashChange 1426470578.773392, treeDepth 2, treeNames 256, treeBytes 21549, updatesDone 1, lastUpdateMicros 21984, nodesCreated 9, rootAdviseSent 2, maxrss 3548, utime 0.154966, stime 0.008473

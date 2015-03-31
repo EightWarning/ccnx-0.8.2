@@ -1,0 +1,27 @@
+var classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream =
+[
+    [ "CCNFileInputStream", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a57827c947af57aee681fe62c8347448f", null ],
+    [ "CCNFileInputStream", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#af098141cd5f3bdeeb1b82673a8745836", null ],
+    [ "CCNFileInputStream", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a97c27d0333346ebc97f40d0cead4afd7", null ],
+    [ "CCNFileInputStream", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#aee70ab5deb2ffd48764994f7c9cbe5ba", null ],
+    [ "CCNFileInputStream", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#ac0253e55d4dac87dd91bd7b4f2609cc5", null ],
+    [ "CCNFileInputStream", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a2b1d4a8f807e6adeca649221432a5485", null ],
+    [ "CCNFileInputStream", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a48c2f87ac9121e36182bc48bf2338bad", null ],
+    [ "CCNFileInputStream", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a029e84ecb61d87ac6c0832f08848ab91", null ],
+    [ "close", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a35e0d84b314a3c08693cccc3491cbbb3", null ],
+    [ "getFirstSegment", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#aeaf6514a029d8e391cfbe6c16e0bbec2", null ],
+    [ "hasHeader", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a1e9de63ff5ca69034a00e4fcd2a901b9", null ],
+    [ "header", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a7185356f945852996447c577dd97a9e1", null ],
+    [ "headerRequested", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#ac6dd4335489c463be0dd8521290f2ce8", null ],
+    [ "length", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#aa1e9dbd04deda5af0bdf5fad9be4481e", null ],
+    [ "newVersionAvailable", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a1d9f4a53b950a0f04796426a520bd15c", null ],
+    [ "requestHeader", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a0aa351af0773d67548531f18750de966", null ],
+    [ "seek", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a50124084c647b4e038ef6e6eb5b3f598", null ],
+    [ "segmentCount", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#aa4ae3877bcb6d43e7e8148c2bc1dc168", null ],
+    [ "skip", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a230a4b96838ba8a37f66b5bcd28a41b1", null ],
+    [ "tell", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#abb4ac8c8739cf28d55f6baec3658bee1", null ],
+    [ "waitForHeader", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#aeb8062eebface52c802b509ab4e9c3a1", null ],
+    [ "waitForHeader", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#a1534fd91c2cba6e06512f402c23215ff", null ],
+    [ "_header", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#aa07014a60dbf1bb9c76818a2dea6f4bb", null ],
+    [ "_oldHeader", "classorg_1_1ccnx_1_1ccn_1_1io_1_1_c_c_n_file_input_stream.html#ac84483cc5ef6cc945666b9ccbaab1495", null ]
+];

@@ -1,0 +1,53 @@
+.TH "strategy_instance" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+strategy_instance \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "struct \fBstrategy_class\fP * \fBsclass\fP"
+.br
+.ti -1c
+.RI "const char * \fBparameters\fP"
+.br
+.ti -1c
+.RI "void * \fBdata\fP"
+.br
+.ti -1c
+.RI "struct \fBnameprefix_entry\fP * \fBnpe\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 248 of file ccnd_strategy\&.h\&.
+.SH "Field Documentation"
+.PP 
+.SS "void* \fBstrategy_instance::data\fP"
+.PP
+Definition at line 251 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_trace_strategy_impl(), and remove_strategy_instance()\&.
+.SS "struct \fBnameprefix_entry\fP* \fBstrategy_instance::npe\fP"
+.PP
+Definition at line 252 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_trace_strategy_impl(), create_strategy_instance(), and remove_strategy_instance()\&.
+.SS "const char* \fBstrategy_instance::parameters\fP"
+.PP
+Definition at line 250 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_faceattr_strategy_impl(), ccnd_req_strategy(), ccnd_trace_strategy_impl(), and create_strategy_instance()\&.
+.SS "struct \fBstrategy_class\fP* \fBstrategy_instance::sclass\fP"
+.PP
+Definition at line 249 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_req_strategy(), ccnd_trace_strategy_impl(), create_strategy_instance(), do_propagate(), remove_strategy_instance(), and strategy_callout()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

@@ -1,0 +1,25 @@
+var classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l =
+[
+    [ "addNamespace", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#abfd1b8367ad223c4ff99f7e9adcb47b4", null ],
+    [ "decode", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#ac6f57dab230003f4baa65f06c62b4f00", null ],
+    [ "encode", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#adc035cd5730e3d141b4280dfb02c003e", null ],
+    [ "equals", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a817f73f5b15dc5847c7df2bf2c6acbb5", null ],
+    [ "fixSlash", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a469dd72e0869fc1cb041c81557b11f49", null ],
+    [ "getElementLabel", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#ac597ef52b14075eb30b1ed79ef15b3a4", null ],
+    [ "getGlobalPrefix", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#aec6fa0589db83fa43d62b789a15aeaf5", null ],
+    [ "getLocalName", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#ab1201a6f530d0c219cd8a8f614b1c9ce", null ],
+    [ "getNamespace", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a9d1c2aed8cb4131eee9c37592cc34986", null ],
+    [ "getVersion", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#abe7b8a7207986fce3749202e80212754", null ],
+    [ "hashCode", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a1261f1eebcb3ecc2c0c7d907cf95a04a", null ],
+    [ "removeNamespace", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a38eadcc6f9ed719a38c9d7205bba5622", null ],
+    [ "setGlobalPrefix", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a29f50f18d9d6c60d860ac19eaef0cf41", null ],
+    [ "setGlobalPrefixOnly", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#ab78f28e40512c0f9292ff78a7c6e649b", null ],
+    [ "setLocalName", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a61eb1dc6f8feab5ffd6c5cca1ce7e319", null ],
+    [ "setNamespace", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a93a8a78ae843eaa5f6e6c5f23f4144e2", null ],
+    [ "setVersion", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#aeacfcde9a7ea6ba1821effb5bd44c098", null ],
+    [ "validate", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a305c8def9ea55a9cf054c114025a0fc9", null ],
+    [ "_globalPrefix", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#ad904c8056e829fe724941f52bbd5568b", null ],
+    [ "_localName", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a68b92bc063fc51c7a480a7eb7bbe8bd2", null ],
+    [ "_namespace", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#af02b64a2dbcd2ba0a81806b54debb8f4", null ],
+    [ "_version", "classorg_1_1ccnx_1_1ccn_1_1impl_1_1repo_1_1_policy_x_m_l.html#a2f02d1ec0b307a3b68569b04763c56dc", null ]
+];

@@ -1,0 +1,38 @@
+.TH "nameprefix_state" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+nameprefix_state \- 
+.PP
+This is a place for strategies to record state that is attached to a given name prefix\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "unsigned \fBs\fP [\fBCCND_STRATEGY_STATE_N\fP]"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This is a place for strategies to record state that is attached to a given name prefix\&. 
+
+At this level, we simply have an array of unsigned ints\&. The leading value, s[0], has some special significance in that it should be used hold a value that identifies the interpretation of the remaining values, as well as an aging flag\&.
+.PP
+When a name prefix entry is created, the associated state is initialized to all CCN_UNINIT\&. 
+.PP
+Definition at line 56 of file ccnd_strategy\&.h\&.
+.SH "Field Documentation"
+.PP 
+.SS "unsigned \fBnameprefix_state::s\fP[\fBCCND_STRATEGY_STATE_N\fP]"
+.PP
+Definition at line 57 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), check_nameprefix_entries(), and nameprefix_seek()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

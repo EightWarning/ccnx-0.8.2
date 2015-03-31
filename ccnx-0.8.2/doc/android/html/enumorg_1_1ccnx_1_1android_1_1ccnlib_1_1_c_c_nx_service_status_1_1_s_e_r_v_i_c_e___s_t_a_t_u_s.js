@@ -1,0 +1,25 @@
+var enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s =
+[
+    [ "fromOrdinal", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a584e7bb41f4e4439b9214242eeeee161", null ],
+    [ "CCND_INITIALIZING", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#ab2d95660abd03cbe6594dd9451d16845", null ],
+    [ "CCND_OFF", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a9d66ef6a305c11ee4fb6376fe1adac26", null ],
+    [ "CCND_RUNNING", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#abff009215f4aad5733416f8efd25d37c", null ],
+    [ "CCND_TEARING_DOWN", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a702d073dbfe65070cc207a5e7077f94d", null ],
+    [ "REPO_INITIALIZING", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a88dcab7cff1a68c6f485fbcd2450568e", null ],
+    [ "REPO_OFF", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a78b46ff194b608007d5fc787f7f81d91", null ],
+    [ "REPO_RUNNING", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a8d7a5f7c39de298da2dbd87b8fda4cf9", null ],
+    [ "REPO_TEARING_DOWN", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a14780ecdb833f42d61e432e9348cd31a", null ],
+    [ "SERVICE_ERROR", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a856dae72fabcee9e89b8ae2c4a7d295b", null ],
+    [ "SERVICE_FINISHED", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a97b4003160e74c9c449ad340e661dc6a", null ],
+    [ "SERVICE_INITIALIZING", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a5f391da1d4329f781fe56ec9d2a45e76", null ],
+    [ "SERVICE_OFF", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a358f67475556cbccc66bded2e309a741", null ],
+    [ "SERVICE_RUNNING", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a98a0e099a4c175a08cc792917bcfa69a", null ],
+    [ "SERVICE_SETUP", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a8d78af6ce20111902698d6fdd3c17468", null ],
+    [ "SERVICE_TEARING_DOWN", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a673b1e23d4648b4abd044dcca4fd4dd5", null ],
+    [ "START_ALL_CCND_DONE", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#aa4c18635bc15dc9e7a0e616810208987", null ],
+    [ "START_ALL_DONE", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a8cb0a3550d327cd42c5b825411c03933", null ],
+    [ "START_ALL_ERROR", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#aff89214c129d873a5ce360a1351a430a", null ],
+    [ "START_ALL_INITIALIZING", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#ae2d348ab85699f643bdc5e52ab5ac928", null ],
+    [ "START_ALL_REPO_DONE", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#aab3c9d0a6b6bf6c44240a98f3e868677", null ],
+    [ "STOP_ALL_DONE", "enumorg_1_1ccnx_1_1android_1_1ccnlib_1_1_c_c_nx_service_status_1_1_s_e_r_v_i_c_e___s_t_a_t_u_s.html#a98462ca0f0248eba92145e727636a12b", null ]
+];

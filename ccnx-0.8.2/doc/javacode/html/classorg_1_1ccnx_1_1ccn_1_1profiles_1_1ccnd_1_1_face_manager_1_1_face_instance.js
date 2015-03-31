@@ -1,0 +1,28 @@
+var classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance =
+[
+    [ "FaceInstance", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a81093f1a7119c991033a442b8c664ec6", null ],
+    [ "FaceInstance", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a4e3094da5619ea595a876c0d77c3a6b5", null ],
+    [ "FaceInstance", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#ae3776f570d8f421f5636a6fbd9586104", null ],
+    [ "FaceInstance", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a21c1f0e503525ed593375d907cdbbe26", null ],
+    [ "FaceInstance", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a1d7ef4db4da7a946df7b26f0d9d5f571", null ],
+    [ "action", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a262afef6d6c28b73a20330c6b697172b", null ],
+    [ "decode", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#aa61ac6f21951a5b89ece3472699e8b1b", null ],
+    [ "encode", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a7def09747b52b56a1d8e79a20b8c1976", null ],
+    [ "equals", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a5932068e5303650f62ab96a1e8322429", null ],
+    [ "faceID", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a102f8f6ded68911f3b31a58c6b16f1e2", null ],
+    [ "getElementLabel", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#aa0b5b34b0220ea5f5ee3558d18ea5f95", null ],
+    [ "hashCode", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a413a57ccad21f9c862b738b0513ea7c7", null ],
+    [ "setFaceID", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#ad4b53609096f25594f4451226971c1a8", null ],
+    [ "toFormattedString", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a96290288d42c28cbb0ea59bf9c027f21", null ],
+    [ "validate", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a485926cf5913531c0f9ca25db73731b8", null ],
+    [ "validateAction", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a1bbc1e4c58271c561d7eae09f741bad3", null ],
+    [ "_action", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a07e40eea74f1f09a54147543166e216b", null ],
+    [ "_ccndID", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#ab874e384d8798c753a3ac9974bd38eea", null ],
+    [ "_faceID", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a643fc8a6edd013f220158ffe0bfee515", null ],
+    [ "_host", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#afac373c5c887bacd6581c568915d9bdd", null ],
+    [ "_ipProto", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a98a89e074bfd45c5b65d4967b1239fae", null ],
+    [ "_lifetime", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a41af7e1f4606066542a2b4d77b4c3d7a", null ],
+    [ "_multicastInterface", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a28cc563bcefcf80b41ace0b6ae2d0ea1", null ],
+    [ "_multicastTTL", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a199ed8b747f17df8d8b930102efc715f", null ],
+    [ "_port", "classorg_1_1ccnx_1_1ccn_1_1profiles_1_1ccnd_1_1_face_manager_1_1_face_instance.html#a24cb3526c2026088bd59a04aa5790467", null ]
+];

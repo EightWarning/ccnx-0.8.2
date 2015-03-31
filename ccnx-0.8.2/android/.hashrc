@@ -1,0 +1,4 @@
+
+#set ndk env
+NDKROOT=/home/cb/work/android-ndk-r8d
+export PATH=$NDKROOT:$PATH

@@ -1,0 +1,12 @@
+1426470682.883508 ccnr[4484]: CCNR_DEBUG=7 CCNR_DIRECTORY=. CCNR_STATUS_PORT=
+1426470682.883688 ccnr[4484]: Bad stable mark - 
+1426470682.883704 ccnr[4484]: Index not current - resetting
+1426470682.885402 ccnr[4484]: read 44951 bytes
+1426470682.885465 ccnr[4484]: Repository file is indexed
+1426470682.887257 ccnr[4484]: Creating new policy file.
+1426470682.887262 ccnr[4484]: CCNR_GLOBAL_PREFIX=/parc.com/csl/ccn/repositories/TestRepository
+1426470792.046625 ccnr[4484]: debug.374 fetch_failed ccnx:/repoTest/data3/=FD05506376008B/=00 (43 bytes)
+1426470812.751383 ccnr[4484]: debug.374 fetch_failed ccnx:/ccnx.org/Users/Bob/Keys/%C1.M.K=0013B56B9624716CF7CF4ADB62A0A047343366DEDE0A63FA639E39D50FB9D22283/=FD05506375A65E (136 bytes)
+1426471136.168415 ccnr[4484]: debug.374 fetch_failed ccnx:/ccnx.org/test/CCNNetworkTestRepo-15-03-16-09.58.16/networkTestRepo/bogus/=FD0550638C4287/=00 (108 bytes)
+1426471148.170933 ccnr[4484]: debug.374 fetch_failed ccnx:/ccnx.org/test/CCNNetworkTestRepo-15-03-16-09.58.16/networkTestRepo/bogus/=FD0550638C4287/=00 (108 bytes)
+1426471148.180339 ccnr[4484]: debug.374 fetch_failed ccnx:/ccnx.org/test/CCNNetworkTestRepo-15-03-16-09.58.16/networkTestRepo/bogus/=FD0550638D02B0/=00 (108 bytes)

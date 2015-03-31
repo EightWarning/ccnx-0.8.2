@@ -1,0 +1,26 @@
+.TH "ccnd/parallel_strategy.c" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ccnd/parallel_strategy.c \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBccnd_parallel_strategy_impl\fP (struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, struct \fBccn_strategy\fP *strategy, enum \fBccn_strategy_op\fP op, unsigned faceid)"
+.br
+.RI "\fIThis implements a strategy which sends an interest in parallel to all eligible active upstream faces\&. \fP"
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void \fBccnd_parallel_strategy_impl\fP (struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, struct \fBccn_strategy\fP *strategy, enum \fBccn_strategy_op\fPop, unsignedfaceid)"
+.PP
+This implements a strategy which sends an interest in parallel to all eligible active upstream faces\&. This is expected to result in better performance when there are multiple independent sources at the expense of increased network traffic\&. 
+.PP
+Definition at line 29 of file parallel_strategy\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

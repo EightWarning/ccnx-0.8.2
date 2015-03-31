@@ -1,0 +1,41 @@
+.TH "faceattr_index_entry" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+faceattr_index_entry \- 
+.PP
+Entry in faceattr_index_tab\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "int \fBfa_index\fP"
+.br
+.RI "\fIindex for accessing faceattr value \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Entry in faceattr_index_tab\&. 
+
+This keeps track of the index values that are used to access the per-face attributes\&. We use an index so that the lookup by attribute name only needs to happen at setup time, rather than each time the attribute is accessed\&. Small values of fa_index (< 32) refer to the single-bit attributes that are stored in face->faceattr_packed\&. Larger values are used to index into face->faceattrs (after deducting 32, of course)\&.
+.PP
+The 'anonymous' attributes are stored under a name that is the decimal representation of the index\&. This is an implementation detail, not part of the strategy API\&. 
+.PP
+Definition at line 271 of file ccnd_private\&.h\&.
+.SH "Field Documentation"
+.PP 
+.SS "int \fBfaceattr_index_entry::fa_index\fP"
+.PP
+index for accessing faceattr value 
+.PP
+Definition at line 272 of file ccnd_private\&.h\&.
+.PP
+Referenced by faceattr_index_lookup()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

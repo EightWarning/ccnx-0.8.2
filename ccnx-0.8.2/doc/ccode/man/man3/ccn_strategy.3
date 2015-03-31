@@ -1,0 +1,83 @@
+.TH "ccn_strategy" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ccn_strategy \- 
+.PP
+State for the strategy engine\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "struct \fBpit_face_item\fP * \fBpfl\fP"
+.br
+.RI "\fIupstream and downstream faces \fP"
+.ti -1c
+.RI "\fBccn_wrappedtime\fP \fBbirth\fP"
+.br
+.RI "\fIwhen interest entry was created \fP"
+.ti -1c
+.RI "\fBccn_wrappedtime\fP \fBrenewed\fP"
+.br
+.RI "\fIwhen interest entry was renewed \fP"
+.ti -1c
+.RI "unsigned \fBrenewals\fP"
+.br
+.RI "\fInumber of times renewed \fP"
+.ti -1c
+.RI "struct \fBinterest_entry\fP * \fBie\fP"
+.br
+.RI "\fIassociated interest entry \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+State for the strategy engine\&. 
+
+This is associated with each PIT entry, and keeps track of the associated upstream and downstream faces\&. 
+.PP
+Definition at line 115 of file ccnd_strategy\&.h\&.
+.SH "Field Documentation"
+.PP 
+.SS "\fBccn_wrappedtime\fP \fBccn_strategy::birth\fP"
+.PP
+when interest entry was created 
+.PP
+Definition at line 117 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by propagate_interest()\&.
+.SS "struct \fBinterest_entry\fP* \fBccn_strategy::ie\fP"
+.PP
+associated interest entry 
+.PP
+Definition at line 120 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), ccnd_trace_strategy_impl(), finalize_interest(), propagate_interest(), and strategy_getstate()\&.
+.SS "struct \fBpit_face_item\fP* \fBccn_strategy::pfl\fP"
+.PP
+upstream and downstream faces 
+.PP
+Definition at line 116 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_collect_stats(), ccnd_default_strategy_impl(), ccnd_loadsharing_strategy_impl(), ccnd_null_strategy_impl(), ccnd_parallel_strategy_impl(), ccnd_trace_strategy_impl(), consume_matching_interests(), do_propagate(), finalize_interest(), ie_next_usec(), is_pending_on(), pfi_destroy(), pfi_seek(), pfi_unique_nonce(), send_tap_interests(), and update_npe_children()\&.
+.SS "unsigned \fBccn_strategy::renewals\fP"
+.PP
+number of times renewed 
+.PP
+Definition at line 119 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by propagate_interest()\&.
+.SS "\fBccn_wrappedtime\fP \fBccn_strategy::renewed\fP"
+.PP
+when interest entry was renewed 
+.PP
+Definition at line 118 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by propagate_interest()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

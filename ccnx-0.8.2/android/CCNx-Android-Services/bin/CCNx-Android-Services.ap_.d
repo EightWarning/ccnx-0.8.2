@@ -1,0 +1,27 @@
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/CCNx-Android-Services.ap_ \
+ : /home/cb/work/ccnx-0.8.2/android/CCNx-Android-Lib/res/drawable-ldpi/icon.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Lib/res/layout/main.xml \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Lib/res/values/strings.xml \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Lib/res/drawable-mdpi/icon.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Lib/res/drawable-hdpi/icon.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Lib/bin/res/drawable-ldpi/icon.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Lib/bin/res/drawable-mdpi/icon.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Lib/bin/res/drawable-hdpi/icon.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/drawable-ldpi/icon.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/layout/controllermain.xml \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/layout/aboutview.xml \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/values/arrays.xml \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/values/strings.xml \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/drawable-mdpi/crystal_clear_app_browser_ccnx.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/drawable-mdpi/crystal_clear_app_softwared_ccnx.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/drawable/ccnxlogo.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/drawable/ccnxlogo48px.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/menu/servicemenu.xml \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/res/drawable-hdpi/icon.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/res/drawable-ldpi/icon.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/res/drawable-mdpi/crystal_clear_app_browser_ccnx.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/res/drawable-mdpi/crystal_clear_app_softwared_ccnx.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/res/drawable/ccnxlogo.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/res/drawable/ccnxlogo48px.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/res/drawable-hdpi/icon.png \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/AndroidManifest.xml \

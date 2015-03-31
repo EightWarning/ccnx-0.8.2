@@ -1,0 +1,27 @@
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes.dex : \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/Controller$2.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/Controller$GetIPAddrAsyncTask.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/R$id.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/CCNxService.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/R$drawable.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/Controller$1.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/R.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/BuildConfig.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/Controller$ToggleOptionChangeListener.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/ccnd/CcndService.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/R$array.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/CCNxService$1.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/Controller.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/repo/RepoService.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/R$string.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/R$layout.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/R$menu.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/Controller$3.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/services/R$attr.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/ccnlib/R$drawable.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/ccnlib/R.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/ccnlib/R$string.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/classes/org/ccnx/android/ccnlib/R$layout.class \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/dexedLibs/classes-38c109b66e663de392c41e12bb165fbe.jar \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/dexedLibs/annotations-9f89da277319bc70e4c6fbc83c14bbfc.jar \
+/home/cb/work/ccnx-0.8.2/android/CCNx-Android-Services/bin/dexedLibs/ccn-30772b683b600d0cfb6b2452ce93907a.jar \

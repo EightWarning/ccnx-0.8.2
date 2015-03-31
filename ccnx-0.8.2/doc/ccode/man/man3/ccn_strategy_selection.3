@@ -1,0 +1,96 @@
+.TH "ccn_strategy_selection" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ccn_strategy_selection \- 
+.PP
+Provide marshalling and unmarshalling for strategy selection requests and responses\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "const char * \fBaction\fP"
+.br
+.ti -1c
+.RI "const unsigned char * \fBccnd_id\fP"
+.br
+.ti -1c
+.RI "size_t \fBccnd_id_size\fP"
+.br
+.ti -1c
+.RI "struct \fBccn_charbuf\fP * \fBname_prefix\fP"
+.br
+.ti -1c
+.RI "const char * \fBstrategyid\fP"
+.br
+.ti -1c
+.RI "const char * \fBparameters\fP"
+.br
+.ti -1c
+.RI "int \fBlifetime\fP"
+.br
+.ti -1c
+.RI "struct \fBccn_charbuf\fP * \fBstore\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Provide marshalling and unmarshalling for strategy selection requests and responses\&. 
+
+Internal representation of a strategy selection message
+.PP
+This may be result of a parse, or may be constructed to be passed into the encoder\&.
+.PP
+The charbufs are owned by this structure\&. 
+.PP
+Definition at line 39 of file strategy_mgmt\&.h\&.
+.SH "Field Documentation"
+.PP 
+.SS "const char* \fBccn_strategy_selection::action\fP"
+.PP
+Definition at line 40 of file strategy_mgmt\&.h\&.
+.PP
+Referenced by ccn_strategy_selection_parse(), ccnb_append_strategy_selection(), ccnd_req_strategy(), and ccndc_do_strategy_action()\&.
+.SS "const unsigned char* \fBccn_strategy_selection::ccnd_id\fP"
+.PP
+Definition at line 41 of file strategy_mgmt\&.h\&.
+.PP
+Referenced by ccn_strategy_selection_parse(), ccnb_append_strategy_selection(), ccnd_req_strategy(), ccndc_do_strategy_action(), and parse_ccn_strategy_selection()\&.
+.SS "size_t \fBccn_strategy_selection::ccnd_id_size\fP"
+.PP
+Definition at line 42 of file strategy_mgmt\&.h\&.
+.PP
+Referenced by ccn_strategy_selection_parse(), ccnb_append_strategy_selection(), ccnd_req_strategy(), ccndc_do_strategy_action(), and parse_ccn_strategy_selection()\&.
+.SS "int \fBccn_strategy_selection::lifetime\fP"
+.PP
+Definition at line 46 of file strategy_mgmt\&.h\&.
+.PP
+Referenced by ccn_strategy_selection_parse(), ccnb_append_strategy_selection(), ccnd_req_strategy(), and parse_ccn_strategy_selection()\&.
+.SS "struct \fBccn_charbuf\fP* \fBccn_strategy_selection::name_prefix\fP"
+.PP
+Definition at line 43 of file strategy_mgmt\&.h\&.
+.PP
+Referenced by ccn_strategy_selection_parse(), ccnb_append_strategy_selection(), ccnd_req_strategy(), ccndc_strategy(), and parse_ccn_strategy_selection()\&.
+.SS "const char* \fBccn_strategy_selection::parameters\fP"
+.PP
+Definition at line 45 of file strategy_mgmt\&.h\&.
+.PP
+Referenced by ccn_strategy_selection_parse(), ccnb_append_strategy_selection(), ccnd_req_strategy(), ccndc_strategy(), and parse_ccn_strategy_selection()\&.
+.SS "struct \fBccn_charbuf\fP* \fBccn_strategy_selection::store\fP"
+.PP
+Definition at line 47 of file strategy_mgmt\&.h\&.
+.PP
+Referenced by ccn_strategy_selection_parse(), and parse_ccn_strategy_selection()\&.
+.SS "const char* \fBccn_strategy_selection::strategyid\fP"
+.PP
+Definition at line 44 of file strategy_mgmt\&.h\&.
+.PP
+Referenced by ccn_strategy_selection_parse(), ccnb_append_strategy_selection(), ccnd_req_strategy(), ccndc_strategy(), and parse_ccn_strategy_selection()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

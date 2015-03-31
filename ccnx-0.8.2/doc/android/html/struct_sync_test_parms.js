@@ -1,0 +1,26 @@
+var struct_sync_test_parms =
+[
+    [ "base", "struct_sync_test_parms.html#acb3a0626ccbfafdf3b557d625edf4a01", null ],
+    [ "blockSize", "struct_sync_test_parms.html#a6db712cf35d1facf88fa2b82755f66ec", null ],
+    [ "bufs", "struct_sync_test_parms.html#a8ae45a612418b93e7042bf913b73f2bc", null ],
+    [ "digest", "struct_sync_test_parms.html#a454331ae0753888bf430d0a6dea0f153", null ],
+    [ "fSize", "struct_sync_test_parms.html#a846d79f1122f7599c94c950e685c7f1e", null ],
+    [ "inputName", "struct_sync_test_parms.html#ac98e02565e0d8e950feaaff58a23f3df", null ],
+    [ "life", "struct_sync_test_parms.html#a56522aa76c6362705f3f61d4078662f6", null ],
+    [ "mark", "struct_sync_test_parms.html#aee22e087d57b65f7413289361de45eb8", null ],
+    [ "mode", "struct_sync_test_parms.html#affc66fb47fb430c82f112b58682d1743", null ],
+    [ "noDup", "struct_sync_test_parms.html#a3bdd5bc96a82686deb3af600228a3ae3", null ],
+    [ "noSend", "struct_sync_test_parms.html#ae4523502310c38e9c3c360368c43224a", null ],
+    [ "nSplits", "struct_sync_test_parms.html#af4b73756ffe0e7a75db51cc6d860933d", null ],
+    [ "resolve", "struct_sync_test_parms.html#a4cf03c5aec4d6bd82c4ee09560458b2c", null ],
+    [ "root", "struct_sync_test_parms.html#a63016b673206d89d668bfe00b587cb05", null ],
+    [ "scope", "struct_sync_test_parms.html#aeb96e095f455abede5718811c4672a1b", null ],
+    [ "segmented", "struct_sync_test_parms.html#ab8dcbdad6ad689c8ccf1aba3541ea6d4", null ],
+    [ "sort", "struct_sync_test_parms.html#ad77794b3dab5c56a0e4629b7abfa526e", null ],
+    [ "splits", "struct_sync_test_parms.html#aee85a5cfc2f56cccf4a8dc1f30c30911", null ],
+    [ "startTime", "struct_sync_test_parms.html#a903f2d53bb23e9f99304cc8f510011d7", null ],
+    [ "stopTime", "struct_sync_test_parms.html#af1abc87cd702dee19b601660365e2f3d", null ],
+    [ "syncScope", "struct_sync_test_parms.html#a7d6f9f4a0cdf6125e4323c7543392c92", null ],
+    [ "target", "struct_sync_test_parms.html#afc1e2391754a023152a3776dc83cf355", null ],
+    [ "verbose", "struct_sync_test_parms.html#acb7fae485510f8bc60607c23d1c8870f", null ]
+];

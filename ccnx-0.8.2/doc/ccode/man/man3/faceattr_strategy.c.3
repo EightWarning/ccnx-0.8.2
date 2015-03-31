@@ -1,0 +1,30 @@
+.TH "ccnd/faceattr_strategy.c" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ccnd/faceattr_strategy.c \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBccnd_faceattr_strategy_impl\fP (struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, struct \fBccn_strategy\fP *strategy, enum \fBccn_strategy_op\fP op, unsigned faceid)"
+.br
+.RI "\fIA non-strategy for testing purposes\&. \fP"
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void \fBccnd_faceattr_strategy_impl\fP (struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, struct \fBccn_strategy\fP *strategy, enum \fBccn_strategy_op\fPop, unsignedfaceid)"
+.PP
+A non-strategy for testing purposes\&. This hack provides a way of setting face attributes from the outside\&. It should go away when an actual protocol for changing face attributes is defined and implemented\&.
+.PP
+Use a parameter string of the form faceid/attrname=val to set a face attribute value\&. The value may be a non-negative number or true or false\&.
+.PP
+A parameter string with only a faceid prints all of the non-zero attributes\&. 
+.PP
+Definition at line 42 of file faceattr_strategy\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

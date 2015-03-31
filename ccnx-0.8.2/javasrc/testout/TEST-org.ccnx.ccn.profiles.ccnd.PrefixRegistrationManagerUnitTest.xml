@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="cb-ThinkPad-X240" name="org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest" skipped="0" tests="4" time="0.018" timestamp="2015-03-16T01:56:13">
+  <properties>
+    <property name="env.DESKTOP_SESSION" value="ubuntu" />
+    <property name="env.OLDPWD" value="/home/cb/work/ccnx-0.8.2" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SELINUX_INIT" value="YES" />
+    <property name="REPO_LOCAL_ROOT" value="repotest" />
+    <property name="repozip" value="repotest.zip" />
+    <property name="java.home" value="/home/cb/work/java/jdk1.7.0_75/jre" />
+    <property name="bcprov-jar" value="/home/cb/work/ccnx-0.8.2/javasrc/lib/bcprov-jdk16-143.jar" />
+    <property name="env.GDM_LANG" value="zh_CN" />
+    <property name="src.test.dir" value="/home/cb/work/ccnx-0.8.2/javasrc/src/test" />
+    <property name="env.DISPLAY" value=":0" />
+    <property name="PROTOCOL_KEY" value="ccn.agent.protocol" />
+    <property name="env.LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:" />
+    <property name="env.XDG_VTNR" value="7" />
+    <property name="env.XDG_GREETER_DATA_DIR" value="/var/lib/lightdm-data/cb" />
+    <property name="jarfile" value="/home/cb/work/ccnx-0.8.2/javasrc/ccn.jar" />
+    <property name="java.endorsed.dirs" value="/home/cb/work/java/jdk1.7.0_75/jre/lib/endorsed" />
+    <property name="env.LOGNAME" value="cb" />
+    <property name="env.UBUNTU_MENUPROXY" value="1" />
+    <property name="src.dir" value="/home/cb/work/ccnx-0.8.2/javasrc/src/main" />
+    <property name="env.XDG_SEAT" value="seat0" />
+    <property name="build-excludes" value="bin/**, log/**, lib/**, libsrc/**, repository/**, build/**, testout/**, ktrace.out, CCN_DEBUG_DATA/**" />
+    <property name="env.LC_PAPER" value="zh_CN.UTF-8" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0" />
+    <property name="env.MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path" />
+    <property name="java.version" value="1.7.0_75" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.LANGUAGE" value="zh_CN:zh:en_US:en" />
+    <property name="REPO_ROOT" value="/home/cb/work/ccnx-0.8.2/javasrc/testout/repotest" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/" />
+    <property name="env.GNOME_KEYRING_CONTROL" value="/run/user/1000/keyring-jvPvKj" />
+    <property name="USE_KEY_CONFIG_KEY" value="org.ccnx.config.UseKeyConfiguration" />
+    <property name="env.UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/1640" />
+    <property name="user.name" value="cb" />
+    <property name="env.LANG" value="zh_CN.UTF-8" />
+    <property name="ccn.agent.port" value="63000" />
+    <property name="env.LC_MONETARY" value="zh_CN.UTF-8" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-rsLQ7IJ5pU" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.LC_NAME" value="zh_CN.UTF-8" />
+    <property name="REPO_ROOT2" value="/home/cb/work/ccnx-0.8.2/javasrc/testout/repotest2" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="ant.file.ccn-libs" value="/home/cb/work/ccnx-0.8.2/javasrc/libs.xml" />
+    <property name="user.timezone" value="" />
+    <property name="env.LESSOPEN" value="| /usr/bin/lesspipe %s" />
+    <property name="path.separator" value=":" />
+    <property name="junit-jar" value="/home/cb/work/ccnx-0.8.2/javasrc/lib/junit-4.3.1.jar" />
+    <property name="env.XMODIFIERS" value="@im=fcitx" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.default-target" value="jar" />
+    <property name="build" value="/home/cb/work/ccnx-0.8.2/javasrc/build" />
+    <property name="lib" value="/home/cb/work/ccnx-0.8.2/javasrc/lib" />
+    <property name="env.HOME" value="/home/cb" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/home/cb/work/ccnx-0.8.2/javasrc/junittestcases7253481752424658831.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/cb/work/ccnx-0.8.2/javasrc/testout/IGNORETHIS.xml crashfile=/home/cb/work/ccnx-0.8.2/javasrc/junitvmwatcher2910456158753710854.properties propsfile=/home/cb/work/ccnx-0.8.2/javasrc/junit6993334028527938916.properties" />
+    <property name="ant.file" value="/home/cb/work/ccnx-0.8.2/javasrc/build.xml" />
+    <property name="env.LC_TELEPHONE" value="zh_CN.UTF-8" />
+    <property name="env._" value="/usr/bin/make" />
+    <property name="org.ccnx.ccn.LogDir" value="/home/cb/work/ccnx-0.8.2/javasrc/testout/log" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="env.LC_IDENTIFICATION" value="zh_CN.UTF-8" />
+    <property name="env.GNOME_KEYRING_PID" value="1635" />
+    <property name="user.language" value="zh" />
+    <property name="EXIT_ON_ERROR" value="org.ccnx.ExitOnNetworkError" />
+    <property name="env.UPSTART_EVENTS" value="started starting" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.SSH_AGENT_LAUNCHER" value="upstart" />
+    <property name="env.SSH_AGENT_PID" value="1693" />
+    <property name="env.CLUTTER_IM_MODULE" value="xim" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="LOGDIR_KEY" value="org.ccnx.ccn.LogDir" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.COLORTERM" value="gnome-terminal" />
+    <property name="TEST_PORT" value="63000" />
+    <property name="env.TEXTDOMAIN" value="im-config" />
+    <property name="env.LC_MEASUREMENT" value="zh_CN.UTF-8" />
+    <property name="env.IM_CONFIG_PHASE" value="1" />
+    <property name="org.ccnx.config.UseKeyConfiguration" value="false" />
+    <property name="env.LC_TIME" value="zh_CN.UTF-8" />
+    <property name="env.GDMSESSION" value="ubuntu" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="env.VTE_VERSION" value="3409" />
+    <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on April 8 2014" />
+    <property name="env.WINDOWID" value="20971532" />
+    <property name="REPO_LOCAL" value="TestRepository" />
+    <property name="env.COMPIZ_CONFIG_PROFILE" value="ubuntu" />
+    <property name="env.XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session0" />
+    <property name="env.JOB" value="gnome-session" />
+    <property name="ant.file.type.java-ccnx" value="file" />
+    <property name="env.MAKEFLAGS" value="w" />
+    <property name="env.CLASSPATH" value=".:.:$CLASSPATH:$JAVA_HOME/lib:$JAVA_HOME/jre/lib:/home/cb/work/java/jdk1.7.0_75/lib:/home/cb/work/java/jdk1.7.0_75/jre/lib" />
+    <property name="os.name" value="Linux" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="xml-jar" value="/home/cb/work/ccnx-0.8.2/javasrc/lib/kxml2-2.3.0.jar" />
+    <property name="env.TERM" value="xterm" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.QT_IM_MODULE" value="xim" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="env.PATH" value="/home/cb/work/java/jdk1.7.0_75/bin:/home/cb/work/java/jdk1.7.0_75/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/cb/bin" />
+    <property name="CCND_CAP" value="50000" />
+    <property name="env.LESSCLOSE" value="/usr/bin/lesspipe %s %s" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="env.TEXTDOMAINDIR" value="/usr/share/locale/" />
+    <property name="basedir" value="/home/cb/work/ccnx-0.8.2/javasrc" />
+    <property name="java.class.version" value="51.0" />
+    <property name="env.SHLVL" value="1" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="DEBUG_OPTIONS" value="" />
+    <property name="org.ccnx.ExitOnNetworkError" value="true" />
+    <property name="repo2" value="true" />
+    <property name="env.UPSTART_JOB" value="unity-settings-daemon" />
+    <property name="CCND_CMD" value="../../csrc/ccnd/ccnd" />
+    <property name="JAVA_MEMORY" value="1g" />
+    <property name="src.systemtest.dir" value="/home/cb/work/ccnx-0.8.2/javasrc/src/systemtest" />
+    <property name="sun.boot.library.path" value="/home/cb/work/java/jdk1.7.0_75/jre/lib/amd64" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="env.USER" value="cb" />
+    <property name="env.GTK_IM_MODULE" value="fcitx" />
+    <property name="env.GTK_MODULES" value="overlay-scrollbar:unity-gtk-module" />
+    <property name="env.JRE_HOME" value="/home/cb/work/java/jdk1.7.0_75/jre" />
+    <property name="ant.project.name" value="java-ccnx" />
+    <property name="env.SESSIONTYPE" value="gnome-session" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="UNIT_TOP_DIR" value="../src/test" />
+    <property name="SYNC_NOISY" value="INFO" />
+    <property name="env.NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="cmddir" value="/home/cb/work/ccnx-0.8.2/csrc/cmd" />
+    <property name="java.ext.dirs" value="/home/cb/work/java/jdk1.7.0_75/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="os.version" value="3.13.0-32-generic" />
+    <property name="env.QT_QPA_PLATFORMTHEME" value="appmenu-qt5" />
+    <property name="user.home" value="/home/cb" />
+    <property name="env.XDG_CURRENT_DESKTOP" value="Unity" />
+    <property name="ant.file.type.ccn-libs" value="file" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.JAVA_HOME" value="/home/cb/work/java/jdk1.7.0_75" />
+    <property name="env.XDG_SESSION_ID" value="c2" />
+    <property name="env.XAUTHORITY" value="/home/cb/.Xauthority" />
+    <property name="REPO_GLOBAL" value="/parc.com/csl/ccn/repositories/TestRepository" />
+    <property name="user.dir" value="/home/cb/work/ccnx-0.8.2/javasrc/testout" />
+    <property name="env.XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt" />
+    <property name="TOP_DIR" value="../src/systemtest" />
+    <property name="env.PWD" value="/home/cb/work/ccnx-0.8.2/javasrc" />
+    <property name="env.MAKELEVEL" value="2" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.MFLAGS" value="-w" />
+    <property name="testout" value="/home/cb/work/ccnx-0.8.2/javasrc/testout" />
+    <property name="java.vm.version" value="24.75-b04" />
+    <property name="java.class.path" value="/home/cb/work/ccnx-0.8.2/javasrc/lib/bcprov-jdk16-143.jar:/home/cb/work/ccnx-0.8.2/javasrc/lib/kxml2-2.3.0.jar:/home/cb/work/ccnx-0.8.2/javasrc/lib/junit-4.3.1.jar:/home/cb/work/ccnx-0.8.2/javasrc/ccn.jar:/home/cb/work/ccnx-0.8.2/javasrc:/home/cb/work/java/jdk1.7.0_75/lib:/home/cb/work/java/jdk1.7.0_75/jre/lib:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="env.LC_ADDRESS" value="zh_CN.UTF-8" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="ccnr" value="/home/cb/work/ccnx-0.8.2/csrc/ccnr/ccnr" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.LC_NUMERIC" value="zh_CN.UTF-8" />
+    <property name="jarfile-base" value="ccn.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="testoutlog" value="/home/cb/work/ccnx-0.8.2/javasrc/testout/log" />
+    <property name="ccnd" value="/home/cb/work/ccnx-0.8.2/csrc/ccnd/ccnd" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="env.UPSTART_INSTANCE" value="" />
+    <property name="ccn-libs-basedir" value="/home/cb/work/ccnx-0.8.2/javasrc" />
+    <property name="file.separator" value="/" />
+    <property name="ant.file.java-ccnx" value="/home/cb/work/ccnx-0.8.2/javasrc/build.xml" />
+    <property name="java.runtime.version" value="1.7.0_75-b13" />
+    <property name="sun.boot.class.path" value="/home/cb/work/java/jdk1.7.0_75/jre/lib/resources.jar:/home/cb/work/java/jdk1.7.0_75/jre/lib/rt.jar:/home/cb/work/java/jdk1.7.0_75/jre/lib/sunrsasign.jar:/home/cb/work/java/jdk1.7.0_75/jre/lib/jsse.jar:/home/cb/work/java/jdk1.7.0_75/jre/lib/jce.jar:/home/cb/work/java/jdk1.7.0_75/jre/lib/charsets.jar:/home/cb/work/java/jdk1.7.0_75/jre/lib/jfr.jar:/home/cb/work/java/jdk1.7.0_75/jre/classes" />
+    <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring-jvPvKj/ssh" />
+    <property name="env.QT4_IM_MODULE" value="fcitx" />
+    <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000" />
+    <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg" />
+    <property name="USE_KEY_CONFIG_VAL" value="false" />
+    <property name="user.country" value="CN" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.INSTANCE" value="Unity" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="showoutput" value="no" />
+    <property name="CCND_DEBUG" value="87" />
+    <property name="env.GPG_AGENT_INFO" value="/run/user/1000/keyring-jvPvKj/gpg:0:1" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+  </properties>
+  <testcase classname="org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest" name="testEncodeOutputStream" time="0.002" />
+  <testcase classname="org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest" name="testEncodingDecoding" time="0.004" />
+  <testcase classname="org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest" name="testDecodeInputStream" time="0.002" />
+  <testcase classname="org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest" name="testEncodingDecodingSubclass" time="0.004" />
+  <system-out><![CDATA[
+PrefixRegistrationManagerTest.testEncodeOutputStream:
+Encoding: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+Encoded: 
+=05EFBFBD04EFBFBDEFBFBD70726566697872656700EFBFBDEFBFBD70726566697800EFBFBD746F00EFBFBD7465737400EFBFBD77697468000004D29634320004EFBFBD330003D29E3134390000
+
+
+PrefixRegistrationManagerTest.testEncodingDecoding:
+Encoding: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+Encoding EncodeDecodeOutput(Text):
+Encoded EncodeDecodeOutput: 
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+Decoding EncodeDecodeOutput: 
+Decoded EncodeDecodeOutput: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+Encoding EncodeDecodeOutput(Binary):
+Encoded EncodeDecodeOutput: 
+���prefixreg��prefix�to�test�withҖ42�3Ҟ149
+Decoding EncodeDecodeOutput: 
+Decoded EncodeDecodeOutput: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+
+
+PrefixRegistrationManagerTest.testDecodeInputStream:
+Encoding: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+Encoded: 
+=05EFBFBD04EFBFBDEFBFBD70726566697872656700EFBFBDEFBFBD70726566697800EFBFBD746F00EFBFBD7465737400EFBFBD77697468000004D29634320004EFBFBD330003D29E3134390000
+Decoding: 
+Decoded: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+
+
+PrefixRegistrationManagerTest.testEncodingDecodingSubclass:
+Encoding: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+Encoding EncodeDecodeOutput(Text):
+Encoded EncodeDecodeOutput: 
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+Decoding EncodeDecodeOutput: 
+Decoded EncodeDecodeOutput: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+Encoding EncodeDecodeOutput(Binary):
+Encoded EncodeDecodeOutput: 
+���prefixreg��prefix�to�test�withҖ42�3Ҟ149
+Decoding EncodeDecodeOutput: 
+Decoded EncodeDecodeOutput: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<ForwardingEntry xmlns:ccn="http://www.parc.com/ccn">
+  <Action>prefixreg</Action>
+  <Name>
+    <Component>cHJlZml4</Component>
+    <Component>dG8=</Component>
+    <Component>dGVzdA==</Component>
+    <Component>d2l0aA==</Component>
+  </Name>
+  <FaceID>42</FaceID>
+  <ForwardingFlags>3</ForwardingFlags>
+  <FreshnessSeconds>149</FreshnessSeconds>
+</ForwardingEntry>
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,152 @@
+.TH "cmd/ccncatchunks2.c" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+cmd/ccncatchunks2.c \- 
+.PP
+Reads stuff written by ccnsendchunks, writes to stdout\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Defines"
+
+.in +1c
+.ti -1c
+.RI "#define \fBPIPELIMIT\fP   (1U << 7)"
+.br
+.ti -1c
+.RI "#define \fBGOT_HERE\fP()   ((void)(__LINE__))"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBusage\fP (const char *\fBprogname\fP)"
+.br
+.ti -1c
+.RI "static void \fBmygettime\fP (const struct \fBccn_gettime\fP *self, struct \fBccn_timeval\fP *result)"
+.br
+.ti -1c
+.RI "static void \fBupdate_rtt\fP (struct \fBmydata\fP *md, int incoming, unsigned slot)"
+.br
+.ti -1c
+.RI "static int \fBreporter\fP (struct ccn_schedule *sched, void *clienth, struct \fBccn_scheduled_event\fP *ev, int flags)"
+.br
+.ti -1c
+.RI "void \fBprint_summary\fP (struct \fBmydata\fP *md)"
+.br
+.ti -1c
+.RI "struct \fBccn_charbuf\fP * \fBmake_template\fP (struct \fBmydata\fP *md)"
+.br
+.ti -1c
+.RI "static struct \fBccn_charbuf\fP * \fBsequenced_name\fP (struct \fBmydata\fP *md, uintmax_t seq)"
+.br
+.ti -1c
+.RI "static void \fBask_more\fP (struct \fBmydata\fP *md, uintmax_t seq)"
+.br
+.ti -1c
+.RI "enum \fBccn_upcall_res\fP \fBincoming_content\fP (struct \fBccn_closure\fP *selfp, enum \fBccn_upcall_kind\fP kind, struct \fBccn_upcall_info\fP *info)"
+.br
+.ti -1c
+.RI "int \fBmain\fP (int argc, char **argv)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "static FILE * \fBlogstream\fP = NULL"
+.br
+.ti -1c
+.RI "static struct \fBccn_gettime\fP \fBmyticker\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Reads stuff written by ccnsendchunks, writes to stdout\&. 
+
+A CCNx command-line utility\&.
+.PP
+Copyright (C) 2008-2010, 2013 Palo Alto Research Center, Inc\&.
+.PP
+This work is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation\&. This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE\&. See the GNU General Public License for more details\&. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc\&., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\&. 
+.PP
+Definition in file \fBccncatchunks2\&.c\fP\&.
+.SH "Define Documentation"
+.PP 
+.SS "#define \fBGOT_HERE\fP()   ((void)(__LINE__))"
+.PP
+Definition at line 35 of file ccncatchunks2\&.c\&.
+.PP
+Referenced by incoming_content()\&.
+.SS "#define \fBPIPELIMIT\fP   (1U << 7)"
+.PP
+Definition at line 33 of file ccncatchunks2\&.c\&.
+.PP
+Referenced by ask_more(), incoming_content(), and main()\&.
+.SH "Function Documentation"
+.PP 
+.SS "static void \fBask_more\fP (struct \fBmydata\fP *md, uintmax_tseq)\fC [static]\fP"
+.PP
+Definition at line 269 of file ccncatchunks2\&.c\&.
+.PP
+Referenced by incoming_content(), and main()\&.
+.SS "enum \fBccn_upcall_res\fP \fBincoming_content\fP (struct \fBccn_closure\fP *selfp, enum \fBccn_upcall_kind\fPkind, struct \fBccn_upcall_info\fP *info)"
+.PP
+Definition at line 299 of file ccncatchunks2\&.c\&.
+.SS "int \fBmain\fP (intargc, char **argv)"
+.PP
+Definition at line 458 of file ccncatchunks2\&.c\&.
+.SS "struct \fBccn_charbuf\fP* \fBmake_template\fP (struct \fBmydata\fP *md)\fC [read]\fP"
+.PP
+Definition at line 227 of file ccncatchunks2\&.c\&.
+.SS "static void \fBmygettime\fP (const struct \fBccn_gettime\fP *self, struct \fBccn_timeval\fP *result)\fC [static]\fP"
+.PP
+Definition at line 98 of file ccncatchunks2\&.c\&.
+.SS "void \fBprint_summary\fP (struct \fBmydata\fP *md)"
+.PP
+Definition at line 194 of file ccncatchunks2\&.c\&.
+.PP
+Referenced by incoming_content(), and main()\&.
+.SS "static int \fBreporter\fP (struct ccn_schedule *sched, void *clienth, struct \fBccn_scheduled_event\fP *ev, intflags)\fC [static]\fP"
+.PP
+Definition at line 162 of file ccncatchunks2\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "static struct \fBccn_charbuf\fP* \fBsequenced_name\fP (struct \fBmydata\fP *md, uintmax_tseq)\fC [static, read]\fP"
+.PP
+Definition at line 252 of file ccncatchunks2\&.c\&.
+.PP
+Referenced by ask_more()\&.
+.SS "static void \fBupdate_rtt\fP (struct \fBmydata\fP *md, intincoming, unsignedslot)\fC [static]\fP"
+.PP
+Definition at line 114 of file ccncatchunks2\&.c\&.
+.PP
+Referenced by ask_more(), and incoming_content()\&.
+.SS "static void \fBusage\fP (const char *progname)\fC [static]\fP"
+.PP
+Definition at line 83 of file ccncatchunks2\&.c\&.
+.SH "Variable Documentation"
+.PP 
+.SS "FILE* \fBlogstream\fP = NULL\fC [static]\fP"
+.PP
+Definition at line 80 of file ccncatchunks2\&.c\&.
+.PP
+Referenced by main(), and update_rtt()\&.
+.SS "struct \fBccn_gettime\fP \fBmyticker\fP\fC [static]\fP"\fBInitial value:\fP
+.PP
+.nf
+ {
+    'timer',
+    &mygettime,
+    1000000,
+    NULL
+}
+.fi
+.PP
+Definition at line 106 of file ccncatchunks2\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

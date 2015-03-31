@@ -1,0 +1,25 @@
+var _sync_node_8c =
+[
+    [ "SyncAllocComposite", "_sync_node_8c.html#adbc4a9ebd7d35b9d7c9d36a9c3263bb7", null ],
+    [ "SyncCheckCompErr", "_sync_node_8c.html#a5f6e08f1ccd0108dae58c60d51c5c03b", null ],
+    [ "SyncEndComposite", "_sync_node_8c.html#a15cb874167ed7c39b1d2af2957a5036d", null ],
+    [ "SyncExtendComposite", "_sync_node_8c.html#aa138834972799946ead32ecf5234916d", null ],
+    [ "SyncFreeComposite", "_sync_node_8c.html#af28433d58bb465b237a50e3b0aa9d0e4", null ],
+    [ "SyncInitDecoderFromElem", "_sync_node_8c.html#a68422d265d86c4cd45315b342f399b4f", null ],
+    [ "SyncInitDecoderFromOffset", "_sync_node_8c.html#a2c3c4e8ac29c16de51ab89101c57c84e", null ],
+    [ "SyncNodeAddName", "_sync_node_8c.html#af50e30366159577adfcc4207665d5c15", null ],
+    [ "SyncNodeAddNode", "_sync_node_8c.html#acebf6b0bcb035bb0d072abf4e8d02d5f", null ],
+    [ "SyncNodeAppendLongHash", "_sync_node_8c.html#aaf9d93932fb55dedbd07fb1b34d13c98", null ],
+    [ "SyncNodeCompareLeaf", "_sync_node_8c.html#a7102b95fead88e5e2eb47387583d4771", null ],
+    [ "SyncNodeCompareMinMax", "_sync_node_8c.html#ace5e85a8d920773cb68e947238f2448a", null ],
+    [ "SyncNodeDecRC", "_sync_node_8c.html#adbec8777422ca7e8c80714aa77afb5a4", null ],
+    [ "SyncNodeFromBytes", "_sync_node_8c.html#a2588db6cf995386c24742dff1db764c4", null ],
+    [ "SyncNodeFromInfo", "_sync_node_8c.html#a6d626e0dae5d5145d5bada021a3506f3", null ],
+    [ "SyncNodeFromParsedObject", "_sync_node_8c.html#adfb4947c4c2919b13654b703364f0172", null ],
+    [ "SyncNodeIncRC", "_sync_node_8c.html#aab2c27ab0d33e00e6bfe576bd9142c0a", null ],
+    [ "SyncNodeMaintainMinMax", "_sync_node_8c.html#ab0be8aaf8b84771bef8cb79944b98f76", null ],
+    [ "SyncParseComposite", "_sync_node_8c.html#aaea566ba70951e05863f749b1d8c97eb", null ],
+    [ "SyncResetComposite", "_sync_node_8c.html#a033a7c14743c35415fa09ecd2f150cca", null ],
+    [ "SyncSetCompErr", "_sync_node_8c.html#aa2e87801c1380776852b1a55fb822cf1", null ],
+    [ "SyncWriteComposite", "_sync_node_8c.html#a106d50c598246838b91f1b4c2822bced", null ]
+];

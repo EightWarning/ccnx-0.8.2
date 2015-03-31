@@ -1,0 +1,686 @@
+.TH "ccnd/ccnd_strategy.h" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ccnd/ccnd_strategy.h \- 
+.PP
+This header defines the API to be used by strategy callouts\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Data Structures"
+
+.in +1c
+.ti -1c
+.RI "struct \fBnameprefix_state\fP"
+.br
+.RI "\fIThis is a place for strategies to record state that is attached to a given name prefix\&. \fP"
+.ti -1c
+.RI "struct \fBpit_face_item\fP"
+.br
+.RI "\fIPer-face PIT information\&. \fP"
+.ti -1c
+.RI "struct \fBccn_strategy\fP"
+.br
+.RI "\fIState for the strategy engine\&. \fP"
+.ti -1c
+.RI "struct \fBstrategy_class\fP"
+.br
+.ti -1c
+.RI "struct \fBstrategy_instance\fP"
+.br
+.in -1c
+.SS "Defines"
+
+.in +1c
+.ti -1c
+.RI "#define \fBCCN_UNINIT\fP   (~0U)"
+.br
+.RI "\fIinitial value of strategy vars \fP"
+.ti -1c
+.RI "#define \fBCCN_MAGIC_MASK\fP   0x00FFFFFF"
+.br
+.RI "\fIfor magic number \fP"
+.ti -1c
+.RI "#define \fBCCN_AGED\fP   0x10000000"
+.br
+.RI "\fIfor aging \fP"
+.ti -1c
+.RI "#define \fBCCND_STRATEGY_STATE_N\fP   4"
+.br
+.RI "\fInumber of per-prefix strategy vars \fP"
+.ti -1c
+.RI "#define \fBCCN_STATESIZECHECK\fP(XX, T)   struct XX {char x[(int)((sizeof(T) > sizeof(struct \fBnameprefix_state\fP)) ? -1 : 1)];}"
+.br
+.RI "\fIUse this macro to make sure that overlaying structures are not oversize\&. \fP"
+.ti -1c
+.RI "#define \fBCCN_NOFACEID\fP   (~0U)    /** denotes no face */"
+.br
+.RI "\fIA faceid is declared simply as unsigned\&. \fP"
+.ti -1c
+.RI "#define \fBTYPICAL_NONCE_SIZE\fP   12"
+.br
+.RI "\fIactual allocated size may differ \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_NONCESZ\fP   0x00FF"
+.br
+.RI "\fIMask for actual nonce size\&. \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_UPSTREAM\fP   0x0100"
+.br
+.RI "\fITracks upstream (sent interest) \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_UPENDING\fP   0x0200"
+.br
+.RI "\fIHas been sent upstream (initially cleared, set for tap face) \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_SENDUPST\fP   0x0400"
+.br
+.RI "\fIShould be sent upstream (send upstream at expiry) \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_UPHUNGRY\fP   0x0800"
+.br
+.RI "\fIUpstream hungry, cupboard bare (upstream expired, no unexpired downstream to refresh) \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_DNSTREAM\fP   0x1000"
+.br
+.RI "\fITracks downstream (recvd interest) \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_PENDING\fP   0x2000"
+.br
+.RI "\fIPending for immediate data\&. \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_SUPDATA\fP   0x4000"
+.br
+.RI "\fISuppressed data reply\&. \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_ATTENTION\fP   0x10000"
+.br
+.RI "\fIUpstream needs attention from strategy\&. \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_INACTIVE\fP   0x20000"
+.br
+.RI "\fIFace is nonresponsive, may have lost communication\&. \fP"
+.ti -1c
+.RI "#define \fBCCND_PFI_DCFACE\fP   0x100000"
+.br
+.RI "\fIThis upstream is a Direct Control face (gets data if unanswered for a long time) \fP"
+.ti -1c
+.RI "#define \fBFAI_VALID\fP   0"
+.br
+.RI "\fIFace attribute 'valid'\&. \fP"
+.ti -1c
+.RI "#define \fBFAM_VALID\fP   (1U << FAI_VALID)"
+.br
+.ti -1c
+.RI "#define \fBFAI_APPLICATION\fP   1"
+.br
+.RI "\fIFace attribute 'application'\&. \fP"
+.ti -1c
+.RI "#define \fBFAM_APPLICATION\fP   (1U << FAI_APPLICATION)"
+.br
+.ti -1c
+.RI "#define \fBFAM_APP\fP   \fBFAM_APPLICATION\fP"
+.br
+.ti -1c
+.RI "#define \fBFAI_BROADCAST_CAPABLE\fP   2"
+.br
+.RI "\fIFace attribute 'broadcastcapable'\&. \fP"
+.ti -1c
+.RI "#define \fBFAM_BROADCAST_CAPABLE\fP   (1U << FAI_BROADCAST_CAPABLE)"
+.br
+.ti -1c
+.RI "#define \fBFAM_BCAST\fP   \fBFAM_BROADCAST_CAPABLE\fP"
+.br
+.ti -1c
+.RI "#define \fBFAI_DIRECT_CONTROL\fP   3"
+.br
+.RI "\fIFace attribute 'directcontrol'\&. \fP"
+.ti -1c
+.RI "#define \fBFAM_DIRECT_CONTROL\fP   (1U << FAI_DIRECT_CONTROL)"
+.br
+.ti -1c
+.RI "#define \fBFAM_DC\fP   \fBFAM_DIRECT_CONTROL\fP"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef uint32_t \fBccn_wrappedtime\fP"
+.br
+.RI "\fIUsed for keeping track of interest expiry\&. \fP"
+.ti -1c
+.RI "typedef void(* \fBstrategy_callout_proc\fP )(struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, struct \fBccn_strategy\fP *s, enum \fBccn_strategy_op\fP op, unsigned faceid)"
+.br
+.RI "\fIStrategies are implemented by a procedure that is called at critical junctures in the lifetime of a pending interest\&. \fP"
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBccn_strategy_op\fP { \fBCCNST_NOP\fP, \fBCCNST_INIT\fP, \fBCCNST_FIRST\fP, \fBCCNST_UPDATE\fP, \fBCCNST_EXPUP\fP, \fBCCNST_EXPDN\fP, \fBCCNST_REFRESH\fP, \fBCCNST_TIMER\fP, \fBCCNST_SATISFIED\fP, \fBCCNST_TIMEOUT\fP, \fBCCNST_FINALIZE\fP }"
+.br
+.RI "\fIOps for strategy callout\&. \fP"
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBstrategy_init_error\fP (struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, const char *message)"
+.br
+.RI "\fINote a strategy initialization error\&. \fP"
+.ti -1c
+.RI "struct \fBpit_face_item\fP * \fBsend_interest\fP (struct \fBccnd_handle\fP *h, struct \fBinterest_entry\fP *ie, struct \fBpit_face_item\fP *x, struct \fBpit_face_item\fP *p)"
+.br
+.RI "\fIForward an interest message\&. \fP"
+.ti -1c
+.RI "void \fBpfi_set_expiry_from_micros\fP (struct \fBccnd_handle\fP *h, struct \fBinterest_entry\fP *ie, struct \fBpit_face_item\fP *p, unsigned micros)"
+.br
+.RI "\fISet the expiry of the pit face item using a time in microseconds from present\&. \fP"
+.ti -1c
+.RI "void \fBstrategy_getstate\fP (struct \fBccnd_handle\fP *h, struct \fBccn_strategy\fP *s, struct \fBnameprefix_state\fP **sst, int k)"
+.br
+.RI "\fIReturn a pointer to the strategy state records for the name prefix of the given interest entry and up to k-1 parents\&. \fP"
+.ti -1c
+.RI "void \fBstrategy_settimer\fP (struct \fBccnd_handle\fP *h, struct \fBinterest_entry\fP *ie, int usec, enum \fBccn_strategy_op\fP op)"
+.br
+.RI "\fISchedule a strategy wakeup\&. \fP"
+.ti -1c
+.RI "struct \fBface\fP * \fBccnd_face_from_faceid\fP (struct \fBccnd_handle\fP *, unsigned)"
+.br
+.RI "\fIGet the face handle for a given faceid\&. \fP"
+.ti -1c
+.RI "unsigned \fBface_faceid\fP (struct \fBface\fP *)"
+.br
+.RI "\fIAccessors for things a strategy might want to know about a face\&. \fP"
+.ti -1c
+.RI "int \fBface_pending_interests\fP (struct \fBface\fP *)"
+.br
+.RI "\fIAccessor for number of pending interests received on a face\&. \fP"
+.ti -1c
+.RI "int \fBface_outstanding_interests\fP (struct \fBface\fP *)"
+.br
+.RI "\fIAccessor for number of outstanding interests sent on a face\&. \fP"
+.ti -1c
+.RI "int \fBfaceattr_index_from_name\fP (struct \fBccnd_handle\fP *h, const char *name)"
+.br
+.RI "\fIFace attributes\&. \fP"
+.ti -1c
+.RI "int \fBfaceattr_bool_index_from_name\fP (struct \fBccnd_handle\fP *h, const char *name)"
+.br
+.ti -1c
+.RI "int \fBfaceattr_index_allocate\fP (struct \fBccnd_handle\fP *h)"
+.br
+.ti -1c
+.RI "int \fBfaceattr_index_free\fP (struct \fBccnd_handle\fP *h, int faceattr_index)"
+.br
+.ti -1c
+.RI "unsigned \fBfaceattr_get\fP (struct \fBccnd_handle\fP *h, struct \fBface\fP *\fBface\fP, int faceattr_index)"
+.br
+.ti -1c
+.RI "int \fBfaceattr_set\fP (struct \fBccnd_handle\fP *h, struct \fBface\fP *\fBface\fP, int faceattr_index, unsigned value)"
+.br
+.ti -1c
+.RI "unsigned \fBfaceattr_get_packed\fP (struct \fBccnd_handle\fP *h, struct \fBface\fP *\fBface\fP)"
+.br
+.ti -1c
+.RI "const char * \fBfaceattr_next_name\fP (struct \fBccnd_handle\fP *h, const char *name)"
+.br
+.RI "\fIStateless enumerator for face attribute names\&. \fP"
+.ti -1c
+.RI "void \fBccnd_msg\fP (struct \fBccnd_handle\fP *, const char *,\&.\&.\&.)"
+.br
+.RI "\fIFor debugging\&. \fP"
+.ti -1c
+.RI "uint32_t \fBccnd_random\fP (struct \fBccnd_handle\fP *)"
+.br
+.RI "\fIA PRNG returning 31-bit pseudo-random numbers\&. \fP"
+.ti -1c
+.RI "struct \fBstrategy_class\fP * \fBstrategy_class_from_id\fP (const char *id)"
+.br
+.RI "\fIlook up a strategy class \fP"
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "struct \fBstrategy_class\fP \fBccnd_strategy_classes\fP []"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This header defines the API to be used by strategy callouts\&. 
+
+Part of ccnd - the CCNx Daemon\&.
+.PP
+Copyright (C) 2013 Palo Alto Research Center, Inc\&.
+.PP
+This work is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation\&. This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE\&. See the GNU General Public License for more details\&. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc\&., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\&. 
+.PP
+Definition in file \fBccnd_strategy\&.h\fP\&.
+.SH "Define Documentation"
+.PP 
+.SS "#define \fBCCN_AGED\fP   0x10000000"
+.PP
+for aging 
+.PP
+Definition at line 41 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), and check_nameprefix_entries()\&.
+.SS "#define \fBCCN_MAGIC_MASK\fP   0x00FFFFFF"
+.PP
+for magic number 
+.PP
+Definition at line 40 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_default_strategy_impl()\&.
+.SS "#define \fBCCN_NOFACEID\fP   (~0U)    /** denotes no face */"
+.PP
+A faceid is declared simply as unsigned\&. There is one special value\&. 
+.PP
+Definition at line 77 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by adjust_predicted_response(), ccnd_answer_by_guid(), ccnd_create(), ccnd_default_strategy_impl(), ccnd_faceid_from_guid(), ccnd_req_prefix_or_self_reg(), ccnd_req_unreg(), collect_faces_html(), collect_faces_xml(), create_strategy_instance(), do_propagate(), faceid_from_fd(), finalize_face(), record_connection(), remove_strategy_instance(), sending_fd(), shutdown_client_fd(), strategy_timer(), and update_forward_to()\&.
+.SS "#define \fBCCN_STATESIZECHECK\fP(XX, T)   struct XX {char x[(int)((sizeof(T) > sizeof(struct \fBnameprefix_state\fP)) ? -1 : 1)];}"
+.PP
+Use this macro to make sure that overlaying structures are not oversize\&. XX is an otherwise unused identifier, and T is the overlaid struct type\&. This is intended to cause a compilation error if T becomes too large\&. 
+.PP
+Definition at line 66 of file ccnd_strategy\&.h\&.
+.SS "#define \fBCCN_UNINIT\fP   (~0U)"
+.PP
+initial value of strategy vars 
+.PP
+Definition at line 39 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), and nameprefix_seek()\&.
+.SS "#define \fBCCND_PFI_ATTENTION\fP   0x10000"
+.PP
+Upstream needs attention from strategy\&. 
+.PP
+Definition at line 105 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), ccnd_loadsharing_strategy_impl(), ccnd_null_strategy_impl(), ccnd_parallel_strategy_impl(), do_propagate(), and format_pfi()\&.
+.SS "#define \fBCCND_PFI_DCFACE\fP   0x100000"
+.PP
+This upstream is a Direct Control face (gets data if unanswered for a long time) 
+.PP
+Definition at line 107 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by do_propagate(), and format_pfi()\&.
+.SS "#define \fBCCND_PFI_DNSTREAM\fP   0x1000"
+.PP
+Tracks downstream (recvd interest) 
+.PP
+Definition at line 102 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), do_propagate(), format_pfi(), propagate_interest(), send_tap_interests(), and update_npe_children()\&.
+.SS "#define \fBCCND_PFI_INACTIVE\fP   0x20000"
+.PP
+Face is nonresponsive, may have lost communication\&. 
+.PP
+Definition at line 106 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_loadsharing_strategy_impl(), ccnd_parallel_strategy_impl(), do_propagate(), and format_pfi()\&.
+.SS "#define \fBCCND_PFI_NONCESZ\fP   0x00FF"
+.PP
+Mask for actual nonce size\&. 
+.PP
+Definition at line 97 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by pfi_copy_nonce(), pfi_create(), pfi_nonce_matches(), pfi_set_nonce(), pfi_unique_nonce(), and send_interest()\&.
+.SS "#define \fBCCND_PFI_PENDING\fP   0x2000"
+.PP
+Pending for immediate data\&. 
+.PP
+Definition at line 103 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_collect_stats(), ccnd_default_strategy_impl(), consume_matching_interests(), do_propagate(), finalize_interest(), format_pfi(), is_pending_on(), pfi_destroy(), propagate_interest(), and send_tap_interests()\&.
+.SS "#define \fBCCND_PFI_SENDUPST\fP   0x0400"
+.PP
+Should be sent upstream (send upstream at expiry) 
+.PP
+Definition at line 100 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), ccnd_loadsharing_strategy_impl(), ccnd_null_strategy_impl(), ccnd_parallel_strategy_impl(), do_propagate(), format_pfi(), and send_interest()\&.
+.SS "#define \fBCCND_PFI_SUPDATA\fP   0x4000"
+.PP
+Suppressed data reply\&. 
+.PP
+Definition at line 104 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by format_pfi(), and propagate_interest()\&.
+.SS "#define \fBCCND_PFI_UPENDING\fP   0x0200"
+.PP
+Has been sent upstream (initially cleared, set for tap face) 
+.PP
+Definition at line 99 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), ccnd_loadsharing_strategy_impl(), do_propagate(), finalize_interest(), format_pfi(), pfi_destroy(), propagate_interest(), send_interest(), and update_npe_children()\&.
+.SS "#define \fBCCND_PFI_UPHUNGRY\fP   0x0800"
+.PP
+Upstream hungry, cupboard bare (upstream expired, no unexpired downstream to refresh) 
+.PP
+Definition at line 101 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by do_propagate(), format_pfi(), propagate_interest(), and send_interest()\&.
+.SS "#define \fBCCND_PFI_UPSTREAM\fP   0x0100"
+.PP
+Tracks upstream (sent interest) 
+.PP
+Definition at line 98 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), ccnd_loadsharing_strategy_impl(), do_propagate(), format_pfi(), propagate_interest(), send_tap_interests(), and update_npe_children()\&.
+.SS "#define \fBCCND_STRATEGY_STATE_N\fP   4"
+.PP
+number of per-prefix strategy vars 
+.PP
+Definition at line 42 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by nameprefix_seek()\&.
+.SS "#define \fBFAI_APPLICATION\fP   1"
+.PP
+Face attribute 'application'\&. If true, the face is deemed to be a local application, by virtue of connection information (e\&.g\&., loopback interface or unix-domain socket)\&. 
+.PP
+Definition at line 383 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_create()\&.
+.SS "#define \fBFAI_BROADCAST_CAPABLE\fP   2"
+.PP
+Face attribute 'broadcastcapable'\&. If true, the face can reach multiple peers via broadcast\&. 
+.PP
+Definition at line 392 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_create()\&.
+.SS "#define \fBFAI_DIRECT_CONTROL\fP   3"
+.PP
+Face attribute 'directcontrol'\&. If true, the face should not be sent interests unless there is no response from any other faces\&. This may be used by an application that can update the FIB on demand\&. 
+.PP
+Definition at line 403 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_create()\&.
+.SS "#define \fBFAI_VALID\fP   0"
+.PP
+Face attribute 'valid'\&. If true, the face may be used for interest/data exchange\&. 
+.PP
+Definition at line 374 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_create()\&.
+.SS "#define \fBFAM_APP\fP   \fBFAM_APPLICATION\fP"
+.PP
+Definition at line 385 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by adjust_builtin_faceattr()\&.
+.SS "#define \fBFAM_APPLICATION\fP   (1U << FAI_APPLICATION)"
+.PP
+Definition at line 384 of file ccnd_strategy\&.h\&.
+.SS "#define \fBFAM_BCAST\fP   \fBFAM_BROADCAST_CAPABLE\fP"
+.PP
+Definition at line 394 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by adjust_builtin_faceattr()\&.
+.SS "#define \fBFAM_BROADCAST_CAPABLE\fP   (1U << FAI_BROADCAST_CAPABLE)"
+.PP
+Definition at line 393 of file ccnd_strategy\&.h\&.
+.SS "#define \fBFAM_DC\fP   \fBFAM_DIRECT_CONTROL\fP"
+.PP
+Definition at line 405 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by adjust_builtin_faceattr()\&.
+.SS "#define \fBFAM_DIRECT_CONTROL\fP   (1U << FAI_DIRECT_CONTROL)"
+.PP
+Definition at line 404 of file ccnd_strategy\&.h\&.
+.SS "#define \fBFAM_VALID\fP   (1U << FAI_VALID)"
+.PP
+Definition at line 375 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by adjust_builtin_faceattr()\&.
+.SS "#define \fBTYPICAL_NONCE_SIZE\fP   12"
+.PP
+actual allocated size may differ 
+.PP
+Definition at line 79 of file ccnd_strategy\&.h\&.
+.PP
+Referenced by ccnd_debug_nonce(), pfi_create(), pfi_set_nonce(), and propagate_interest()\&.
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef uint32_t \fBccn_wrappedtime\fP"
+.PP
+Used for keeping track of interest expiry\&. Modulo 2**32 - time units and origin are arbitrary and private\&. 
+.PP
+Definition at line 74 of file ccnd_strategy\&.h\&.
+.SS "typedef void(* \fBstrategy_callout_proc\fP)(struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, struct \fBccn_strategy\fP *s, enum \fBccn_strategy_op\fP op, unsigned faceid)"
+.PP
+Strategies are implemented by a procedure that is called at critical junctures in the lifetime of a pending interest\&. If op is CCNST_FIRST, faceid tells the interest arrival face (downstream)\&. If op is CCNST_SATISFIED, faceid tells the content arrival face (upstream)\&. 
+.PP
+Definition at line 237 of file ccnd_strategy\&.h\&.
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBccn_strategy_op\fP"
+.PP
+Ops for strategy callout\&. These are passed to the strategy callout to inform it of the current situation\&.
+.PP
+CCNST_NOP is useful as an argument to pass to \fBstrategy_settimer()\fP when the callout wishes to cancel a pending strategy timer\&. CCNST_NOP is not expected to actually be passed to a callout, but if it is, the strategy should take no action that changes forwarding behavior\&.
+.PP
+CCNST_INIT provides an opportunity for the callout to allocate and initialize any private instance state that it may require\&. This happens when a new strategy is attached to a given prefix\&. If the strategy uses parameters, this call is the appropriate time to parse them and save the resulting values in the private instance state for rapid access in the more time-critical calls\&. The callout should use \fBstrategy_init_error()\fP to report problems with the parameter string\&.
+.PP
+CCNST_FIRST indicates the creation of a new PIT entry due to an arriving interest\&. Since there was no existing state for similar interests, there will be exactly one downstream in the pfi list\&. The upstreams in the list are those that the FIB has indicated are eligible to receive the interests\&. The expiry times are initially set to the current time, so if the strategy callout sets CCND_PFI_SENDUPST on, an upstream, the interest will be sent to the marked upstreams as soon as the callout returns\&. At the time of the CCNST_FIRST call, some upstreams may have already been fed (such as those with the TAP forwarding flag)\&. These will have CCND_PFI_UPENDING set\&. The strategy callout should generally ignore such entries\&. The faceid indicates the initial downstream face\&.
+.PP
+CCNST_UPDATE indicates at least one upstream has become eligible receive a new copy of the interest, because any previously sent interest has expired and an unexpired downsream is available; or a new upstream has been added, because of a new prefix registration, or because a second downstream has made the initial upstream eligible\&. The affected upstreams will have CCND_PFI_ATTENTION set and an expiry in the near future\&. For these entries, the strategy must clear CCND_PFI_ATTENTION and may choose to set CCND_PFI_SENDUPST on the subset of the affected upstreams that it selects\&. The value of faceid is not interesting\&.
+.PP
+CCNST_EXPUP indicates an upstream is expiring\&. This happens when and only when an interest has been sent to the upstream face and the associated lifetime has elapsed without the receipt of matching content\&. The faceid indicates the expiring upstream face\&.
+.PP
+CCNST_EXPDN indicates the downstream is expiring\&. The faceid indicates the expiring downstream face\&.
+.PP
+CCNST_REFRESH indicates a new, similar, interest message has arrived\&. a previously existing downstream face\&. Its expiry Its expiry will have been updated accordingly\&. The strategy likely does not need to do anything special with this case, because it will get separate calls for each of the upstreams when their respective expiries occur\&. The faceid indicates the refreshed downstream face\&.
+.PP
+CCNST_TIMER is intended as an argument for \fBstrategy_settimer()\fP so that the strategy callout can get control at a time that does not need to correspond with the expiry of an upstream or downstream\&. The value of faceid is not interesting\&.
+.PP
+CCNST_SATISFIED indicates the arrival of a matching content object\&. After the strategy callout returns, all of the downstreams that have CCND_PFI_PENDING set will be sent copies of the data, and the PIT entry will be removed\&. The faceid indicates the source of the matching content\&.
+.PP
+CCNST_TIMEOUT indicates that all downstreams and upstreams have expired\&. The PIT entry will go away as soon as the callout returns\&. The value of faceid is not interesting\&.
+.PP
+CCNST_FINALIZE indicates the strategy instance is about to go away\&. The strategy callout should deallocate any strategy-private memory\&. The value of faceid is not interesting\&. 
+.PP
+\fBEnumerator: \fP
+.in +1c
+.TP
+\fB\fICCNST_NOP \fP\fP
+.TP
+\fB\fICCNST_INIT \fP\fP
+.TP
+\fB\fICCNST_FIRST \fP\fP
+.TP
+\fB\fICCNST_UPDATE \fP\fP
+.TP
+\fB\fICCNST_EXPUP \fP\fP
+.TP
+\fB\fICCNST_EXPDN \fP\fP
+.TP
+\fB\fICCNST_REFRESH \fP\fP
+.TP
+\fB\fICCNST_TIMER \fP\fP
+.TP
+\fB\fICCNST_SATISFIED \fP\fP
+.TP
+\fB\fICCNST_TIMEOUT \fP\fP
+.TP
+\fB\fICCNST_FINALIZE \fP\fP
+
+.PP
+Definition at line 214 of file ccnd_strategy\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "struct \fBface\fP* \fBccnd_face_from_faceid\fP (struct \fBccnd_handle\fP *h, unsignedfaceid)\fC [read]\fP"
+.PP
+Get the face handle for a given faceid\&. Strategy routines should use the accessors provided\&.
+.PP
+\fBReturns:\fP
+.RS 4
+NULL if face does not exist\&. 
+.RE
+.PP
+
+.PP
+Definition at line 309 of file ccnd\&.c\&.
+.PP
+Referenced by adjacency_do_refresh(), adjacency_do_reset(), adjacency_timed_reset(), adjust_builtin_faceattr(), ccnd_answer_by_guid(), ccnd_answer_req(), ccnd_collect_stats(), ccnd_do_solicit(), ccnd_faceattr_strategy_impl(), ccnd_flush_guid_cob(), ccnd_loadsharing_strategy_impl(), ccnd_req_guest(), format_pfi(), incoming_adjacency(), post_face_notice(), schedule_adjacency_negotiation(), and solicit_response()\&.
+.SS "void \fBccnd_msg\fP (struct \fBccnd_handle\fP *h, const char *fmt, \&.\&.\&.)"
+.PP
+For debugging\&. For debugging\&.
+.PP
+Output is produced via h->logger under the control of h->debug; prepends decimal timestamp and process identification\&. Caller should not supply newlines\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIh\fP the ccnd handle 
+.br
+\fIfmt\fP printf-like format string 
+.RE
+.PP
+
+.PP
+Definition at line 46 of file ccnd_msg\&.c\&.
+.PP
+Referenced by accept_connection(), adjstate_change_db(), ccn_append_link_stuff(), ccnd_close_fd(), ccnd_collect_stats(), ccnd_create(), ccnd_debug_ccnb(), ccnd_debug_content(), ccnd_faceattr_strategy_impl(), ccnd_getboundsocket(), ccnd_init_internal_keystore(), ccnd_listen_on_address(), ccnd_listen_on_wildcards(), ccnd_nack(), ccnd_new_face_msg(), ccnd_parse_uri_list(), ccnd_req_destroyface(), ccnd_req_newface(), ccnd_run(), ccnd_send(), ccnd_setsockopt_v6only(), ccnd_start_notice(), ccnd_stats_http_set_debug(), ccnd_trace_strategy_impl(), check_comm_file(), content_enqueuex(), content_sender(), create_local_listener(), do_deferred_write(), do_propagate(), establish_min_recv_bufsize(), face_send_queue_insert(), finalize_face(), get_outbound_faces(), handle_send_error(), ie_next_usec(), main(), make_connection(), pfi_set_expiry_from_lifetime(), process_incoming_content(), process_incoming_interest(), process_incoming_link_message(), process_input(), process_input_buffer(), process_input_message(), record_connection(), setup_multicast(), shutdown_client_fd(), start_ccnd(), and update_forward_to()\&.
+.SS "uint32_t \fBccnd_random\fP (struct \fBccnd_handle\fP *)"
+.PP
+A PRNG returning 31-bit pseudo-random numbers\&. 
+.PP
+Definition at line 496 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), ccnd_loadsharing_strategy_impl(), and ccnd_parallel_strategy_impl()\&.
+.SS "unsigned \fBface_faceid\fP (struct \fBface\fP *face)"
+.PP
+Accessors for things a strategy might want to know about a face\&. 
+.PP
+Definition at line 316 of file ccnd\&.c\&.
+.SS "int \fBface_outstanding_interests\fP (struct \fBface\fP *)"
+.PP
+Accessor for number of outstanding interests sent on a face\&. 
+.PP
+Definition at line 334 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_loadsharing_strategy_impl()\&.
+.SS "int \fBface_pending_interests\fP (struct \fBface\fP *)"
+.PP
+Accessor for number of pending interests received on a face\&. 
+.PP
+Definition at line 325 of file ccnd\&.c\&.
+.SS "int \fBfaceattr_bool_index_from_name\fP (struct \fBccnd_handle\fP *h, const char *name)"
+.PP
+Definition at line 760 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_faceattr_strategy_impl(), ccnd_loadsharing_strategy_impl(), and faceattr_declare()\&.
+.SS "unsigned \fBfaceattr_get\fP (struct \fBccnd_handle\fP *h, struct \fBface\fP *face, intfaceattr_index)"
+.PP
+Definition at line 831 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_faceattr_strategy_impl(), and ccnd_loadsharing_strategy_impl()\&.
+.SS "unsigned \fBfaceattr_get_packed\fP (struct \fBccnd_handle\fP *h, struct \fBface\fP *face)"
+.PP
+Definition at line 843 of file ccnd\&.c\&.
+.SS "int \fBfaceattr_index_allocate\fP (struct \fBccnd_handle\fP *h)"
+.PP
+Definition at line 766 of file ccnd\&.c\&.
+.SS "int \fBfaceattr_index_free\fP (struct \fBccnd_handle\fP *h, intfaceattr_index)"
+.PP
+Definition at line 781 of file ccnd\&.c\&.
+.SS "int \fBfaceattr_index_from_name\fP (struct \fBccnd_handle\fP *h, const char *name)"
+.PP
+Face attributes\&. To help strategies do their work, there is provision for faces to carry a collection of attributes\&. These have associated values, which can be either boolean or numeric (non-negative integers)\&. Strategies may set and get these values using an attribute index to say which attribute is desired\&. Some attributes are set by ccnd, based upon things it knows about the face\&. Others have associated names, and may be set from the outside (using the face managment protocol)\&. Still others are private to strategy implementations, and need not have a name, only a dynamically assigned index\&.
+.PP
+The first 32 indices (0 through 31) are reserved for single-bit attributes\&. These may be read all at once using faceattr_get_packed, but are set using the general faceattr_set call\&. They may also be read using faceattr_get\&. In the packed form, the attribute with index 0 is stored in the low-order bit, so the bits may be tested using straightforward shifts and masks\&. After the first 32 single-bit attributes have been created, any additional requests will be fullfulled with attributes capable of carrying numeric values\&.
+.PP
+Newly created attributes are initialized to 0/false\&.
+.PP
+Some attributes are created and set by ccnd, reflecting things about faces that may be relevant to the operation of strategies\&. These are assigned with predeclared indices, so it is not necessary to learn the index from the name at runtime (although this is allowed)\&. All of the built-in single-bit attributes have small indices, and so are accessible using faceattr_get_packed\&. Macros for corresponding bit masks are also provided\&. 
+.PP
+Definition at line 754 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_faceattr_strategy_impl(), faceattr_declare(), and faceattr_index_allocate()\&.
+.SS "const char* \fBfaceattr_next_name\fP (struct \fBccnd_handle\fP *h, const char *name)"
+.PP
+Stateless enumerator for face attribute names\&. Call with NULL to get the first name\&. Returns NULL after the last name\&. The order is unspecified\&. Generated names are provided for private attrs\&. 
+.PP
+Definition at line 864 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_faceattr_strategy_impl()\&.
+.SS "int \fBfaceattr_set\fP (struct \fBccnd_handle\fP *h, struct \fBface\fP *face, intfaceattr_index, unsignedvalue)"
+.PP
+Definition at line 798 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_faceattr_strategy_impl(), and ccnd_loadsharing_strategy_impl()\&.
+.SS "void \fBpfi_set_expiry_from_micros\fP (struct \fBccnd_handle\fP *h, struct \fBinterest_entry\fP *ie, struct \fBpit_face_item\fP *p, unsignedmicros)"
+.PP
+Set the expiry of the pit face item using a time in microseconds from present\&. Does not set the renewed timestamp\&. 
+.PP
+Definition at line 4053 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_default_strategy_impl()\&.
+.SS "struct \fBpit_face_item\fP* \fBsend_interest\fP (struct \fBccnd_handle\fP *h, struct \fBinterest_entry\fP *ie, struct \fBpit_face_item\fP *x, struct \fBpit_face_item\fP *p)\fC [read]\fP"
+.PP
+Forward an interest message\&. The strategy routine may choose to call this directly, and/or update the pfi entries so that the interest will be forwarded on a schedule\&. If send_interest is called, p is updated to reflect the new state\&.
+.PP
+x is downstream (the interest came from x)\&. p is upstream (the interest is to be forwarded to p)\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+p (or its reallocated replacement)\&.
+.RE
+.PP
+x is downstream (the interest came from x)\&. p is upstream (the interest is to be forwarded to p)\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+p (or its reallocated replacement)\&. 
+.RE
+.PP
+
+.PP
+Definition at line 3612 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_default_strategy_impl(), do_propagate(), and send_tap_interests()\&.
+.SS "struct \fBstrategy_class\fP* \fBstrategy_class_from_id\fP (const char *id)\fC [read]\fP"
+.PP
+look up a strategy class 
+.PP
+Definition at line 4629 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_req_strategy(), ccnd_trace_strategy_impl(), and get_strategy_instance()\&.
+.SS "void \fBstrategy_getstate\fP (struct \fBccnd_handle\fP *h, struct \fBccn_strategy\fP *s, struct \fBnameprefix_state\fP **sst, intk)"
+.PP
+Return a pointer to the strategy state records for the name prefix of the given interest entry and up to k-1 parents\&. The sst array is filled in; NULL values are provided as needed\&. The item sst[0] corresponds with the name inside the interest, and is never NULL unless s is NULL\&. The remaining entries are for successively shorter prefixes\&. 
+.PP
+Definition at line 3707 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_default_strategy_impl()\&.
+.SS "void \fBstrategy_init_error\fP (struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, const char *message)"
+.PP
+Note a strategy initialization error\&. A call to this during the CCNST_INIT callout will do appropriate logging and error reporting, and cause the instance to be removed after the termination of the intialization callout\&.
+.PP
+Do not call from other contexts\&. 
+.PP
+Definition at line 3413 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_faceattr_strategy_impl(), and ccnd_trace_strategy_impl()\&.
+.SS "void \fBstrategy_settimer\fP (struct \fBccnd_handle\fP *h, struct \fBinterest_entry\fP *ie, intusec, enum \fBccn_strategy_op\fPop)"
+.PP
+Schedule a strategy wakeup\&. This causes the associated strategy callout to be called at a later time\&. The op will be passed to the deferred invocation\&.
+.PP
+Any previously scheduled wakeup will be cancelled\&. To just cancel any existing wakeup, pass CCNST_NOP\&.
+.PP
+Any previously wakeup will be cancelled\&. 
+.PP
+Definition at line 3690 of file ccnd\&.c\&.
+.PP
+Referenced by ccnd_default_strategy_impl()\&.
+.SH "Variable Documentation"
+.PP 
+.SS "struct \fBstrategy_class\fP \fBccnd_strategy_classes\fP[]"
+.PP
+Referenced by strategy_class_from_id()\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

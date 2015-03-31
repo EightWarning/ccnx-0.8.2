@@ -1,0 +1,27 @@
+var ccnr__stats_8c =
+[
+    [ "CRLF", "ccnr__stats_8c.html#a6cb23a858b0a21bdaa644b9181dc415f", null ],
+    [ "NL", "ccnr__stats_8c.html#a4fc34b120ed3bd1120c1eb36abbcd6af", null ],
+    [ "ccnr_collect_stats", "ccnr__stats_8c.html#ae5c761229d284ed52d9d8df9ac1ff899", null ],
+    [ "ccnr_colorhash", "ccnr__stats_8c.html#aeb2b85bea7b55eceb7cca4d1194a65cd", null ],
+    [ "ccnr_meter_bump", "ccnr__stats_8c.html#aa037d7a20b1d08dab89294377d7d8a22", null ],
+    [ "ccnr_meter_create", "ccnr__stats_8c.html#ad9e6edb9a33dd370f2bd13b9ba4b09c4", null ],
+    [ "ccnr_meter_destroy", "ccnr__stats_8c.html#a15abc280f91dd7694f4d5a7ef95dfea1", null ],
+    [ "ccnr_meter_init", "ccnr__stats_8c.html#abb42a9a92c0fb47264726b70092ee8ef", null ],
+    [ "ccnr_meter_rate", "ccnr__stats_8c.html#a00fac58e3fca41fe53ff707cf60076c9", null ],
+    [ "ccnr_meter_total", "ccnr__stats_8c.html#a43f60eaa2438740250d3aa50eb3ca9d7", null ],
+    [ "ccnr_stats_handle_http_connection", "ccnr__stats_8c.html#a6e6d7426248cb04802a52eea8a453fb7", null ],
+    [ "ccnr_stats_http_set_debug", "ccnr__stats_8c.html#a9053474314757b8abf6dec4dc93e81c9", null ],
+    [ "collect_face_meter_html", "ccnr__stats_8c.html#abc26204ad2bc587b80670edbb258b87c", null ],
+    [ "collect_faces_html", "ccnr__stats_8c.html#a195e4d7e27914641cd4cf8ebd7ad6918", null ],
+    [ "collect_faces_xml", "ccnr__stats_8c.html#a845b00c6f130a0cda6c856eb608e8f60", null ],
+    [ "collect_forwarding_html", "ccnr__stats_8c.html#a281789147c4c0e6e562106c28105e631", null ],
+    [ "collect_forwarding_xml", "ccnr__stats_8c.html#a7fe6bb338b331e85c467c135e00e1ebe", null ],
+    [ "collect_meter_xml", "ccnr__stats_8c.html#a90a753be7372aec24df0e2ba2ac8670d", null ],
+    [ "collect_stats_html", "ccnr__stats_8c.html#a8df7b654791747f325cf7daaf68bd071", null ],
+    [ "collect_stats_xml", "ccnr__stats_8c.html#a01ec3c069b43ebe8cda33ad179c55f53", null ],
+    [ "send_http_response", "ccnr__stats_8c.html#adb08e96dfd53247155bfa09032e3c298", null ],
+    [ "meterHz", "ccnr__stats_8c.html#aa6216374a358535c05364dea5001d02e", null ],
+    [ "resp404", "ccnr__stats_8c.html#a965257f411f5aa1f2c9910455d336436", null ],
+    [ "resp405", "ccnr__stats_8c.html#afc3f513a1c2f5640af0828c7f348dfcb", null ]
+];

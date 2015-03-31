@@ -1,0 +1,27 @@
+ccnsendchunks.c是用于接收数据包请求信号，兴趣包和发送数据包。
+
+struct ccn_closure是用户自定义的数据结构体，其中包含用户自定义的操作句柄，data部分是用来便于用户建立数据包的data部分，selfdata则是一个自定义的整数。
+
+struct ccn_upcall_kind则是表示当前数据包和兴趣包的应用状态。
+
+struct ccn_upcall_info结构体中，h是ccn操作句柄。interest_ccnb以ccnb格式用于存储兴趣包的所有内容， interest_comps存储的是兴趣包的名字部分，也就是前缀。 content_ccnb用ccnb格式存储数据包的所有内容 content_comps存储的是数据包的名字部分。pi,pco则是用于存放进行过ccnb解码之后的兴趣包和数据包部分。
+
+对于incoming_interest部分，在此处有一个判断处理器是否已经撤销接受或者接收兴趣包超时的状态，这是为了提醒处理器可以连续接受下一个兴趣包。
+
+文件中定义了一个mydata的结构体，这是为了记录数据包和兴趣包的接收发送次数，初始化定义全部为零。
+
+res = ccn_name_from_uri ( name, argv[0] ) 该函数是将一个ccnx的uri转化为一个ccnb编码的名称，并且自动读取ccnx的名称字符数。如果res<0，那么就表示不存在这个兴趣包，因此无法实行转换，跳出。
+
+ccn = ccn_creat( );这是为了创建一个用户句柄，允许实行接收兴趣包和发送数据包的操作。
+
+buf = calloc( 1, blocksize )首先开辟了一个数据片的空间。紧接着，ccn_charbuf_append ( name, root->buf, root->length )是为了创建一个数据包做空间准备。
+
+ccn_charbuf_append函数调用了ccn_charbuf_reserve( struct ccn_charbuf *c,size_t n ) 函数，这是为了数据包开辟n个动态的连续空间。
+
+ccn_set_interest_filter ( ccn, name, &in_interest )，这个函数是连接底层的一个接口函数，是相当于在这里进行了数据包name的搜索匹配过程，而其中参数&in_interest向底层的PIT表发送一个请求，意思是“请把符合这个prefix的interest发给我”。
+
+read_res = read_full ( 0, buf, blocksize )该函数是允许用户节点从屏幕上读取数据而读取的数据也将会被分配在数据包的data部分。
+
+在创建数据包的做出流程中，用了ccn_charbuf_reset ( name )先进行name的重置，而后扩展name的内容，在本文档中，数据包和兴趣包的名字是一样的。res = ccn_sign_content ( ccn, temp, name, &sp, buf, read_res )这个函数创造了数据包的签名，并且将签名和name,data部分连接起来。
+
+res = ccn_put ( ccn, temp->buf, temp->length )这是一个接口文件，将数据包发送出去。

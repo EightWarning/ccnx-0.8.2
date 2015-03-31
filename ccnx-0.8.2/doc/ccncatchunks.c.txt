@@ -1,0 +1,17 @@
+ccncatchunks.c文件用于接收来自客户端和路由器的数据包，并且发送兴趣包请求。
+
+struct ccn_charbuf *make_template ( stryct mydata *md, struct ccn_upcall_info *info )这是为了创建一个数据报文名字的模板。
+
+由于接收函数的特殊性，因此对于数据包的操作都被封装在incoming_content的结构体里。在执行状态中如果出现处理完毕，或者接收数据包超时的情况下执行一步操作。
+
+其中res = ccn_content_get_value ( ccnb, ccnb_size, info->pco, &data, &data_size )函数是接口函数，这是获取数据包中的具体内容的操作。
+
+获取数据包之后需要判断数据片的大小，如果小于1024字节就可以继续操作。
+
+由于数据片的收发是连续的，因此需要连续创造兴趣包来获取数据片。ccn_name_init ( name ),这是一个复位函数，使用二进制格式来完整的表示一个空的name。如果这个名字部分小于两个字节，则跳出进程。
+
+res = ccn_name_append_components ( name, ib, ic->buf[0], ic->buf[ic->n-2] );这一步是将先前接收到的数据包的名字执行复制操作，但是留下最后一位。
+
+ccn_charbuf_putf ( temp, %d, ++(selfp->intdata) )这是定义发送的兴趣包名字最后一位。
+
+res = ccn_express_interest ( info->h, name, selfp, templ )这是执行发送兴趣包的过程，如果名字匹配之后就会调用incoming_content，因此也就有了该结构体内的操作。

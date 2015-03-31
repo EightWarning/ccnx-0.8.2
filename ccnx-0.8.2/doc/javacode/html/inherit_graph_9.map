@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$interfaceorg_1_1ccnx_1_1ccn_1_1_content_verifier.html" title="A callback interface to allow low&#45;level mechanisms to ask someone else to verify content on their beh..." alt="" coords="7,5,167,30"/>
+<area shape="rect" id="node3" href="$classorg_1_1ccnx_1_1ccn_1_1protocol_1_1_content_object_1_1_simple_verifier.html" title="We don&#39;t specify a required publisher, and right now we don&#39;t enforce that publisherID is the digest ..." alt="" coords="216,5,491,30"/>
+</map>

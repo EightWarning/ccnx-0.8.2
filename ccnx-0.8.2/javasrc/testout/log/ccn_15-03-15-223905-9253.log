@@ -1,0 +1,6076 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346055</millis>
+  <sequence>0</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.config.PlatformConfiguration</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>BC provider: BC</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346074</millis>
+  <sequence>1</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.config.PlatformConfiguration</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>Provider info: BouncyCastle Security Provider v1.43 version: 1.43</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346075</millis>
+  <sequence>2</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.config.PlatformConfiguration</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>java.vm.name = Java HotSpot(TM) 64-Bit Server VM</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346080</millis>
+  <sequence>3</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.encoding.DecoderTest</class>
+  <method>testResync</method>
+  <thread>1</thread>
+  <message>Starting testResync</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346082</millis>
+  <sequence>4</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.encoding.DecoderTest</class>
+  <method>testChopped</method>
+  <thread>1</thread>
+  <message>Resync failed with size 13</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346083</millis>
+  <sequence>5</sequence>
+  <logger>ccnx.Default</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>beginDecoding</method>
+  <thread>1</thread>
+  <message>Saw error: Unexpected EOF - attempting resync</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346084</millis>
+  <sequence>6</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346085</millis>
+  <sequence>7</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000e position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346086</millis>
+  <sequence>8</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346087</millis>
+  <sequence>9</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xcbcfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346088</millis>
+  <sequence>10</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xcbcfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346089</millis>
+  <sequence>11</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x1cfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346090</millis>
+  <sequence>12</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x3a00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346091</millis>
+  <sequence>13</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346092</millis>
+  <sequence>14</sequence>
+  <logger>ccnx.Default</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>beginDecoding</method>
+  <thread>1</thread>
+  <message>Saw error: Unexpected EOF - attempting resync</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346093</millis>
+  <sequence>15</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346094</millis>
+  <sequence>16</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000e position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346094</millis>
+  <sequence>17</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346095</millis>
+  <sequence>18</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xcbcfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346096</millis>
+  <sequence>19</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xcbcfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346097</millis>
+  <sequence>20</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x1cfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346098</millis>
+  <sequence>21</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x3a00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346099</millis>
+  <sequence>22</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346100</millis>
+  <sequence>23</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc390001a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346101</millis>
+  <sequence>24</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc390001a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346102</millis>
+  <sequence>25</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x190001a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346102</millis>
+  <sequence>26</sequence>
+  <logger>ccnx.Default</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>beginDecoding</method>
+  <thread>1</thread>
+  <message>Saw error: Unexpected EOF - attempting resync</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346103</millis>
+  <sequence>27</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346104</millis>
+  <sequence>28</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000e position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346105</millis>
+  <sequence>29</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346106</millis>
+  <sequence>30</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xcbcfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346107</millis>
+  <sequence>31</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xcbcfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346108</millis>
+  <sequence>32</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x1cfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346109</millis>
+  <sequence>33</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x3a00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346110</millis>
+  <sequence>34</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346110</millis>
+  <sequence>35</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc587201a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346111</millis>
+  <sequence>36</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x187201a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346112</millis>
+  <sequence>37</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x3201a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346113</millis>
+  <sequence>38</sequence>
+  <logger>ccnx.Default</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>beginDecoding</method>
+  <thread>1</thread>
+  <message>Saw error: Unexpected EOF - attempting resync</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346114</millis>
+  <sequence>39</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0000 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346115</millis>
+  <sequence>40</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0025 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346116</millis>
+  <sequence>41</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0005 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346117</millis>
+  <sequence>42</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0036 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346117</millis>
+  <sequence>43</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0006 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346118</millis>
+  <sequence>44</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xf24eae position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346119</millis>
+  <sequence>45</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x24eae position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346120</millis>
+  <sequence>46</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x06ae position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346121</millis>
+  <sequence>47</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000e position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346121</millis>
+  <sequence>48</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0000 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346122</millis>
+  <sequence>49</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0003 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346124</millis>
+  <sequence>50</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000c position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346124</millis>
+  <sequence>51</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x1ec9b2a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346125</millis>
+  <sequence>52</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x9b2a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346126</millis>
+  <sequence>53</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x032a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346127</millis>
+  <sequence>54</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346128</millis>
+  <sequence>55</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000c position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346129</millis>
+  <sequence>56</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000e position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346130</millis>
+  <sequence>57</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346131</millis>
+  <sequence>58</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xcbcfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346131</millis>
+  <sequence>59</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xcbcfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346132</millis>
+  <sequence>60</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x1cfa00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346133</millis>
+  <sequence>61</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x3a00f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346134</millis>
+  <sequence>62</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346135</millis>
+  <sequence>63</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc8000014 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346135</millis>
+  <sequence>64</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc8000014 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346136</millis>
+  <sequence>65</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc8000014 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346137</millis>
+  <sequence>66</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0014 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346138</millis>
+  <sequence>67</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0004 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346138</millis>
+  <sequence>68</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x003c position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346139</millis>
+  <sequence>69</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000c position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346141</millis>
+  <sequence>70</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x9b580027 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346142</millis>
+  <sequence>71</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x9b580027 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346143</millis>
+  <sequence>72</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x1580027 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346144</millis>
+  <sequence>73</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0027 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346144</millis>
+  <sequence>74</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0007 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346145</millis>
+  <sequence>75</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0013 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346146</millis>
+  <sequence>76</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0003 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346147</millis>
+  <sequence>77</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc997901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346148</millis>
+  <sequence>78</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc997901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346148</millis>
+  <sequence>79</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc997901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346149</millis>
+  <sequence>80</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc997901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346150</millis>
+  <sequence>81</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc997901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346150</millis>
+  <sequence>82</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc997901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346151</millis>
+  <sequence>83</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc997901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346152</millis>
+  <sequence>84</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc997901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346152</millis>
+  <sequence>85</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc997901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346153</millis>
+  <sequence>86</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xc997901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346154</millis>
+  <sequence>87</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x197901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346154</millis>
+  <sequence>88</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x3901a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346155</millis>
+  <sequence>89</sequence>
+  <logger>ccnx.Default</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>beginDecoding</method>
+  <thread>1</thread>
+  <message>Saw error: (null) - attempting resync</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346155</millis>
+  <sequence>90</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0000 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346156</millis>
+  <sequence>91</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0025 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346157</millis>
+  <sequence>92</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0005 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346158</millis>
+  <sequence>93</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0036 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346158</millis>
+  <sequence>94</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0006 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346159</millis>
+  <sequence>95</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xf24eae position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346159</millis>
+  <sequence>96</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x24eae position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346160</millis>
+  <sequence>97</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x06ae position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346161</millis>
+  <sequence>98</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000e position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346161</millis>
+  <sequence>99</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0000 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346162</millis>
+  <sequence>100</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0003 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346163</millis>
+  <sequence>101</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000c position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346163</millis>
+  <sequence>102</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x1ec9b2a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346164</millis>
+  <sequence>103</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x9b2a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346164</millis>
+  <sequence>104</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x032a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346165</millis>
+  <sequence>105</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346166</millis>
+  <sequence>106</sequence>
+  <logger>ccnx.Default</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>beginDecoding</method>
+  <thread>1</thread>
+  <message>Saw error: Unexpected EOF - attempting resync</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346166</millis>
+  <sequence>107</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0000 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346167</millis>
+  <sequence>108</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0025 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346167</millis>
+  <sequence>109</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0005 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346168</millis>
+  <sequence>110</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0036 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346169</millis>
+  <sequence>111</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0006 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346169</millis>
+  <sequence>112</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xf24eae position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346170</millis>
+  <sequence>113</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x24eae position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346170</millis>
+  <sequence>114</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x06ae position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346171</millis>
+  <sequence>115</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000e position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346172</millis>
+  <sequence>116</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0000 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346172</millis>
+  <sequence>117</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x0003 position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346173</millis>
+  <sequence>118</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000c position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346174</millis>
+  <sequence>119</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x1ec9b2a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346174</millis>
+  <sequence>120</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x9b2a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346175</millis>
+  <sequence>121</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x032a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346175</millis>
+  <sequence>122</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346176</millis>
+  <sequence>123</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000c position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346177</millis>
+  <sequence>124</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000e position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346178</millis>
+  <sequence>125</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x000f position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346178</millis>
+  <sequence>126</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0xe997981a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346179</millis>
+  <sequence>127</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x197981a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346180</millis>
+  <sequence>128</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>getPacket</method>
+  <thread>1</thread>
+  <message>Error decoding packet - unknown element 0x02 0x3981a position 0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346180</millis>
+  <sequence>129</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.encoding.DecoderTest</class>
+  <method>testResync</method>
+  <thread>1</thread>
+  <message>Completed testResync</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346182</millis>
+  <sequence>130</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.encoding.TextXMLCodecTest</class>
+  <method>testParseDateTime</method>
+  <thread>1</thread>
+  <message>Starting testParseDateTime</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346186</millis>
+  <sequence>131</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.encoding.TextXMLCodecTest</class>
+  <method>testParseDateTime</method>
+  <thread>1</thread>
+  <message>Completed testParseDateTime</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346187</millis>
+  <sequence>132</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.encoding.TextXMLCodecTest</class>
+  <method>testTagMap</method>
+  <thread>1</thread>
+  <message>Starting testTagMap</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346191</millis>
+  <sequence>133</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.encoding.TextXMLCodecTest</class>
+  <method>testTagMap</method>
+  <thread>1</thread>
+  <message>Completed testTagMap</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346195</millis>
+  <sequence>134</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testSimpleRemoves</method>
+  <thread>1</thread>
+  <message>Starting testSimpleRemoves</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346210</millis>
+  <sequence>135</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testSimpleRemoves</method>
+  <thread>1</thread>
+  <message>Completed testSimpleRemoves</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346213</millis>
+  <sequence>136</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testAdd</method>
+  <thread>1</thread>
+  <message>Starting testAdd</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346214</millis>
+  <sequence>137</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testAdd</method>
+  <thread>1</thread>
+  <message>Completed testAdd</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346217</millis>
+  <sequence>138</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testMatchName</method>
+  <thread>1</thread>
+  <message>Starting testMatchName</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346247</millis>
+  <sequence>139</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testMatchName</method>
+  <thread>1</thread>
+  <message>Completed testMatchName</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346250</millis>
+  <sequence>140</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testMatchPub</method>
+  <thread>1</thread>
+  <message>Starting testMatchPub</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346257</millis>
+  <sequence>141</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testMatchPub</method>
+  <thread>1</thread>
+  <message>Completed testMatchPub</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346259</millis>
+  <sequence>142</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testRemovesPub</method>
+  <thread>1</thread>
+  <message>Starting testRemovesPub</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346271</millis>
+  <sequence>143</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testRemovesPub</method>
+  <thread>1</thread>
+  <message>Completed testRemovesPub</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346274</millis>
+  <sequence>144</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testMatchNext</method>
+  <thread>1</thread>
+  <message>Starting testMatchNext</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346277</millis>
+  <sequence>145</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testMatchNext</method>
+  <thread>1</thread>
+  <message>Completed testMatchNext</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346279</millis>
+  <sequence>146</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testMatchLast</method>
+  <thread>1</thread>
+  <message>Starting testMatchLast</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346282</millis>
+  <sequence>147</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testMatchLast</method>
+  <thread>1</thread>
+  <message>Completed testMatchLast</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346284</millis>
+  <sequence>148</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testRemovesNext</method>
+  <thread>1</thread>
+  <message>Starting testRemovesNext</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346288</millis>
+  <sequence>149</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testRemovesNext</method>
+  <thread>1</thread>
+  <message>Completed testRemovesNext</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346290</millis>
+  <sequence>150</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testRemovesLast</method>
+  <thread>1</thread>
+  <message>Starting testRemovesLast</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346294</millis>
+  <sequence>151</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testRemovesLast</method>
+  <thread>1</thread>
+  <message>Completed testRemovesLast</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346297</millis>
+  <sequence>152</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testLRU</method>
+  <thread>1</thread>
+  <message>Starting testLRU</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346298</millis>
+  <sequence>153</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTable</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>removing entry associated with name /a</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346298</millis>
+  <sequence>154</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTable</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>removing entry associated with name /c</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346299</millis>
+  <sequence>155</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTable</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>removing entry associated with name /b</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346299</millis>
+  <sequence>156</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTable</class>
+  <method>add</method>
+  <thread>1</thread>
+  <message>removing entry associated with name /a/bb</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346301</millis>
+  <sequence>157</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.InterestTableTest</class>
+  <method>testLRU</method>
+  <thread>1</thread>
+  <message>Completed testLRU</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346304</millis>
+  <sequence>158</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me all</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346305</millis>
+  <sequence>159</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me level</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346307</millis>
+  <sequence>160</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me all</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346308</millis>
+  <sequence>161</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me level</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346309</millis>
+  <sequence>162</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me all</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346310</millis>
+  <sequence>163</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me level</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346312</millis>
+  <sequence>164</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me all</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346313</millis>
+  <sequence>165</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me level</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346313</millis>
+  <sequence>166</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me all</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346314</millis>
+  <sequence>167</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me level</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346316</millis>
+  <sequence>168</sequence>
+  <logger>ccnx.Default</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me all</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346317</millis>
+  <sequence>169</sequence>
+  <logger>ccnx.Default</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me level</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346318</millis>
+  <sequence>170</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me all</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346318</millis>
+  <sequence>171</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>SEVERE</level>
+  <class>org.ccnx.ccn.impl.LogTest</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>test me level</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346338</millis>
+  <sequence>172</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.MergeSecureKeyCacheTest</class>
+  <method>testDisjointMerge</method>
+  <thread>1</thread>
+  <message>Starting testDisjointMerge</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346357</millis>
+  <sequence>173</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addPrivateKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding private key aa9a395b4a84f92569607b3fbe1fc87d7080ecabb0e776a4483de731ed47138a with name /test/priv1</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346368</millis>
+  <sequence>174</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addMySigningKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding my private key e04f94bf71920f8ac0eb3270b98e58bff07ce210b78a30707b3ac670a8516796</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346494</millis>
+  <sequence>175</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding key a2dd1a222f2f6c07c39453c16ad8d109f8179b0d7a2166238c612a07173df95e with name /test/key1 of type javax.crypto.spec.SecretKeySpec</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346505</millis>
+  <sequence>176</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addPrivateKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding private key a6d54850eb5dc84a1060f1d003193f798bc172265ee6ef3e1057a64637f77e4e with name /test/priv2</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346521</millis>
+  <sequence>177</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addMySigningKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding my private key 6321acfa78dbd5c3b09c015df6cbdec0cb697185a41a7b09b396d09c6cc17647</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346522</millis>
+  <sequence>178</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding key 4e34375ff6b3a54616fb69be3856fa27723441713ce44290eb8247c2526fcf48 with name /test/key2 of type javax.crypto.spec.SecretKeySpec</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346524</millis>
+  <sequence>179</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addMySigningKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding my private key 6321acfa78dbd5c3b09c015df6cbdec0cb697185a41a7b09b396d09c6cc17647</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346525</millis>
+  <sequence>180</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addPrivateKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding private key a6d54850eb5dc84a1060f1d003193f798bc172265ee6ef3e1057a64637f77e4e with name /test/priv2</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346526</millis>
+  <sequence>181</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding key 4e34375ff6b3a54616fb69be3856fa27723441713ce44290eb8247c2526fcf48 with name /test/key2 of type javax.crypto.spec.SecretKeySpec</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346527</millis>
+  <sequence>182</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.MergeSecureKeyCacheTest</class>
+  <method>testDisjointMerge</method>
+  <thread>1</thread>
+  <message>Completed testDisjointMerge</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346529</millis>
+  <sequence>183</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.MergeSecureKeyCacheTest</class>
+  <method>testSameCache</method>
+  <thread>1</thread>
+  <message>Starting testSameCache</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346543</millis>
+  <sequence>184</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addPrivateKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding private key 9063857f3b0daba54f374bd2d77f43f0acf65b8e375b9d32594443f6ee740771 with name /test/priv1</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346553</millis>
+  <sequence>185</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addMySigningKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding my private key 146109a374a6849295467d5d78d278f53e788fa3e814168fab58d9ad7efb15d1</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346554</millis>
+  <sequence>186</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding key 6563edd4d8af3c5fb2232230023009b3ff1526315d5b5a8cad47f37f06ce813b with name /test/key1 of type javax.crypto.spec.SecretKeySpec</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346574</millis>
+  <sequence>187</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addPrivateKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding private key 8999834f59ee0ea5ffaba14f4c9365c1bba326bf2546699d3ab55193b7936ec2 with name /test/priv2</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346587</millis>
+  <sequence>188</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addMySigningKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding my private key be4d902857760d0c6de84ed185d32f55a3eeaa9b6ba833753dd2b15548699f7f</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346588</millis>
+  <sequence>189</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding key bfd0bc47c90c16ae3902431599dace77b30e95407147103d0d7f5f7ed5258a7b with name /test/key2 of type javax.crypto.spec.SecretKeySpec</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346589</millis>
+  <sequence>190</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.MergeSecureKeyCacheTest</class>
+  <method>testSameCache</method>
+  <thread>1</thread>
+  <message>Completed testSameCache</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346591</millis>
+  <sequence>191</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.MergeSecureKeyCacheTest</class>
+  <method>testDomination</method>
+  <thread>1</thread>
+  <message>Started testDomination</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346607</millis>
+  <sequence>192</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addPrivateKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding private key 2a385a388c81f83549f41fb2ff3e7310ea439134e2e74ad29653f3a8f8ff29fe with name /test/priv1</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346615</millis>
+  <sequence>193</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addMySigningKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding my private key 4a6b250cf6203c7d565f724cd3b1f096d2a4ddf246bf5b6604457467a101956f</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346616</millis>
+  <sequence>194</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding key b2c43dfcf7fae833983a48bc2850e02d30adbb5e577ab8cba9bff2aaf7def245 with name /test/key1 of type javax.crypto.spec.SecretKeySpec</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346617</millis>
+  <sequence>195</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addPrivateKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding private key 2a385a388c81f83549f41fb2ff3e7310ea439134e2e74ad29653f3a8f8ff29fe with name /test/newpriv</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346618</millis>
+  <sequence>196</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addMySigningKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding my private key 4a6b250cf6203c7d565f724cd3b1f096d2a4ddf246bf5b6604457467a101956f</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346619</millis>
+  <sequence>197</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding key b2c43dfcf7fae833983a48bc2850e02d30adbb5e577ab8cba9bff2aaf7def245 with name /test/newkey of type javax.crypto.spec.SecretKeySpec</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346620</millis>
+  <sequence>198</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.MergeSecureKeyCacheTest</class>
+  <method>testDomination</method>
+  <thread>1</thread>
+  <message>Completed testDomination</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346633</millis>
+  <sequence>199</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addPrivateKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding private key 3d4a1336723e6b8188d8c0752c0359129306463c688d0978c51e5e6065e2de48 with name /test/priv</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346643</millis>
+  <sequence>200</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addMySigningKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding my private key 95cf994a17239e1353dc7b945cf713b3ce8c45179d8b9742043fa058c9336501</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346645</millis>
+  <sequence>201</sequence>
+  <logger>ccnx.AccessControl</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SecureKeyCache</class>
+  <method>addKey</method>
+  <thread>1</thread>
+  <message>SecureKeyCache: adding key 78558d43ec0de04e067d66389e12f0479bcc00d687f12eac6a16cf7e52317fef with name /test/key of type javax.crypto.spec.SecretKeySpec</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346669</millis>
+  <sequence>202</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SaveSecureKeyCacheTest</class>
+  <method>testReadSecureKeyCache</method>
+  <thread>1</thread>
+  <message>Started testReadSecureKeyCache</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346676</millis>
+  <sequence>203</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.keys.SaveSecureKeyCacheTest</class>
+  <method>testReadSecureKeyCache</method>
+  <thread>1</thread>
+  <message>Completed testReadSecureKeyCache</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346842</millis>
+  <sequence>204</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testSetTime</method>
+  <thread>1</thread>
+  <message>Starting testSetTime</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346844</millis>
+  <sequence>205</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testSetTime</method>
+  <thread>1</thread>
+  <message>Completed testSetTime</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346846</millis>
+  <sequence>206</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testSetNanos</method>
+  <thread>1</thread>
+  <message>Starting testSetNanos</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346848</millis>
+  <sequence>207</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testSetNanos</method>
+  <thread>1</thread>
+  <message>Completed testSetNanos</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346850</millis>
+  <sequence>208</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCCNTimeLong</method>
+  <thread>1</thread>
+  <message>Starting testCCNTimeLong</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346851</millis>
+  <sequence>209</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCCNTimeLong</method>
+  <thread>1</thread>
+  <message>Completed testCCNTimeLong</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346854</millis>
+  <sequence>210</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCCNTimeTimestamp</method>
+  <thread>1</thread>
+  <message>Starting testCCNTimeTimestamp</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346855</millis>
+  <sequence>211</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCCNTimeTimestamp</method>
+  <thread>1</thread>
+  <message>Completed testCCNTimeTimestamp</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346858</millis>
+  <sequence>212</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCCNTimeDate</method>
+  <thread>1</thread>
+  <message>Starting testCCNTimeDate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346859</millis>
+  <sequence>213</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCCNTimeDate</method>
+  <thread>1</thread>
+  <message>Completed testCCNTimeDate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346861</millis>
+  <sequence>214</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCCNTime</method>
+  <thread>1</thread>
+  <message>Starting testCCNTime</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346862</millis>
+  <sequence>215</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCCNTime</method>
+  <thread>1</thread>
+  <message>Completed testCCNTime</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346866</millis>
+  <sequence>216</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCompareToDate</method>
+  <thread>1</thread>
+  <message>Starting testCompareToDate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346866</millis>
+  <sequence>217</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCompareToDate</method>
+  <thread>1</thread>
+  <message>Completed testCompareToDate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346869</millis>
+  <sequence>218</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCompareToTimestamp</method>
+  <thread>1</thread>
+  <message>Starting testCompareToTimestamp</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346870</millis>
+  <sequence>219</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testCompareToTimestamp</method>
+  <thread>1</thread>
+  <message>Completed testCompareToTimestamp</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346872</millis>
+  <sequence>220</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testBeforeAfterTimestamp</method>
+  <thread>1</thread>
+  <message>Starting testBeforeAfterTimestamp</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346873</millis>
+  <sequence>221</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testBeforeAfterTimestamp</method>
+  <thread>1</thread>
+  <message>Completed testBeforeAfterTimestamp</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346876</millis>
+  <sequence>222</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testBeforeAfterDate</method>
+  <thread>1</thread>
+  <message>Starting testBeforeAfterDate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346877</millis>
+  <sequence>223</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testBeforeAfterDate</method>
+  <thread>1</thread>
+  <message>Completed testBeforeAfterDate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346879</millis>
+  <sequence>224</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testNow</method>
+  <thread>1</thread>
+  <message>Starting testNow</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346881</millis>
+  <sequence>225</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testNow</method>
+  <thread>1</thread>
+  <message>Completed testNow</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346883</millis>
+  <sequence>226</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testBinaryArray</method>
+  <thread>1</thread>
+  <message>Starting testBinaryArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346884</millis>
+  <sequence>227</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.CCNTimeTest</class>
+  <method>testBinaryArray</method>
+  <thread>1</thread>
+  <message>Completed testBinaryArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346914</millis>
+  <sequence>228</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNameString</method>
+  <thread>1</thread>
+  <message>Starting testContentNameString</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346916</millis>
+  <sequence>229</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNameString</method>
+  <thread>1</thread>
+  <message>Completed testContentNameString</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346919</millis>
+  <sequence>230</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNameStringException</method>
+  <thread>1</thread>
+  <message>Starting testContentNameStringException</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346921</millis>
+  <sequence>231</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNameStringException</method>
+  <thread>1</thread>
+  <message>Completed testContentNameStringException</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346925</millis>
+  <sequence>232</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNameStringArray</method>
+  <thread>1</thread>
+  <message>Starting testContentNameStringArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346926</millis>
+  <sequence>233</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNameStringArray</method>
+  <thread>1</thread>
+  <message>Completed testContentNameStringArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346929</millis>
+  <sequence>234</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testEncoding</method>
+  <thread>1</thread>
+  <message>Starting testEncoding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346930</millis>
+  <sequence>235</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testEncoding</method>
+  <thread>1</thread>
+  <message>Completed testEncoding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346934</millis>
+  <sequence>236</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNameByteArrayArray</method>
+  <thread>1</thread>
+  <message>Starting testContentNameByteArrayArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346935</millis>
+  <sequence>237</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNameByteArrayArray</method>
+  <thread>1</thread>
+  <message>Completed testContentNameByteArrayArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346938</millis>
+  <sequence>238</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testMultilevelString</method>
+  <thread>1</thread>
+  <message>Starting testMultilevelString</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346940</millis>
+  <sequence>239</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testMultilevelString</method>
+  <thread>1</thread>
+  <message>Completed testMultilevelString</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346943</millis>
+  <sequence>240</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testInvalidContentNameByteArrayArray</method>
+  <thread>1</thread>
+  <message>Starting testInvalidContentNameByteArrayArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346945</millis>
+  <sequence>241</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testInvalidContentNameByteArrayArray</method>
+  <thread>1</thread>
+  <message>Completed testInvalidContentNameByteArrayArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346948</millis>
+  <sequence>242</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testParent</method>
+  <thread>1</thread>
+  <message>Starting testParent</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346949</millis>
+  <sequence>243</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testParent</method>
+  <thread>1</thread>
+  <message>Completed testParent</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346953</millis>
+  <sequence>244</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Starting testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346954</millis>
+  <sequence>245</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Completed testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346957</millis>
+  <sequence>246</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Starting testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346958</millis>
+  <sequence>247</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Completed testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346962</millis>
+  <sequence>248</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testEncodingDecoding</method>
+  <thread>1</thread>
+  <message>Starting testEncodingDecoding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346975</millis>
+  <sequence>249</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testEncodingDecoding</method>
+  <thread>1</thread>
+  <message>Completed testEncodingDecoding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346979</millis>
+  <sequence>250</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testRelations</method>
+  <thread>1</thread>
+  <message>Starting testRelations</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346980</millis>
+  <sequence>251</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testRelations</method>
+  <thread>1</thread>
+  <message>Completed testRelations</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:06</date>
+  <millis>1426430346983</millis>
+  <sequence>252</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNameParsePerformance</method>
+  <thread>1</thread>
+  <message>Starting testContentNameParsePerformance</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:07</date>
+  <millis>1426430347988</millis>
+  <sequence>253</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNameParsePerformance</method>
+  <thread>1</thread>
+  <message>Completed testContentNameParsePerformance</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:07</date>
+  <millis>1426430347990</millis>
+  <sequence>254</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNamePrintPerformance</method>
+  <thread>1</thread>
+  <message>Starting testContentNamePrintPerformance</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:08</date>
+  <millis>1426430348992</millis>
+  <sequence>255</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testContentNamePrintPerformance</method>
+  <thread>1</thread>
+  <message>Completed testContentNamePrintPerformance</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:08</date>
+  <millis>1426430348995</millis>
+  <sequence>256</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testPostfix</method>
+  <thread>1</thread>
+  <message>Starting testPostfix</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:08</date>
+  <millis>1426430348995</millis>
+  <sequence>257</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testPostfix</method>
+  <thread>1</thread>
+  <message>Completed testPostfix</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:08</date>
+  <millis>1426430348998</millis>
+  <sequence>258</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testNameManipulation</method>
+  <thread>1</thread>
+  <message>Starting testNameManipulation</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349000</millis>
+  <sequence>259</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentNameTest</class>
+  <method>testNameManipulation</method>
+  <thread>1</thread>
+  <message>Completed testNameManipulation</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349016</millis>
+  <sequence>260</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentObjectTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Starting testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349051</millis>
+  <sequence>261</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentObjectTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Completed testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349052</millis>
+  <sequence>262</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentObjectTest</class>
+  <method>testImmutable</method>
+  <thread>1</thread>
+  <message>Starting testImmutable</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349054</millis>
+  <sequence>263</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentObjectTest</class>
+  <method>testImmutable</method>
+  <thread>1</thread>
+  <message>Completed testImmutable</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349055</millis>
+  <sequence>264</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentObjectTest</class>
+  <method>testDigest</method>
+  <thread>1</thread>
+  <message>Starting testDigest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349057</millis>
+  <sequence>265</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ContentObjectTest</class>
+  <method>testDigest</method>
+  <thread>1</thread>
+  <message>Completed testDigest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349061</millis>
+  <sequence>266</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testAdd</method>
+  <thread>1</thread>
+  <message>Starting testAdd</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349062</millis>
+  <sequence>267</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testAdd</method>
+  <thread>1</thread>
+  <message>Completed testAdd</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349064</millis>
+  <sequence>268</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testExcludeArrayListOfElementFails</method>
+  <thread>1</thread>
+  <message>Starting testExcludeArrayListOfElementFails</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349066</millis>
+  <sequence>269</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testExcludeArrayListOfElementFails2</method>
+  <thread>1</thread>
+  <message>Starting testExcludeArrayListOfElementFails2</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349069</millis>
+  <sequence>270</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testExcludeArrayListOfElementFails3</method>
+  <thread>1</thread>
+  <message>Starting testExcludeArrayListOfElementFails3</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349071</millis>
+  <sequence>271</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testExcludeArrayListOfElement</method>
+  <thread>1</thread>
+  <message>Starting testExcludeArrayListOfElement</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349072</millis>
+  <sequence>272</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testExcludeArrayListOfElement</method>
+  <thread>1</thread>
+  <message>Completed testExcludeArrayListOfElement</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349074</millis>
+  <sequence>273</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testExcludeByteArrayArray</method>
+  <thread>1</thread>
+  <message>Starting testExcludeByteArrayArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349074</millis>
+  <sequence>274</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testExcludeByteArrayArray</method>
+  <thread>1</thread>
+  <message>Completed testExcludeByteArrayArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349076</millis>
+  <sequence>275</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testUptoFactory</method>
+  <thread>1</thread>
+  <message>Starting testUptoFactory</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349077</millis>
+  <sequence>276</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testUptoFactory</method>
+  <thread>1</thread>
+  <message>Completed testUptoFactory</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349079</millis>
+  <sequence>277</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testFactory</method>
+  <thread>1</thread>
+  <message>Starting testFactory</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349079</millis>
+  <sequence>278</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testFactory</method>
+  <thread>1</thread>
+  <message>Completed testFactory</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349081</millis>
+  <sequence>279</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testMatchBloom</method>
+  <thread>1</thread>
+  <message>Starting testMatchBloom</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349082</millis>
+  <sequence>280</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testMatchBloom</method>
+  <thread>1</thread>
+  <message>Completed testMatchBloom</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349084</millis>
+  <sequence>281</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testEmpty</method>
+  <thread>1</thread>
+  <message>Starting testEmpty</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349085</millis>
+  <sequence>282</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testEmpty</method>
+  <thread>1</thread>
+  <message>Completed testEmpty</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349087</millis>
+  <sequence>283</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testEqualsObject</method>
+  <thread>1</thread>
+  <message>Starting testEqualsObject</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349088</millis>
+  <sequence>284</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testEqualsObject</method>
+  <thread>1</thread>
+  <message>Completed testEqualsObject</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349090</millis>
+  <sequence>285</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testSize</method>
+  <thread>1</thread>
+  <message>Starting testSize</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349091</millis>
+  <sequence>286</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testSize</method>
+  <thread>1</thread>
+  <message>Completed testSize</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349093</millis>
+  <sequence>287</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testEncodeDecode</method>
+  <thread>1</thread>
+  <message>Starting testEncodeDecode</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349093</millis>
+  <sequence>288</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.ExcludeTest</class>
+  <method>testEncodeDecode</method>
+  <thread>1</thread>
+  <message>Completed testEncodeDecode</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349096</millis>
+  <sequence>289</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testSimpleInterest</method>
+  <thread>1</thread>
+  <message>Starting testSimpleInterest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349109</millis>
+  <sequence>290</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testSimpleInterest</method>
+  <thread>1</thread>
+  <message>Completed testSimpleInterest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349111</millis>
+  <sequence>291</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testProfileInterests</method>
+  <thread>1</thread>
+  <message>Starting testProfileInterests</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349118</millis>
+  <sequence>292</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testProfileInterests</method>
+  <thread>1</thread>
+  <message>Completed testProfileInterests</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349120</millis>
+  <sequence>293</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testExclude</method>
+  <thread>1</thread>
+  <message>Starting testExclude</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349123</millis>
+  <sequence>294</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testExclude</method>
+  <thread>1</thread>
+  <message>Completed testExclude</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349125</millis>
+  <sequence>295</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testMatch</method>
+  <thread>1</thread>
+  <message>Starting testMatch</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349126</millis>
+  <sequence>296</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testMatch</method>
+  <thread>1</thread>
+  <message>Completed testMatch</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349128</millis>
+  <sequence>297</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testMatchDigest</method>
+  <thread>1</thread>
+  <message>Starting testMatchDigest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349129</millis>
+  <sequence>298</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testMatchDigest</method>
+  <thread>1</thread>
+  <message>Completed testMatchDigest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349131</millis>
+  <sequence>299</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testMatchWithExcludedDigest</method>
+  <thread>1</thread>
+  <message>Starting testMatchWithExcludedDigest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349132</millis>
+  <sequence>300</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.InterestTest</class>
+  <method>testMatchWithExcludedDigest</method>
+  <thread>1</thread>
+  <message>Completed testMatchWithExcludedDigest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349182</millis>
+  <sequence>301</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.KeyLocatorTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Starting testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349191</millis>
+  <sequence>302</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.KeyLocatorTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Completed testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349193</millis>
+  <sequence>303</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.PublisherIDTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Starting testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349197</millis>
+  <sequence>304</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.PublisherIDTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Completed testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349199</millis>
+  <sequence>305</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.PublisherIDTest</class>
+  <method>testPublisherToString</method>
+  <thread>1</thread>
+  <message>Starting testPublisherToString</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349200</millis>
+  <sequence>306</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.protocol.PublisherPublicKeyDigest</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Truncating PublisherPublicKeyDigest to 32 bytes</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349201</millis>
+  <sequence>307</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.PublisherIDTest</class>
+  <method>testPublisherToString</method>
+  <thread>1</thread>
+  <message>Completed testPublisherToString</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349216</millis>
+  <sequence>308</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.SignedInfoTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Starting testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349226</millis>
+  <sequence>309</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.SignedInfoTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Completed testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349228</millis>
+  <sequence>310</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.SignedInfoTest</class>
+  <method>testTypes</method>
+  <thread>1</thread>
+  <message>Starting testTypes</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349228</millis>
+  <sequence>311</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.protocol.SignedInfoTest</class>
+  <method>testTypes</method>
+  <thread>1</thread>
+  <message>Completed testTypes</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349231</millis>
+  <sequence>312</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testEqualsObject</method>
+  <thread>1</thread>
+  <message>Starting testEqualsObject</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349233</millis>
+  <sequence>313</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testEqualsObject</method>
+  <thread>1</thread>
+  <message>Completed testEqualsObject</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349234</millis>
+  <sequence>314</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testSize</method>
+  <thread>1</thread>
+  <message>Starting testSize</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349235</millis>
+  <sequence>315</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testSize</method>
+  <thread>1</thread>
+  <message>Completed testSize</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349236</millis>
+  <sequence>316</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testValidate</method>
+  <thread>1</thread>
+  <message>Starting testValidate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349237</millis>
+  <sequence>317</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testValidate</method>
+  <thread>1</thread>
+  <message>Completed testValidate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349239</millis>
+  <sequence>318</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testCollectionData</method>
+  <thread>1</thread>
+  <message>Starting testCollectionData</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349239</millis>
+  <sequence>319</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testCollectionData</method>
+  <thread>1</thread>
+  <message>Completed testCollectionData</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349240</millis>
+  <sequence>320</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testContents</method>
+  <thread>1</thread>
+  <message>Starting testContents</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349241</millis>
+  <sequence>321</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testContents</method>
+  <thread>1</thread>
+  <message>Completed testContents</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349243</millis>
+  <sequence>322</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testAddGet</method>
+  <thread>1</thread>
+  <message>Starting testAddGet</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349243</millis>
+  <sequence>323</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testAddGet</method>
+  <thread>1</thread>
+  <message>Completed testAddGet</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349245</millis>
+  <sequence>324</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testRemoveInt</method>
+  <thread>1</thread>
+  <message>Starting testRemoveInt</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349245</millis>
+  <sequence>325</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testRemoveInt</method>
+  <thread>1</thread>
+  <message>Completed testRemoveInt</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349247</millis>
+  <sequence>326</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testRemoveLink</method>
+  <thread>1</thread>
+  <message>Starting testRemoveLink</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349248</millis>
+  <sequence>327</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testRemoveLink</method>
+  <thread>1</thread>
+  <message>Completed testRemoveLink</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349249</millis>
+  <sequence>328</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testEncodeDecodeStream</method>
+  <thread>1</thread>
+  <message>Starting testEncodeDecodeStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349253</millis>
+  <sequence>329</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testEncodeDecodeStream</method>
+  <thread>1</thread>
+  <message>Completed testEncodeDecodeStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349255</millis>
+  <sequence>330</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testEncodeDecodeByteArray</method>
+  <thread>1</thread>
+  <message>Starting testEncodeDecodeByteArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349260</millis>
+  <sequence>331</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.CollectionTest</class>
+  <method>testEncodeDecodeByteArray</method>
+  <thread>1</thread>
+  <message>Completed testEncodeDecodeByteArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349263</millis>
+  <sequence>332</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.EncodableObjectTest</class>
+  <method>testSave</method>
+  <thread>1</thread>
+  <message>Starting testSave</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349269</millis>
+  <sequence>333</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.EncodableObjectTest</class>
+  <method>testSave</method>
+  <thread>1</thread>
+  <message>Completed testSave</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349270</millis>
+  <sequence>334</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.EncodableObjectTest</class>
+  <method>testUpdate</method>
+  <thread>1</thread>
+  <message>Starting testUpdate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349271</millis>
+  <sequence>335</sequence>
+  <logger>ccnx.Encoding</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.encoding.BinaryXMLDecoder</class>
+  <method>setElement</method>
+  <thread>1</thread>
+  <message>Reset decode array sizes to 150</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349273</millis>
+  <sequence>336</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.EncodableObjectTest</class>
+  <method>testUpdate</method>
+  <thread>1</thread>
+  <message>Completed testUpdate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349274</millis>
+  <sequence>337</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Starting testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349276</millis>
+  <sequence>338</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Encoding Header...</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349279</millis>
+  <sequence>339</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Completed testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349281</millis>
+  <sequence>340</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Starting testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349282</millis>
+  <sequence>341</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Completed testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349284</millis>
+  <sequence>342</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testHeaderConstructor</method>
+  <thread>1</thread>
+  <message>Starting testHeaderConstructor</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349285</millis>
+  <sequence>343</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testHeaderConstructor</method>
+  <thread>1</thread>
+  <message>Completed testHeaderConstructor</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349286</millis>
+  <sequence>344</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testHeaderConstructor2</method>
+  <thread>1</thread>
+  <message>Starting testHeaderConstructor2</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349287</millis>
+  <sequence>345</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testHeaderConstructor2</method>
+  <thread>1</thread>
+  <message>Completed testHeaderConstructor2</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349288</millis>
+  <sequence>346</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testHeaderConstructor3</method>
+  <thread>1</thread>
+  <message>Starting testHeaderConstructor3</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349288</millis>
+  <sequence>347</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.HeaderTest</class>
+  <method>testHeaderConstructor3</method>
+  <thread>1</thread>
+  <message>Completed testHeaderConstructor3</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349290</millis>
+  <sequence>348</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.KeyValueSetTest</class>
+  <method>testMethods</method>
+  <thread>1</thread>
+  <message>Starting testMethods</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349292</millis>
+  <sequence>349</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.KeyValueSetTest</class>
+  <method>testMethods</method>
+  <thread>1</thread>
+  <message>Completed testMethods</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349294</millis>
+  <sequence>350</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.KeyValueSetTest</class>
+  <method>testEncodeDecode</method>
+  <thread>1</thread>
+  <message>Starting testEncodeDecode</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349298</millis>
+  <sequence>351</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.KeyValueSetTest</class>
+  <method>testEncodeDecode</method>
+  <thread>1</thread>
+  <message>Completed testEncodeDecode</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349300</millis>
+  <sequence>352</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.KeyValueSetTest</class>
+  <method>testData</method>
+  <thread>1</thread>
+  <message>Starting testData</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349301</millis>
+  <sequence>353</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.KeyValueSetTest</class>
+  <method>testData</method>
+  <thread>1</thread>
+  <message>Completed testData</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349302</millis>
+  <sequence>354</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.LinkTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Starting testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349309</millis>
+  <sequence>355</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.LinkTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Completed testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349332</millis>
+  <sequence>356</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.SerializableObjectTest</class>
+  <method>testSave</method>
+  <thread>1</thread>
+  <message>Starting testSave</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349335</millis>
+  <sequence>357</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.SerializableObjectTest</class>
+  <method>testSave</method>
+  <thread>1</thread>
+  <message>Completed testSave</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349337</millis>
+  <sequence>358</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.SerializableObjectTest</class>
+  <method>testUpdate</method>
+  <thread>1</thread>
+  <message>Starting testUpdate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349339</millis>
+  <sequence>359</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.SerializableObjectTest</class>
+  <method>testUpdate</method>
+  <thread>1</thread>
+  <message>Completed testUpdate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349341</millis>
+  <sequence>360</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.CCNTestHelper</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Initializing test org.ccnx.ccn.io.content.PublicKeyObjectTestRepo, data can be found under /ccnx.org/test/PublicKeyObjectTestRepo-15-03-15-22.39.09.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349343</millis>
+  <sequence>361</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Starting testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349602</millis>
+  <sequence>362</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyTestCommon</class>
+  <method>setupTest</method>
+  <thread>1</thread>
+  <message>Initialized keys for WrappedKeyTest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349610</millis>
+  <sequence>363</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>wrap: wrapping key of length 16, 2 blocks.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349892</millis>
+  <sequence>364</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>wrapKey</method>
+  <thread>1</thread>
+  <message>Wrap cipher RSA/NONE/OAEPWithSHA256AndMGF1Padding, provider BC version 1.43.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349896</millis>
+  <sequence>365</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Completed testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349897</millis>
+  <sequence>366</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>Starting testWrapUnwrapKey</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349898</millis>
+  <sequence>367</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>Wrap secret key in secret key.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349898</millis>
+  <sequence>368</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>wrap: wrapping key of length 16, 2 blocks.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349899</millis>
+  <sequence>369</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>WrappedKey: unwrapping key wrapped with wrapping key ID &lt;empty&gt;, incoming wrapping key digest 941f4295b64a443ca7bedc7cdc3bd79d17ba2bb9dd8777d7af28f5ccfa172081 match? false</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349899</millis>
+  <sequence>370</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>wrap algorithm: null wa for key AESWRAPWITHPAD</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349900</millis>
+  <sequence>371</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>unwrapKey: unwrapping WrappedKey: wrapping key ID: &lt;empty&gt; wrapping key name: null wrap algorithm: null key algorithm: AES label: FileEncryptionKeys has nonce key? false with 941f4295b64a443ca7bedc7cdc3bd79d17ba2bb9dd8777d7af28f5ccfa172081</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349901</millis>
+  <sequence>372</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>Wrap secret key in public key.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349902</millis>
+  <sequence>373</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>wrapKey</method>
+  <thread>1</thread>
+  <message>Wrap cipher RSA/NONE/OAEPWithSHA256AndMGF1Padding, provider BC version 1.43.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349902</millis>
+  <sequence>374</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>WrappedKey: unwrapping key wrapped with wrapping key ID &lt;empty&gt;, incoming wrapping key digest 67f09997c6b4e870cf411f688ce0fdf39298a2015ea2cf9bd6b403dcf2cda3ac match? false</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349903</millis>
+  <sequence>375</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>wrap algorithm: null wa for key RSA/NONE/OAEPWithSHA256AndMGF1Padding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349904</millis>
+  <sequence>376</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>unwrapKey: unwrapping WrappedKey: wrapping key ID: &lt;empty&gt; wrapping key name: null wrap algorithm: null key algorithm: AES label: FileEncryptionKeys has nonce key? false with 67f09997c6b4e870cf411f688ce0fdf39298a2015ea2cf9bd6b403dcf2cda3ac</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349907</millis>
+  <sequence>377</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>Wrap private key in public key.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349908</millis>
+  <sequence>378</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>wrapKey</method>
+  <thread>1</thread>
+  <message>Wrap cipher RSA/NONE/OAEPWithSHA256AndMGF1Padding, provider BC version 1.43.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349909</millis>
+  <sequence>379</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>wrap: wrapping key of length 635, 79 blocks.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349909</millis>
+  <sequence>380</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>RFC3394WrapWithPadEngine: adding padding of 5 bytes.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349914</millis>
+  <sequence>381</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>WrappedKey: unwrapping key wrapped with wrapping key ID &lt;empty&gt;, incoming wrapping key digest 67f09997c6b4e870cf411f688ce0fdf39298a2015ea2cf9bd6b403dcf2cda3ac match? false</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349914</millis>
+  <sequence>382</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>wrap algorithm: null wa for key RSA/NONE/OAEPWithSHA256AndMGF1Padding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349914</millis>
+  <sequence>383</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>unwrapKey: unwrapping WrappedKey: wrapping key ID: &lt;empty&gt; wrapping key name: null wrap algorithm: null key algorithm: RSA label: FileEncryptionKeys has nonce key? true with 67f09997c6b4e870cf411f688ce0fdf39298a2015ea2cf9bd6b403dcf2cda3ac</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349925</millis>
+  <sequence>384</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>Wrap private key in secret key.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349926</millis>
+  <sequence>385</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>wpk length 635</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349926</millis>
+  <sequence>386</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>wrap: wrapping key of length 635, 79 blocks.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349927</millis>
+  <sequence>387</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>RFC3394WrapWithPadEngine: adding padding of 5 bytes.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349931</millis>
+  <sequence>388</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>WrappedKey: unwrapping key wrapped with wrapping key ID &lt;empty&gt;, incoming wrapping key digest 941f4295b64a443ca7bedc7cdc3bd79d17ba2bb9dd8777d7af28f5ccfa172081 match? false</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349932</millis>
+  <sequence>389</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>wrap algorithm: null wa for key AESWRAPWITHPAD</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349932</millis>
+  <sequence>390</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>unwrapKey: unwrapping WrappedKey: wrapping key ID: &lt;empty&gt; wrapping key name: null wrap algorithm: null key algorithm: RSA label: FileEncryptionKeys has nonce key? false with 941f4295b64a443ca7bedc7cdc3bd79d17ba2bb9dd8777d7af28f5ccfa172081</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349937</millis>
+  <sequence>391</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>Wrap DSA private in private.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349937</millis>
+  <sequence>392</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>wrapKey</method>
+  <thread>1</thread>
+  <message>Wrap cipher RSA/NONE/OAEPWithSHA256AndMGF1Padding, provider BC version 1.43.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349938</millis>
+  <sequence>393</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>wrap: wrapping key of length 335, 41 blocks.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349938</millis>
+  <sequence>394</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>RFC3394WrapWithPadEngine: adding padding of 1 bytes.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349941</millis>
+  <sequence>395</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>WrappedKey: unwrapping key wrapped with wrapping key ID &lt;empty&gt;, incoming wrapping key digest 67f09997c6b4e870cf411f688ce0fdf39298a2015ea2cf9bd6b403dcf2cda3ac match? false</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349941</millis>
+  <sequence>396</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>wrap algorithm: null wa for key RSA/NONE/OAEPWithSHA256AndMGF1Padding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349942</millis>
+  <sequence>397</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>unwrapKey: unwrapping WrappedKey: wrapping key ID: &lt;empty&gt; wrapping key name: null wrap algorithm: null key algorithm: DSA label: FileEncryptionKeys has nonce key? true with 67f09997c6b4e870cf411f688ce0fdf39298a2015ea2cf9bd6b403dcf2cda3ac</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349948</millis>
+  <sequence>398</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>Wrap DSA private in secret.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349948</millis>
+  <sequence>399</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>wrap: wrapping key of length 335, 41 blocks.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349949</millis>
+  <sequence>400</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>RFC3394WrapWithPadEngine: adding padding of 1 bytes.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349951</millis>
+  <sequence>401</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>WrappedKey: unwrapping key wrapped with wrapping key ID &lt;empty&gt;, incoming wrapping key digest 941f4295b64a443ca7bedc7cdc3bd79d17ba2bb9dd8777d7af28f5ccfa172081 match? false</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349951</millis>
+  <sequence>402</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>wrap algorithm: null wa for key AESWRAPWITHPAD</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349952</millis>
+  <sequence>403</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>unwrapKey: unwrapping WrappedKey: wrapping key ID: &lt;empty&gt; wrapping key name: null wrap algorithm: null key algorithm: DSA label: FileEncryptionKeys has nonce key? false with 941f4295b64a443ca7bedc7cdc3bd79d17ba2bb9dd8777d7af28f5ccfa172081</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349954</millis>
+  <sequence>404</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>Wrap DH private in private.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349955</millis>
+  <sequence>405</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>wrapKey</method>
+  <thread>1</thread>
+  <message>Wrap cipher RSA/NONE/OAEPWithSHA256AndMGF1Padding, provider BC version 1.43.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349956</millis>
+  <sequence>406</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>wrap: wrapping key of length 228, 28 blocks.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349956</millis>
+  <sequence>407</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>RFC3394WrapWithPadEngine: adding padding of 4 bytes.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349958</millis>
+  <sequence>408</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>WrappedKey: unwrapping key wrapped with wrapping key ID &lt;empty&gt;, incoming wrapping key digest 67f09997c6b4e870cf411f688ce0fdf39298a2015ea2cf9bd6b403dcf2cda3ac match? false</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349958</millis>
+  <sequence>409</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>wrap algorithm: null wa for key RSA/NONE/OAEPWithSHA256AndMGF1Padding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349959</millis>
+  <sequence>410</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>unwrapKey: unwrapping WrappedKey: wrapping key ID: &lt;empty&gt; wrapping key name: null wrap algorithm: null key algorithm: DH label: FileEncryptionKeys has nonce key? true with 67f09997c6b4e870cf411f688ce0fdf39298a2015ea2cf9bd6b403dcf2cda3ac</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349964</millis>
+  <sequence>411</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>Wrap DH private in secret.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349965</millis>
+  <sequence>412</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>wrap: wrapping key of length 228, 28 blocks.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349965</millis>
+  <sequence>413</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.impl.security.crypto.jce.RFC3394WrapWithPadEngine</class>
+  <method>wrap</method>
+  <thread>1</thread>
+  <message>RFC3394WrapWithPadEngine: adding padding of 4 bytes.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349967</millis>
+  <sequence>414</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>WrappedKey: unwrapping key wrapped with wrapping key ID &lt;empty&gt;, incoming wrapping key digest 941f4295b64a443ca7bedc7cdc3bd79d17ba2bb9dd8777d7af28f5ccfa172081 match? false</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349967</millis>
+  <sequence>415</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>wrap algorithm: null wa for key AESWRAPWITHPAD</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349967</millis>
+  <sequence>416</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>unwrapKey</method>
+  <thread>1</thread>
+  <message>unwrapKey: unwrapping WrappedKey: wrapping key ID: &lt;empty&gt; wrapping key name: null wrap algorithm: null key algorithm: DH label: FileEncryptionKeys has nonce key? false with 941f4295b64a443ca7bedc7cdc3bd79d17ba2bb9dd8777d7af28f5ccfa172081</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349970</millis>
+  <sequence>417</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrapUnwrapKey</method>
+  <thread>1</thread>
+  <message>Completed testWrapUnwrapKey</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349971</millis>
+  <sequence>418</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrappedKeyByteArrayStringStringStringByteArrayByteArray</method>
+  <thread>1</thread>
+  <message>Starting testWrappedKeyByteArrayStringStringStringByteArrayByteArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349971</millis>
+  <sequence>419</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKey</class>
+  <method>wrapKey</method>
+  <thread>1</thread>
+  <message>Wrap cipher RSA/NONE/OAEPWithSHA256AndMGF1Padding, provider BC version 1.43.</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349973</millis>
+  <sequence>420</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.io.content.WrappedKeyUnitTest</class>
+  <method>testWrappedKeyByteArrayStringStringStringByteArrayByteArray</method>
+  <thread>1</thread>
+  <message>Completed testWrappedKeyByteArrayStringStringStringByteArrayByteArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349974</millis>
+  <sequence>421</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.SegmentationProfileUnitTest</class>
+  <method>testSegmentInterest</method>
+  <thread>1</thread>
+  <message>Starting testSegmentInterest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349975</millis>
+  <sequence>422</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.SegmentationProfileUnitTest</class>
+  <method>testSegmentInterest</method>
+  <thread>1</thread>
+  <message>Completed testSegmentInterest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349976</millis>
+  <sequence>423</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.SegmentationProfileUnitTest</class>
+  <method>testSegmentInterestWithNullSegmentNumber</method>
+  <thread>1</thread>
+  <message>Starting testSegmentInterestWithNullSegmentNumber</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349976</millis>
+  <sequence>424</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.SegmentationProfileUnitTest</class>
+  <method>testSegmentInterestWithNullSegmentNumber</method>
+  <thread>1</thread>
+  <message>Completed testSegmentInterestWithNullSegmentNumber</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349977</millis>
+  <sequence>425</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.SegmentationProfileUnitTest</class>
+  <method>testFirstSegmentInterest</method>
+  <thread>1</thread>
+  <message>Starting testFirstSegmentInterest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349977</millis>
+  <sequence>426</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.SegmentationProfileUnitTest</class>
+  <method>testFirstSegmentInterest</method>
+  <thread>1</thread>
+  <message>Completed testFirstSegmentInterest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349978</millis>
+  <sequence>427</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.SegmentationProfileUnitTest</class>
+  <method>testLastSegmentInterest</method>
+  <thread>1</thread>
+  <message>Starting testLastSegmentInterest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349979</millis>
+  <sequence>428</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.SegmentationProfileUnitTest</class>
+  <method>testLastSegmentInterest</method>
+  <thread>1</thread>
+  <message>Completed testLastSegmentInterest</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349980</millis>
+  <sequence>429</sequence>
+  <logger>ccnx.Test</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>setUpBeforeClass</method>
+  <thread>1</thread>
+  <message>Warning! This tests bakes in low-level knowledge of versioning/segmentation conventions, and must be updated when they change!</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349981</millis>
+  <sequence>430</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testVersionNameContentNameLong</method>
+  <thread>1</thread>
+  <message>Starting testVersionNameContentNameLong</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349981</millis>
+  <sequence>431</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testVersionNameContentNameLong</method>
+  <thread>1</thread>
+  <message>Completed testVersionNameContentNameLong</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349983</millis>
+  <sequence>432</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testVersionNameContentNameTimestamp</method>
+  <thread>1</thread>
+  <message>Starting testVersionNameContentNameTimestamp</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349983</millis>
+  <sequence>433</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testVersionNameContentNameTimestamp</method>
+  <thread>1</thread>
+  <message>Completed testVersionNameContentNameTimestamp</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349985</millis>
+  <sequence>434</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testVersionNameContentName</method>
+  <thread>1</thread>
+  <message>Starting testVersionNameContentName</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349996</millis>
+  <sequence>435</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testVersionNameContentName</method>
+  <thread>1</thread>
+  <message>Completed testVersionNameContentName</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349998</millis>
+  <sequence>436</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testFindVersionComponent</method>
+  <thread>1</thread>
+  <message>Starting testFindVersionComponent</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:09</date>
+  <millis>1426430349999</millis>
+  <sequence>437</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testFindVersionComponent</method>
+  <thread>1</thread>
+  <message>Completed testFindVersionComponent</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350000</millis>
+  <sequence>438</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testhasTerminalVersion</method>
+  <thread>1</thread>
+  <message>Starting testhasTerminalVersion</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350001</millis>
+  <sequence>439</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testhasTerminalVersion</method>
+  <thread>1</thread>
+  <message>Completed testhasTerminalVersion</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350004</millis>
+  <sequence>440</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testCutTerminalVersion</method>
+  <thread>1</thread>
+  <message>Starting testCutTerminalVersion</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350006</millis>
+  <sequence>441</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testCutTerminalVersion</method>
+  <thread>1</thread>
+  <message>Completed testCutTerminalVersion</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350010</millis>
+  <sequence>442</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testIsVersionOf</method>
+  <thread>1</thread>
+  <message>Starting testIsVersionOf</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350011</millis>
+  <sequence>443</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testIsVersionOf</method>
+  <thread>1</thread>
+  <message>Completed testIsVersionOf</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350014</millis>
+  <sequence>444</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testGetVersionAsLong</method>
+  <thread>1</thread>
+  <message>Starting testGetVersionAsLong</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350016</millis>
+  <sequence>445</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testGetVersionAsTimestamp</method>
+  <thread>1</thread>
+  <message>Starting testGetVersionAsTimestamp</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350016</millis>
+  <sequence>446</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testGetVersionAsTimestamp</method>
+  <thread>1</thread>
+  <message>Completed testGetVersionAsTimestamp</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350018</millis>
+  <sequence>447</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testUnpaddedVersions</method>
+  <thread>1</thread>
+  <message>Starting testUnpaddedVersions</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350018</millis>
+  <sequence>448</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testUnpaddedVersions</method>
+  <thread>1</thread>
+  <message>Completed testUnpaddedVersions</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350019</millis>
+  <sequence>449</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testPaddedVersions</method>
+  <thread>1</thread>
+  <message>Starting testPaddedVersions</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350020</millis>
+  <sequence>450</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testPaddedVersions</method>
+  <thread>1</thread>
+  <message>Completed testPaddedVersions</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350021</millis>
+  <sequence>451</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testInvalidVersionComponentTooLong</method>
+  <thread>1</thread>
+  <message>testing name /name/to/test/=FDC0B56707FE6349FA3A455712ABAA8207181BF64C84BD092DB473790A233416:  componentBytes: 32</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350023</millis>
+  <sequence>452</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testInvalidVersionComponentTooShort</method>
+  <thread>1</thread>
+  <message>testing name /name/to/test/=FD0001:  componentBytes: 3</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350024</millis>
+  <sequence>453</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.VersioningProfileTest</class>
+  <method>testInvalidVersionComponentValid</method>
+  <thread>1</thread>
+  <message>testing name /name/to/test/=FD04FBDC3B477D:  componentBytes: 7</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350026</millis>
+  <sequence>454</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.FaceManagerUnitTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Starting testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350028</millis>
+  <sequence>455</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.FaceManagerUnitTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Completed testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350029</millis>
+  <sequence>456</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.FaceManagerUnitTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Starting testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350030</millis>
+  <sequence>457</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.FaceManagerUnitTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Completed testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350031</millis>
+  <sequence>458</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.FaceManagerUnitTest</class>
+  <method>testEncodingDecoding</method>
+  <thread>1</thread>
+  <message>Starting testEncodingDecoding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350033</millis>
+  <sequence>459</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.FaceManagerUnitTest</class>
+  <method>testEncodingDecoding</method>
+  <thread>1</thread>
+  <message>Completed testEncodingDecoding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350036</millis>
+  <sequence>460</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Starting testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350038</millis>
+  <sequence>461</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest</class>
+  <method>testEncodeOutputStream</method>
+  <thread>1</thread>
+  <message>Completed testEncodeOutputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350039</millis>
+  <sequence>462</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Starting testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350041</millis>
+  <sequence>463</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Completed testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350042</millis>
+  <sequence>464</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest</class>
+  <method>testEncodingDecoding</method>
+  <thread>1</thread>
+  <message>Starting testEncodingDecoding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350045</millis>
+  <sequence>465</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest</class>
+  <method>testEncodingDecoding</method>
+  <thread>1</thread>
+  <message>Completed testEncodingDecoding</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350046</millis>
+  <sequence>466</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest</class>
+  <method>testEncodingDecodingSubclass</method>
+  <thread>1</thread>
+  <message>Starting testEncodingDecodingSubclass</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350048</millis>
+  <sequence>467</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.ccnd.PrefixRegistrationManagerUnitTest</class>
+  <method>testEncodingDecodingSubclass</method>
+  <thread>1</thread>
+  <message>Completed testEncodingDecodingSubclass</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350050</millis>
+  <sequence>468</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.security.access.group.ACLTest</class>
+  <method>testUpdate</method>
+  <thread>1</thread>
+  <message>Starting testUpdate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350052</millis>
+  <sequence>469</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.security.access.group.ACLTest</class>
+  <method>testUpdate</method>
+  <thread>1</thread>
+  <message>Completed testUpdate</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350057</millis>
+  <sequence>470</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.security.access.group.NodeKeyTest</class>
+  <method>testComputeDescendantNodeKey</method>
+  <thread>1</thread>
+  <message>Starting testComputeDescendantNodeKey</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350058</millis>
+  <sequence>471</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.security.access.group.NodeKeyTest</class>
+  <method>testComputeDescendantNodeKey</method>
+  <thread>1</thread>
+  <message>Completed testComputeDescendantNodeKey</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350059</millis>
+  <sequence>472</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.security.access.group.NodeKeyTest</class>
+  <method>testIsDerived</method>
+  <thread>1</thread>
+  <message>Starting testIsDerived</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350059</millis>
+  <sequence>473</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.security.access.group.NodeKeyTest</class>
+  <method>testIsDerived</method>
+  <thread>1</thread>
+  <message>Completed testIsDerived</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350060</millis>
+  <sequence>474</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.InterestDataTest</class>
+  <method>testVersionNumberInTree</method>
+  <thread>1</thread>
+  <message>Started testVersionNumberInTree</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350061</millis>
+  <sequence>475</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.InterestDataTest</class>
+  <method>testVersionNumberInTree</method>
+  <thread>1</thread>
+  <message>Completed testVersionNumberInTree</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350062</millis>
+  <sequence>476</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.InterestDataTest</class>
+  <method>testVersionNumberCompare</method>
+  <thread>1</thread>
+  <message>Started testVersionNumberCompare</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350062</millis>
+  <sequence>477</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.InterestDataTest</class>
+  <method>testVersionNumberCompare</method>
+  <thread>1</thread>
+  <message>Started testVersionNumberCompare</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350063</millis>
+  <sequence>478</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.InterestDataTest</class>
+  <method>testInterestDataStartTimeCompare</method>
+  <thread>1</thread>
+  <message>Started testInterestDataStartTimeCompare</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350065</millis>
+  <sequence>479</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.InterestDataTest</class>
+  <method>testInterestDataStartTimeCompare</method>
+  <thread>1</thread>
+  <message>Completed testInterestDataStartTimeCompare</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350066</millis>
+  <sequence>480</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.InterestDataTest</class>
+  <method>testSplitLeft</method>
+  <thread>1</thread>
+  <message>Started testSplitLeft</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350072</millis>
+  <sequence>481</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.InterestDataTest</class>
+  <method>testSplitLeft</method>
+  <thread>1</thread>
+  <message>Completed testSplitLeft</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350074</millis>
+  <sequence>482</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>setUpBeforeClass</method>
+  <thread>1</thread>
+  <message>Java version: 1.7.0_75</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350075</millis>
+  <sequence>483</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testFloor</method>
+  <thread>1</thread>
+  <message>Started testFloor</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350075</millis>
+  <sequence>484</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testFloor</method>
+  <thread>1</thread>
+  <message>floor of ccc is : ccc</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350075</millis>
+  <sequence>485</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testFloor</method>
+  <thread>1</thread>
+  <message>floor of b is : aaa</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350076</millis>
+  <sequence>486</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testFloor</method>
+  <thread>1</thread>
+  <message>Completed testFloor</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350077</millis>
+  <sequence>487</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalFloor</method>
+  <thread>1</thread>
+  <message>Started testInternalFloor</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350078</millis>
+  <sequence>488</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalFloor</method>
+  <thread>1</thread>
+  <message>internal floor of ccc is : ccc</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350078</millis>
+  <sequence>489</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalFloor</method>
+  <thread>1</thread>
+  <message>internal floor of b is : aaa</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350078</millis>
+  <sequence>490</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalFloor</method>
+  <thread>1</thread>
+  <message>Completed testInternalFloor</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350080</millis>
+  <sequence>491</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testLower</method>
+  <thread>1</thread>
+  <message>Started testLower</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350080</millis>
+  <sequence>492</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testLower</method>
+  <thread>1</thread>
+  <message>lower of ccc is : bbb</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350080</millis>
+  <sequence>493</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testLower</method>
+  <thread>1</thread>
+  <message>lower of b is : aaa</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350081</millis>
+  <sequence>494</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testLower</method>
+  <thread>1</thread>
+  <message>Completed testLower</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350082</millis>
+  <sequence>495</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testCeiling</method>
+  <thread>1</thread>
+  <message>Started testCeiling</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350083</millis>
+  <sequence>496</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testCeiling</method>
+  <thread>1</thread>
+  <message>ceiling of bbb is : bbb</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350083</millis>
+  <sequence>497</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testCeiling</method>
+  <thread>1</thread>
+  <message>ceiling of b is : bbb</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350083</millis>
+  <sequence>498</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testCeiling</method>
+  <thread>1</thread>
+  <message>Completed testCeiling</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350084</millis>
+  <sequence>499</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testHigher</method>
+  <thread>1</thread>
+  <message>Started testHigher</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350085</millis>
+  <sequence>500</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testHigher</method>
+  <thread>1</thread>
+  <message>higher of bbb is : ccc</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350085</millis>
+  <sequence>501</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testHigher</method>
+  <thread>1</thread>
+  <message>higher of b is : bbb</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350085</millis>
+  <sequence>502</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testHigher</method>
+  <thread>1</thread>
+  <message>Completed testHigher</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350087</millis>
+  <sequence>503</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalLower</method>
+  <thread>1</thread>
+  <message>Started testInternalLower</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350087</millis>
+  <sequence>504</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalLower</method>
+  <thread>1</thread>
+  <message>internal lower of ccc is : bbb</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350087</millis>
+  <sequence>505</sequence>
+  <logger>ccnx.Default</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalLower</method>
+  <thread>1</thread>
+  <message>internal lower of b is : aaa</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350088</millis>
+  <sequence>506</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalLower</method>
+  <thread>1</thread>
+  <message>Completed testInternalLower</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350089</millis>
+  <sequence>507</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalCeiling</method>
+  <thread>1</thread>
+  <message>Started testInternalCeiling</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350089</millis>
+  <sequence>508</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalCeiling</method>
+  <thread>1</thread>
+  <message>internal ceiling of bbb is : bbb</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350090</millis>
+  <sequence>509</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalCeiling</method>
+  <thread>1</thread>
+  <message>internal ceiling of b is : bbb</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350090</millis>
+  <sequence>510</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalCeiling</method>
+  <thread>1</thread>
+  <message>Completed testInternalCeiling</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350091</millis>
+  <sequence>511</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalHigher</method>
+  <thread>1</thread>
+  <message>Started testInternalHigher</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350091</millis>
+  <sequence>512</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalHigher</method>
+  <thread>1</thread>
+  <message>internal higher of bbb is : ccc</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350092</millis>
+  <sequence>513</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalHigher</method>
+  <thread>1</thread>
+  <message>internal higher of b is : bbb</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350092</millis>
+  <sequence>514</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testInternalHigher</method>
+  <thread>1</thread>
+  <message>Completed testInternalHigher</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350093</millis>
+  <sequence>515</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testDescendingIterator</method>
+  <thread>1</thread>
+  <message>Started testDescendingIterator</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350103</millis>
+  <sequence>516</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testDescendingIterator</method>
+  <thread>1</thread>
+  <message>Completed testDescendingIterator</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350105</millis>
+  <sequence>517</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testDescendingIteratorRemoveFirst</method>
+  <thread>1</thread>
+  <message>Started testDescendingIteratorRemoveFirst</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350112</millis>
+  <sequence>518</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testDescendingIteratorRemoveFirst</method>
+  <thread>1</thread>
+  <message>Completed testDescendingIteratorRemoveFirst</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350114</millis>
+  <sequence>519</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testDescendingIteratorRemoveLast</method>
+  <thread>1</thread>
+  <message>Started testDescendingIteratorRemoveLast</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350118</millis>
+  <sequence>520</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testDescendingIteratorRemoveLast</method>
+  <thread>1</thread>
+  <message>Completed testDescendingIteratorRemoveLast</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350119</millis>
+  <sequence>521</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testDescendingIteratorRemoveRandom</method>
+  <thread>1</thread>
+  <message>Started testDescendingIteratorRemoveRandom</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350125</millis>
+  <sequence>522</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.TreeSet6Test</class>
+  <method>testDescendingIteratorRemoveRandom</method>
+  <thread>1</thread>
+  <message>Completed testDescendingIteratorRemoveRandom</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350288</millis>
+  <sequence>523</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testEqualsObject</method>
+  <thread>1</thread>
+  <message>Started testEqualsObject</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350305</millis>
+  <sequence>524</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testEqualsObject</method>
+  <thread>1</thread>
+  <message>Completed testEqualsObject</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350307</millis>
+  <sequence>525</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testVersionNumber</method>
+  <thread>1</thread>
+  <message>Started testVersionNumber</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350307</millis>
+  <sequence>526</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testVersionNumber</method>
+  <thread>1</thread>
+  <message>Completed testVersionNumber</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350309</millis>
+  <sequence>527</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testVersionNumberCCNTime</method>
+  <thread>1</thread>
+  <message>Started testVersionNumberCCNTime</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350309</millis>
+  <sequence>528</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testVersionNumberCCNTime</method>
+  <thread>1</thread>
+  <message>Completed testVersionNumberCCNTime</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:10</date>
+  <millis>1426430350311</millis>
+  <sequence>529</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testVersionNumberLong</method>
+  <thread>1</thread>
+  <message>Started testVersionNumberLong</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:22</date>
+  <millis>1426430362079</millis>
+  <sequence>530</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testVersionNumberLong</method>
+  <thread>1</thread>
+  <message>Completed testVersionNumberLong</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:22</date>
+  <millis>1426430362081</millis>
+  <sequence>531</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testVersionNumberContentName</method>
+  <thread>1</thread>
+  <message>Started testVersionNumberContentName</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:34</date>
+  <millis>1426430374067</millis>
+  <sequence>532</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testVersionNumberContentName</method>
+  <thread>1</thread>
+  <message>Completed testVersionNumberContentName</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:34</date>
+  <millis>1426430374069</millis>
+  <sequence>533</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testVersionNumberByteArray</method>
+  <thread>1</thread>
+  <message>Started testVersionNumberByteArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:34</date>
+  <millis>1426430374123</millis>
+  <sequence>534</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testVersionNumberByteArray</method>
+  <thread>1</thread>
+  <message>Completed testVersionNumberByteArray</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:34</date>
+  <millis>1426430374127</millis>
+  <sequence>535</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testCompareTo</method>
+  <thread>1</thread>
+  <message>Started testCompareTo</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:34</date>
+  <millis>1426430374128</millis>
+  <sequence>536</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.profiles.versioning.VersionNumberTest</class>
+  <method>testCompareTo</method>
+  <thread>1</thread>
+  <message>Completed testCompareTo</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:34</date>
+  <millis>1426430374136</millis>
+  <sequence>537</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.repo.RepositoryInfoTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Starting testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:34</date>
+  <millis>1426430374144</millis>
+  <sequence>538</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.repo.RepositoryInfoTest</class>
+  <method>testDecodeInputStream</method>
+  <thread>1</thread>
+  <message>Completed testDecodeInputStream</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:34</date>
+  <millis>1426430374158</millis>
+  <sequence>539</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.CCNMerkleTreeTest</class>
+  <method>testMerkleTree0</method>
+  <thread>1</thread>
+  <message>Starting testMerkleTree0</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:34</date>
+  <millis>1426430374181</millis>
+  <sequence>540</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.CCNMerkleTreeTest</class>
+  <method>testMerkleTree1</method>
+  <thread>1</thread>
+  <message>Starting testMerkleTree1</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:34</date>
+  <millis>1426430374182</millis>
+  <sequence>541</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.CCNMerkleTreeTest</class>
+  <method>testMerkleTree</method>
+  <thread>1</thread>
+  <message>Starting testMerkleTree</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:47</date>
+  <millis>1426430387754</millis>
+  <sequence>542</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.CCNMerkleTreeTest</class>
+  <method>testMerkleTree</method>
+  <thread>1</thread>
+  <message>Completed testMerkleTree</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:47</date>
+  <millis>1426430387756</millis>
+  <sequence>543</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.CCNMerkleTreeTest</class>
+  <method>testMerkleTreeBuf</method>
+  <thread>1</thread>
+  <message>Starting testMerkleTreeBuf</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:56</date>
+  <millis>1426430396079</millis>
+  <sequence>544</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.CCNMerkleTreeTest</class>
+  <method>testMerkleTreeBuf</method>
+  <thread>1</thread>
+  <message>Completed testMerkleTreeBuf</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:56</date>
+  <millis>1426430396085</millis>
+  <sequence>545</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.KeyDerivationFunctionTest</class>
+  <method>testKeysSameTwice</method>
+  <thread>1</thread>
+  <message>Starting testKeysSameTwice</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:56</date>
+  <millis>1426430396086</millis>
+  <sequence>546</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.KeyDerivationFunctionTest</class>
+  <method>testKeysSameTwice</method>
+  <thread>1</thread>
+  <message>Completed testKeysSameTwice</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:56</date>
+  <millis>1426430396087</millis>
+  <sequence>547</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.KeyDerivationFunctionTest</class>
+  <method>testNoLabelSameTwice</method>
+  <thread>1</thread>
+  <message>Starting testNoLabelSameTwice</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:56</date>
+  <millis>1426430396087</millis>
+  <sequence>548</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.KeyDerivationFunctionTest</class>
+  <method>testNoLabelSameTwice</method>
+  <thread>1</thread>
+  <message>Completed testNoLabelSameTwice</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:56</date>
+  <millis>1426430396088</millis>
+  <sequence>549</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.KeyDerivationFunctionTest</class>
+  <method>testVersionMakesDifference</method>
+  <thread>1</thread>
+  <message>Starting testVersionMakesDifference</message>
+</record>
+<record>
+  <date>2015-03-15T22:39:56</date>
+  <millis>1426430396089</millis>
+  <sequence>550</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.MerkleTreeTest</class>
+  <method>testMerkleTree</method>
+  <thread>1</thread>
+  <message>Starting testMerkleTree</message>
+</record>
+<record>
+  <date>2015-03-15T22:40:05</date>
+  <millis>1426430405028</millis>
+  <sequence>551</sequence>
+  <logger>ccnx.Test</logger>
+  <level>INFO</level>
+  <class>org.ccnx.ccn.security.crypto.MerkleTreeTest</class>
+  <method>testMerkleTree</method>
+  <thread>1</thread>
+  <message>Completed testMerkleTree</message>
+</record>
+</log>

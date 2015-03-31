@@ -1,0 +1,32 @@
+cb-ThinkPad-X240 ccnd[2887] local port 63000 api 8002 start 1426470530.121781 now 1426470536.661131
+Content items: 25 accessioned, 25 stored, 0 stale, 0 sparse, 0 duplicate, 32 sent
+Interests: 47 names, 4 pending, 6 propagating, 33 noted
+Interest totals: 44 accepted, 0 dropped, 32 sent, 1 stuffed
+Faces
+ face: 0 flags: 0x4 pending: 2
+ face: 1 flags: 0x4008 pending: 0
+ face: 2 flags: 0x5012 pending: 0 local: 0.0.0.0:63000
+ face: 3 flags: 0x5010 pending: 0 local: 0.0.0.0:63000
+ face: 4 flags: 0x4042 pending: 0 local: [::]:63000
+ face: 5 flags: 0x4040 pending: 0 local: [::]:63000
+ face: 20 flags: 0x80412 pending: 0 activity: 1 remote: 10.211.55.8:9695 via: 2
+ face: 23 flags: 0xc pending: 0 activity: 7
+ face: 27 flags: 0x1014 pending: 2 activity: 2 remote: 127.0.0.1:49745
+Face Activity Rates
+         	 Bytes/sec In/Out	 recv data/intr sent	 sent data/intr recv
+ face: 0	   748 / 477		        0 / 1		        0 / 0
+ face: 20	     0 / 8		        0 / 0		        0 / 0
+ face: 23	  1144 / 104		        0 / 0		        0 / 0
+ face: 27	   133 / 0		        0 / 0		        0 / 1
+Forwarding
+ ccnx:/%C1.M.S.neighborhood face: 0 flags: 0x3 expires: 2147483642
+ ccnx:/ccnx/ping face: 0 flags: 0x3 expires: 2147483642
+ ccnx:/%C1.M.S.neighborhood/guest face: 0 flags: 0x3 expires: 2147483642
+ ccnx:/ face: 26 flags: 0x3 expires: 2147483642
+ ccnx:/%C1.M.FACE face: 0 flags: 0x3 expires: 2147483642
+ ccnx:/test/long/jot face: 23 flags: 0x3 expires: 1999999995
+ ccnx:/ccnx/=8893C8EC299E81BD4772669EF4387527E7093A96247F56FE0C6942DDE97CC7DC face: 0 flags: 0x17 expires: 2147483642
+ ccnx:/test/locotcp face: 24 flags: 0x3 expires: 1999999995
+ ccnx:/%C1.M.S.localhost face: 0 flags: 0x23 expires: 2147483642
+ ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd face: 0 flags: 0x3 expires: 2147483642
+

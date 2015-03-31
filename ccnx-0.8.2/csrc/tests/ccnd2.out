@@ -1,0 +1,68 @@
+1426470544.355092 ccnd[3319]: CCND_DEBUG=1 CCND_CAP=2147483647
+1426470544.355197 ccnd[3319]: listening on /tmp/.ccnd.sock.63002
+1426470544.355225 ccnd[3319]: accepting ipv4 datagrams on fd 4 rcvbuf 212992
+1426470544.355240 ccnd[3319]: accepting ipv4 connections on fd 5
+1426470544.355255 ccnd[3319]: accepting ipv6 datagrams on fd 6 rcvbuf 212992
+1426470544.355269 ccnd[3319]: accepting ipv6 connections on fd 7
+1426470544.374589 ccnd[3319]: accepted client fd=8 id=6
+1426470544.374620 ccnd[3319]: shutdown client fd=8 id=6
+1426470544.374626 ccnd[3319]: recycling face id 6 (slot 6)
+1426470544.412004 ccnd[3319]: accepted client fd=8 id=6
+1426470544.427653 ccnd[3319]: accepted datagram client id=7 (flags=0x41012) 127.0.0.1 port 63001
+1426470544.434216 ccnd[3319]: shutdown client fd=8 id=6
+1426470544.434255 ccnd[3319]: releasing face id 6 (slot 6)
+1426470544.486321 ccnd[3319]: accepted client fd=8 id=8
+1426470544.486977 ccnd[3319]: shutdown client fd=8 id=8
+1426470544.487016 ccnd[3319]: recycling face id 8 (slot 8)
+1426470544.493541 ccnd[3319]: accepted client fd=8 id=8
+1426470545.522086 ccnd[3319]: shutdown client fd=8 id=8
+1426470545.522150 ccnd[3319]: releasing face id 8 (slot 8)
+1426470545.534119 ccnd[3319]: accepted client fd=8 id=9
+1426470545.592953 ccnd[3319]: shutdown client fd=8 id=9
+1426470545.592978 ccnd[3319]: releasing face id 9 (slot 9)
+1426470547.678890 ccnd[3319]: accepted client fd=8 id=10
+1426470547.679082 ccnd[3319]: CCND_DEBUG=71
+1426470547.000000 ccnd[3319]: 63002 ____________________ Mon Mar 16 09:49:07 2015
+1426470547.679120 ccnd[3319]: shutdown client fd=8 id=10
+1426470547.679521 ccnd[3319]: recycling face id 10 (slot 10)
+1426470547.693916 ccnd[3319]: accepted client fd=8 id=10
+1426470547.693998 ccnd[3319]: debug.4503 interest_from 10 ccnx:/test_scope2_ARRLNmgK0wfqF0H_/scope2 (51 bytes,scope=2,sim=1A23AE67)
+1426470547.694053 ccnd[3319]: debug.3647 interest_to 7 ccnx:/test_scope2_ARRLNmgK0wfqF0H_/scope2 (67 bytes,scope=2,i=597,sim=1A23AE67) 701F1A-0CF7-000A-93B1-5754FB
+1426470548.194655 ccnd[3319]: shutdown client fd=8 id=10
+1426470548.194686 ccnd[3319]: releasing face id 10 (slot 10)
+1426470548.196961 ccnd[3319]: debug.4503 interest_from 7 ccnx:/test_scope2_ARRLNmgK0wfqF0H_/scope2 (67 bytes,scope=2,i=597,sim=1A23AE67) E09DBB-0CF3-000C-9432-36FF67
+1426470548.197279 ccnd[3319]: debug.4920 content_from 7 ccnx:/test_scope2_ARRLNmgK0wfqF0H_/scope2/stuff/=837B060DC9ECAD3E1B7C41EC2D9C3B7B50D8761AB8B030D0564E3EE26CDE305A (413 bytes)
+1426470548.521152 ccnd[3319]: debug.3761 interest_expiry ccnx:/test (100 bytes,aok=0x1,i=11,sim=74F0D710,e=[long,ccnls,happy,extopt,locotcp,child_selector,test_new_provider])
+1426470548.550081 ccnd[3319]: accepted client fd=8 id=11
+1426470548.550148 ccnd[3319]: debug.4503 interest_from 11 ccnx:/test_scope2_ARRLNmgK0wfqF0H_/scope2/stuff (64 bytes,aok=0x1,scope=0,sim=788240A9)
+1426470548.550195 ccnd[3319]: debug.1769 content_to 11 ccnx:/test_scope2_ARRLNmgK0wfqF0H_/scope2/stuff/=837B060DC9ECAD3E1B7C41EC2D9C3B7B50D8761AB8B030D0564E3EE26CDE305A (413 bytes)
+1426470548.550485 ccnd[3319]: debug.4503 interest_from 11 ccnx:/test_scope2_ARRLNmgK0wfqF0H_/scope2/stuff (103 bytes,aok=0x1,scope=0,sim=EF876232,e=[=837B060DC9ECAD3E1B7C41EC2D9C3B7B50D8761AB8B030D0564E3EE26CDE305A])
+1426470548.686804 ccnd[3319]: debug.3761 interest_expiry 0 ccnx:/%C1.M.FACE (79 bytes,aok=0,scope=2,i=12,sim=9A016FFF,e=[*,%C1.M.G=0000F172587D8F81000000000000,%C1.M.G=0000F172587D8F81FFFFFFFFFFFF,*])
+1426470548.688015 ccnd[3319]: ic.809 adjstate 7 ........T... 0xa1412
+1426470548.781345 ccnd[3319]: debug.3761 interest_expiry 7 ccnx:/%C1.M.FACE (79 bytes,aok=0,scope=2,i=13,sim=3AB156DD,e=[*,%C1.M.G=00007F19173DCB8B000000000000,%C1.M.G=00007F19173DCB8BFFFFFFFFFFFF,*])
+1426470549.694759 ccnd[3319]: debug.3761 interest_expiry 7 ccnx:/5273add504059a3e0797c95402b44bc6208c68d3 (93 bytes,aok=0x1,i=596,sim=E3BF1884,e=[F=90F14ABC713E5A18C4D49E8BCB564C9F07CAD41200A6F8EEBD96F9F16CB253])
+1426470550.553099 ccnd[3319]: shutdown client fd=8 id=11
+1426470550.553170 ccnd[3319]: releasing face id 11 (slot 11)
+1426470550.570443 ccnd[3319]: accepted client fd=8 id=12
+1426470550.570664 ccnd[3319]: CCND_DEBUG=1
+1426470550.570728 ccnd[3319]: shutdown client fd=8 id=12
+1426470550.570746 ccnd[3319]: recycling face id 12 (slot 12)
+1426470550.585167 ccnd[3319]: accepted client fd=8 id=12
+1426470550.586900 ccnd[3319]: accepted client fd=9 id=13
+1426470550.586940 ccnd[3319]: stopping (/tmp/.ccnd.sock.63002 gone)
+1426470550.586951 ccnd[3319]: exiting.
+1426470550.586972 ccnd[3319]: closing fd 3 while finalizing face 1
+1426470550.586981 ccnd[3319]: releasing face id 1 (slot 1)
+1426470550.587001 ccnd[3319]: closing fd 5 while finalizing face 3
+1426470550.587010 ccnd[3319]: releasing face id 3 (slot 3)
+1426470550.587027 ccnd[3319]: closing fd 7 while finalizing face 5
+1426470550.587035 ccnd[3319]: releasing face id 5 (slot 5)
+1426470550.587053 ccnd[3319]: closing fd 4 while finalizing face 2
+1426470550.587063 ccnd[3319]: releasing face id 2 (slot 2)
+1426470550.587078 ccnd[3319]: closing fd 6 while finalizing face 4
+1426470550.587085 ccnd[3319]: releasing face id 4 (slot 4)
+1426470550.587347 ccnd[3319]: releasing face id 7 (slot 7)
+1426470550.587404 ccnd[3319]: closing fd 8 while finalizing face 12
+1426470550.587415 ccnd[3319]: releasing face id 12 (slot 12)
+1426470550.587451 ccnd[3319]: closing fd 9 while finalizing face 13
+1426470550.587463 ccnd[3319]: recycling face id 13 (slot 13)

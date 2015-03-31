@@ -1,0 +1,63 @@
+.TH "include/ccn/strategy_mgmt.h" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+include/ccn/strategy_mgmt.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Data Structures"
+
+.in +1c
+.ti -1c
+.RI "struct \fBccn_strategy_selection\fP"
+.br
+.RI "\fIProvide marshalling and unmarshalling for strategy selection requests and responses\&. \fP"
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "struct \fBccn_strategy_selection\fP * \fBccn_strategy_selection_parse\fP (const unsigned char *p, size_t size)"
+.br
+.RI "\fIValidate and parse an encoded strategy selection message\&. \fP"
+.ti -1c
+.RI "int \fBccnb_append_strategy_selection\fP (struct \fBccn_charbuf\fP *c, const struct \fBccn_strategy_selection\fP *ss)"
+.br
+.RI "\fIEncode a strategy selection message\&. \fP"
+.ti -1c
+.RI "void \fBccn_strategy_selection_destroy\fP (struct \fBccn_strategy_selection\fP **pss)"
+.br
+.RI "\fIRelease resources allocated by decoder\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+Definition in file \fBstrategy_mgmt\&.h\fP\&.
+.SH "Function Documentation"
+.PP 
+.SS "void \fBccn_strategy_selection_destroy\fP (struct \fBccn_strategy_selection\fP **pss)"
+.PP
+Release resources allocated by decoder\&. 
+.PP
+Definition at line 105 of file ccn_strategy_mgmt\&.c\&.
+.PP
+Referenced by ccn_strategy_selection_parse(), ccnd_req_strategy(), ccndc_do_strategy_action(), ccndc_strategy(), main(), and parse_ccn_strategy_selection()\&.
+.SS "struct \fBccn_strategy_selection\fP* \fBccn_strategy_selection_parse\fP (const unsigned char *p, size_tsize)\fC [read]\fP"
+.PP
+Validate and parse an encoded strategy selection message\&. 
+.PP
+Definition at line 32 of file ccn_strategy_mgmt\&.c\&.
+.PP
+Referenced by ccnd_req_strategy(), ccndc_do_strategy_action(), and main()\&.
+.SS "int \fBccnb_append_strategy_selection\fP (struct \fBccn_charbuf\fP *c, const struct \fBccn_strategy_selection\fP *ss)"
+.PP
+Encode a strategy selection message\&. 
+.PP
+Definition at line 116 of file ccn_strategy_mgmt\&.c\&.
+.PP
+Referenced by ccnd_req_strategy(), ccndc_do_strategy_action(), and main()\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

@@ -1,0 +1,58 @@
+cb-ThinkPad-X240 ccnd[8956] local port 63001 api 8002 start 1426430333.245411 now 1426430334.486345
+Content items: 1226 accessioned, 100 stored, 0 stale, 0 sparse, 0 duplicate, 1226 sent
+Interests: 1259 names, 0 pending, 11 propagating, 1238 noted
+Interest totals: 1240 accepted, 0 dropped, 1237 sent, 0 stuffed
+Faces
+ face: 0 flags: 0x4 pending: 0
+ face: 1 flags: 0x4008 pending: 0
+ face: 2 flags: 0x5012 pending: 0 local: 0.0.0.0:63001
+ face: 3 flags: 0x5010 pending: 0 local: 0.0.0.0:63001
+ face: 4 flags: 0x4042 pending: 0 local: [::]:63001
+ face: 5 flags: 0x4040 pending: 0 local: [::]:63001
+ face: 6 flags: 0xc pending: 0 activity: 417
+Face Activity Rates
+         	 Bytes/sec In/Out	 recv data/intr sent	 sent data/intr recv
+ face: 0	  1348 / 656		        0 / 0		        0 / 0
+ face: 6	4431608 / 70602		      984 / 992		        0 / 0
+Forwarding
+ ccnx:/ccnx/ping face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.FACE face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/parc.com/csl/ccn/Repos face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/ face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/ccnx/=E09DBBC19B648D23A068AB3F9911B8C90B6FF7FBC5EBB0C5544D2E6D2E1C2257 face: 0 flags: 0x17 expires: 2147483647
+ ccnx:/%C1.M.S.neighborhood/guest face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.S.localhost face: 0 flags: 0x23 expires: 2147483647
+ ccnx:/%C1.M.S.localhost/%C1.M.SRV/repository face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.S.neighborhood/%C1.M.SRV/repository face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.S.neighborhood face: 0 flags: 0x3 expires: 2147483647
+
+cb-ThinkPad-X240 ccnd[4034] local port 63001 api 8002 start 1426470597.540278 now 1426470598.793879
+Content items: 1226 accessioned, 100 stored, 0 stale, 0 sparse, 0 duplicate, 1226 sent
+Interests: 1259 names, 0 pending, 11 propagating, 1240 noted
+Interest totals: 1240 accepted, 0 dropped, 1237 sent, 0 stuffed
+Faces
+ face: 0 flags: 0x4 pending: 0
+ face: 1 flags: 0x4008 pending: 0
+ face: 2 flags: 0x5012 pending: 0 local: 0.0.0.0:63001
+ face: 3 flags: 0x5010 pending: 0 local: 0.0.0.0:63001
+ face: 4 flags: 0x4042 pending: 0 local: [::]:63001
+ face: 5 flags: 0x4040 pending: 0 local: [::]:63001
+ face: 6 flags: 0xc pending: 0 activity: 415
+Face Activity Rates
+         	 Bytes/sec In/Out	 recv data/intr sent	 sent data/intr recv
+ face: 0	  1348 / 656		        0 / 0		        0 / 0
+ face: 6	4489776 / 71512		      996 / 1005		        0 / 0
+Forwarding
+ ccnx:/ccnx/ping face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.FACE face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/parc.com/csl/ccn/Repos face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/ face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/ccnx/=E09DBBC19B648D23A068AB3F9911B8C90B6FF7FBC5EBB0C5544D2E6D2E1C2257 face: 0 flags: 0x17 expires: 2147483647
+ ccnx:/%C1.M.S.neighborhood/guest face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.S.localhost face: 0 flags: 0x23 expires: 2147483647
+ ccnx:/%C1.M.S.localhost/%C1.M.SRV/repository face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.S.neighborhood/%C1.M.SRV/repository face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.S.neighborhood face: 0 flags: 0x3 expires: 2147483647
+

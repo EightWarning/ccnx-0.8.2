@@ -1,0 +1,62 @@
+.TH "ccnd/loadsharing_strategy.c" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ccnd/loadsharing_strategy.c \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Defines"
+
+.in +1c
+.ti -1c
+.RI "#define \fBINACTIVE_PENALTY\fP   1000"
+.br
+.ti -1c
+.RI "#define \fBSLOW_PENALTY\fP   32"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBccnd_loadsharing_strategy_impl\fP (struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, struct \fBccn_strategy\fP *strategy, enum \fBccn_strategy_op\fP op, unsigned faceid)"
+.br
+.RI "\fIThis implements a distribution by performance strategy\&. \fP"
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "static unsigned \fBmybitindex\fP"
+.br
+.in -1c
+.SH "Define Documentation"
+.PP 
+.SS "#define \fBINACTIVE_PENALTY\fP   1000"
+.PP
+Definition at line 26 of file loadsharing_strategy\&.c\&.
+.PP
+Referenced by ccnd_loadsharing_strategy_impl()\&.
+.SS "#define \fBSLOW_PENALTY\fP   32"
+.PP
+Definition at line 27 of file loadsharing_strategy\&.c\&.
+.PP
+Referenced by ccnd_loadsharing_strategy_impl()\&.
+.SH "Function Documentation"
+.PP 
+.SS "void \fBccnd_loadsharing_strategy_impl\fP (struct \fBccnd_handle\fP *h, struct \fBstrategy_instance\fP *instance, struct \fBccn_strategy\fP *strategy, enum \fBccn_strategy_op\fPop, unsignedfaceid)"
+.PP
+This implements a distribution by performance strategy\&. The number of pending interests is a proxy for the performance of the face, an interest is sent on the face with the minimum pending, or randomly to one selected from those with the minimum\&. 
+.PP
+Definition at line 40 of file loadsharing_strategy\&.c\&.
+.SH "Variable Documentation"
+.PP 
+.SS "unsigned \fBmybitindex\fP\fC [static]\fP"
+.PP
+Definition at line 29 of file loadsharing_strategy\&.c\&.
+.PP
+Referenced by ccnd_loadsharing_strategy_impl()\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.

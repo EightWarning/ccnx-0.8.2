@@ -1,0 +1,1 @@
+-rw-rw-r-- 1 cb cb 5502086  3月 16 09:49 ./testrepo2/repoFile1

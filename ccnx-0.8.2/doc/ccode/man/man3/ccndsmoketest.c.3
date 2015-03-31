@@ -1,0 +1,119 @@
+.TH "ccnd/ccndsmoketest.c" 3 "Tue Apr 1 2014" "Version 0.8.2" "Content-Centric Networking in C" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ccnd/ccndsmoketest.c \- 
+.PP
+Simple program for smoke-test of ccnd\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Defines"
+
+.in +1c
+.ti -1c
+.RI "#define \fBCRLF\fP   '\\r\\n'"
+.br
+.ti -1c
+.RI "#define \fBHTTPVERSION\fP   '1\&.1'"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBprintraw\fP (char *p, int n)"
+.br
+.ti -1c
+.RI "static int \fBopen_local\fP (struct sockaddr_un *sa, const char *verb)"
+.br
+.ti -1c
+.RI "static int \fBopen_socket\fP (const char *host, const char *portstr, int sock_type)"
+.br
+.ti -1c
+.RI "static void \fBsend_ccnb_file\fP (int sock, FILE *msgs, const char *filename, int is_dgram)"
+.br
+.ti -1c
+.RI "static int \fBis_ccnb_name\fP (const char *s)"
+.br
+.ti -1c
+.RI "void \fBwrite_to_stream\fP (FILE *outstream, const void *\fBrawbuf\fP, size_t \fBrawlen\fP)"
+.br
+.ti -1c
+.RI "int \fBmain\fP (int argc, char **argv)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "char \fBrawbuf\fP [1024 *1024]"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Simple program for smoke-test of ccnd\&. 
+
+Copyright (C) 2008-2013 Palo Alto Research Center, Inc\&.
+.PP
+This work is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation\&. This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE\&. See the GNU General Public License for more details\&. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc\&., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\&. 
+.PP
+Definition in file \fBccndsmoketest\&.c\fP\&.
+.SH "Define Documentation"
+.PP 
+.SS "#define \fBCRLF\fP   '\\r\\n'"
+.PP
+Definition at line 44 of file ccndsmoketest\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "#define \fBHTTPVERSION\fP   '1\&.1'"
+.PP
+Definition at line 45 of file ccndsmoketest\&.c\&.
+.PP
+Referenced by main()\&.
+.SH "Function Documentation"
+.PP 
+.SS "static int \fBis_ccnb_name\fP (const char *s)\fC [static]\fP"
+.PP
+Definition at line 195 of file ccndsmoketest\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "int \fBmain\fP (intargc, char **argv)"
+.PP
+Definition at line 214 of file ccndsmoketest\&.c\&.
+.SS "static int \fBopen_local\fP (struct sockaddr_un *sa, const char *verb)\fC [static]\fP"
+.PP
+Definition at line 67 of file ccndsmoketest\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "static int \fBopen_socket\fP (const char *host, const char *portstr, intsock_type)\fC [static]\fP"
+.PP
+Definition at line 94 of file ccndsmoketest\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "static void \fBprintraw\fP (char *p, intn)\fC [static]\fP"
+.PP
+Definition at line 50 of file ccndsmoketest\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "static void \fBsend_ccnb_file\fP (intsock, FILE *msgs, const char *filename, intis_dgram)\fC [static]\fP"
+.PP
+Definition at line 154 of file ccndsmoketest\&.c\&.
+.PP
+Referenced by main()\&.
+.SS "void \fBwrite_to_stream\fP (FILE *outstream, const void *rawbuf, size_trawlen)"
+.PP
+Definition at line 202 of file ccndsmoketest\&.c\&.
+.PP
+Referenced by main()\&.
+.SH "Variable Documentation"
+.PP 
+.SS "char \fBrawbuf\fP[1024 *1024]"
+.PP
+Definition at line 47 of file ccndsmoketest\&.c\&.
+.PP
+Referenced by main(), and send_ccnb_file()\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Content-Centric Networking in C from the source code\&.
